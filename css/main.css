@@ -7,7 +7,7 @@ body {
   align-items: center;
   
   font-family:'Helvetica', 'Arial', 'Sans-Serif';
-  font-size: 1.2em;
+  font-size: 19px;
   
   color: #353238;
 }
@@ -25,14 +25,14 @@ nav {
   align-items: center;
   
   list-style: none;
-  font-size: 1.25em;
+  font-size: 19px;
   font-weight: bold;
   
   background: #353238;
 }
 
 .home {
-  font-size: 2em;
+  font-size: 30px;
   padding: 0px 0px 0px 20px;
 }
 
