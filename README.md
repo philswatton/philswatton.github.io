@@ -8,10 +8,10 @@ This website doubles up as a personal website for which the primary purpose is t
 
 Before deploying I often tinker with the CSS on [my codepen](https://codepen.io/phil-swatton), where you'll also be able to find other frontend development projects (or learning attempts to be more accurate) of mine. The lastest pen for this site's CSS can be found [here](https://codepen.io/phil-swatton/pen/MWyJNMy).
 
-## Guides/Source code used
+## Guides/source code used
 
 [This guide](http://jmcglone.com/guides/github-pages/) was used to help me understand the process of setting up a site on Github pages with particular emphasis on file structure for Jekyll.
 
-[This tutorial and code](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) was useful in giving me a basis to work from in creating the responsive CSS and javascript for the navbar.
+[This tutorial and code](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) was used/edited respectively in giving me a basis to work from in creating the responsive CSS and javascript for the navbar.
 
-A list of 'typical' device breakpoints for responsive CSS media queries was [on this page](https://www.w3schools.com/css/css_rwd_mediaqueries.asp) was used in informing some of the CSS code for this page.
+A list of 'typical' device breakpoints for responsive CSS media queries was [in this tutorial](https://www.w3schools.com/css/css_rwd_mediaqueries.asp) was used in informing some of the CSS code for this page.
