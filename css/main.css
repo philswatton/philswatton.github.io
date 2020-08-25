@@ -1,5 +1,5 @@
 :root {
-  --sans-font: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  --sans-font: Verdana, Geneva, sans-seriff;
   
   --black: #353238;
 }
@@ -91,7 +91,7 @@ nav a:hover {
 }
 
 .side {
-  flex: 20%;
+  flex: 0 0 20%;
   
   display: flex;
   flex-direction: column;
@@ -133,8 +133,10 @@ nav a:hover {
 
 /*Main content*/
 .content {
-  flex: 80%;
+  flex: 0 0 80%;
   margin-top: 0px;
+  
+  padding: 0px 20% 0px 0px;
 }
 
 /*Footer*/
