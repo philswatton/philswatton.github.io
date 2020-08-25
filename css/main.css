@@ -134,6 +134,10 @@ nav a:hover {
   margin-top: 0px;
 }
 
+/*Footer*/
+footer {
+  flex: 100%;
+}
 
 /*Repeated stuff - e.g. text*/
 
