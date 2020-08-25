@@ -86,6 +86,7 @@ nav a:hover {
 
 /*divider & sidebar*/
 .split {
+  width: 100%;
   display: flex;
 }
 
