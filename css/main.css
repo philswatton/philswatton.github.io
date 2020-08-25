@@ -180,8 +180,12 @@ a:hover {
 
 /* Navbar for mobile */
 
-/* Hide the mobile menu icon */
+/* Hide the mobile menu icon and image */
 .icon {
+  display: none;
+}
+
+.mobile-image {
   display: none;
 }
 
@@ -208,6 +212,13 @@ Also adjust some aspects of the page to aid with readability*/
     
     margin: 4px 10px 0px 0px;
   }
+  
+  
+  .mobile-image {
+    display: block;
+    border-radius: 50%;
+  }
+  
   
   .content {
     flex: 100%;
