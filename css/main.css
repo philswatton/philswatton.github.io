@@ -103,6 +103,7 @@ nav a:hover {
 
 .me {
   border-radius: 50%;
+  width: 150px;
 }
 
 .side h1 {
@@ -191,7 +192,7 @@ a:hover {
 
 /* When the screen is less than 800 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) 
 Also adjust some aspects of the page to aid with readability*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 920px) {
   nav {
     flex-wrap: wrap;
   }
@@ -210,13 +211,16 @@ Also adjust some aspects of the page to aid with readability*/
     top: 0;
     right: 0;
     
-    margin: 4px 10px 0px 0px;
+    margin: 10px 10px 0px 0px;
   }
   
   
   .mobile-image {
     display: block;
     border-radius: 50%;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   
@@ -233,7 +237,7 @@ Also adjust some aspects of the page to aid with readability*/
 
 
 /* The "responsive" class is added to the menu with JavaScript when the user clicks on the icon. This class makes the menu look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 920px) {
   .menu.responsive {
     display: flex;
     flex-direction: column;
