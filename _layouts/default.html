@@ -9,22 +9,33 @@
 
 	</head>
 	<body>
-		  <nav>
-			  <div>
-				  <a href="/" class="home">Phil Swatton</a>
-			  </div>
-			  <a href="javascript:void(0);" class="icon" onclick="menuFunction()">&#9776;</a>
-			  <div class="menu" id="menu">
-				  <a href="/research">Research</a>
-				  <a href="/teaching">Teaching</a>
-				  <a href="/cv">CV</a><a href="/contact">Contact</a>
-			  </div>
-		</nav>
-		<h1>{{ page.title }}</h1>
-		<div class="content">
-        
-    		{{ content }} <!-- content goes here -->
-        
+		<header>
+			<nav>
+				<div class="home-div">
+					<a href="/" class="home">Phil Swatton</a>
+				</div>
+				<div class="menu" id="menu">
+					<a href="/research">Research</a>
+					<a href="/teaching">Teaching</a>
+					<a href="/cv">CV</a><a href="/contact">Contact</a>
+				</div>
+			</nav>
+			<a href="javascript:void(0);" class="icon" onclick="menuFunction()">&#9776;</a>
+		</header>
+		<div class="split">
+			<div class="side">
+				<img src="https://via.placeholder.com/150" class="me" alt="A picture of me">
+				<h1>Phil Swatton</h1>
+				<p><em>PhD Student studying political science at the University of Essex</em></p>
+				<ul>
+					<li>Email: <a href="mailto:p.j.swatton@essex.ac.uk">p.j.swatton@essex.ac.uk</a></li>
+					<li>Twitter: <a href="https://twitter.com/phil_swatton">@phil_swatton</a></li>
+					<li>Github: <a href="https://github.com/philswatton">philswatton</a></li>
+					<li>LinkedIn: <a href="https://www.linkedin.com/in/philswatton/">Phil Swatton</a></ali>
+				</ul>
 		</div>
-	</body>
+		<main class="content">
+			{{ content }} <!-- content goes here -->
+		</main>
+</body>
 </html>
