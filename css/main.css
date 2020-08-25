@@ -110,25 +110,25 @@ nav a:hover {
   margin: 20px 0px 0px 0px;
 }
 
-.side p {
-  padding: 0px 60px 0px 60px;
-  margin: 10px 0px 10px 0px;
-  font-size: 16px;
-}
-
-.side ul {
-  margin: 0px 0px 10px 0px;
-  padding: 0px 60px 0px 60px;
+.side div {
+  width: 150px;
   
-  list-style: none;
-  display: flex
+  display: flex;
   flex-direction: column;
+  
+  justify-content: flex-start;
+  align-items: ;
 }
 
-.side li {
-  width: 100%;
+.side p {
+  margin: 0;
   font-size: 16px;
-  display: inline-block;
+  
+}
+.side ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
 }
 
 /*Main content*/
