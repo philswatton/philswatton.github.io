@@ -13,3 +13,5 @@ Before deploying I often tinker with the CSS on [my codepen](https://codepen.io/
 [This guide](http://jmcglone.com/guides/github-pages/) was used to help me understand the process of setting up a site on Github pages with particular emphasis on file structure for Jekyll.
 
 [This tutorial and code](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) was useful in giving me a basis to work from in creating the responsive CSS and javascript for the navbar.
+
+A list of 'typical' device breakpoints for responsive CSS media queries was [on this page](https://www.w3schools.com/css/css_rwd_mediaqueries.asp) was used in informing some of the CSS code for this page.
