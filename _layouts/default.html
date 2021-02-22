@@ -1,47 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-	<head>
-		<title>Phil Swatton</title>
-		<link rel="stylesheet" type="text/css" href="/css/main.css"> <!-- link to main stylesheet -->
-		<script src="https://philswatton.github.io/js/menu.js" type="text/JavaScript"/></script>
-	
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	</head>
-	<body>
-		<header>
-			<nav>
-				<div class="home-div">
-					<a href="/" class="home">Phil Swatton</a>
-				</div>
-				<div class="menu" id="menu">
-					<a href="/research">Research</a>
-					<a href="/teaching">Teaching</a>
-					<a href="/contact">Contact</a>
-				</div>
-			</nav>
-			<a href="javascript:void(0);" class="icon" onclick="menuFunction()">&#9776;</a>
-		</header>
-		<div class="split">
-			<div class="side">
-				<img src="/images/me.jpg" class="me" alt="A picture of me">
-				<h1>Phil Swatton</h1>
-				<div>
-					<p><em>PhD Student studying political science at the University of Essex</em></p>
-					<ul>
-						<li><a href="mailto:p.j.swatton@essex.ac.uk">Email</a></li>
-						<li><a href="https://twitter.com/phil_swatton">Twitter</a></li>
-						<li><a href="https://github.com/philswatton">Github</a></li>
-						<li><a href="https://www.linkedin.com/in/philswatton/">LinkedIn</a></li>
-					</ul>
-				</div>
-			</div>
-				<main class="content">
-					{{ content }} <!-- content goes here -->
-				</main>
-		</div>
-		<footer>
-			<p>&#169 Phil Swatton 2020</p>
- 		</footer>
-</body>
+  <head>
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/{{ page.css }}">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+    </style>
+    <script src="/assets/js/menu.js" type="text/JavaScript"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <button class="menu-icon" id="menu-icon" onclick="menuFunction()">
+        <span id="menu-1"></span>
+        <span id="menu-2"></span>
+        <span id="menu-3"></span>
+    </button>
+    {% include navigation.html %}
+    <main>
+        {{ content }}
+    </main>
+  </body>
 </html>

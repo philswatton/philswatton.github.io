@@ -1,0 +1,36 @@
+$main-orange: #FF5500;
+$main-red: #b60101;
+$main-magenta: #a41598;
+$main-gradient: linear-gradient(90deg, $main-orange 0%, $main-red 75%, $main-magenta 100%);
+$nav-height: 60px;
+
+:root {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}

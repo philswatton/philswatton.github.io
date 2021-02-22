@@ -1,0 +1,32 @@
+---
+---
+@import "main";
+@import "nav";
+@import "page";
+
+h2 {
+    margin: 0px 0px 20px 0px;
+}
+
+h4 {
+    margin: 0px 0px 0px 0px;
+}
+
+p {
+    margin: 0px 0px 20px 0px;
+}
+
+hr {
+    height: 1px;
+    width: 500px;
+
+    border-radius: 5px;
+
+    background: black;
+
+    margin: 10px 0px 10px 0px;
+
+    -ms-flex-item-align: center;
+
+        align-self: center;
+}

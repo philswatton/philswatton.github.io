@@ -1,0 +1,51 @@
+main {
+    padding-top: $nav-height * 2;
+    left: 30%;
+    width: 40%;
+}
+
+h1 {
+    background-image: $main-gradient;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    -ms-flex-item-align: end;
+
+        align-self: flex-end;
+
+    margin: 0px 0px 10px 0px;
+}
+
+h2 {
+    margin: 10px 0px 10px 0px;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+}
+
+a {
+    color: $main-magenta;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1500px) {
+    main {
+    left: 10%;
+    width: 80%;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    main {
+    padding-top: 0px;
+    left: 2.5%;
+    width: 95%;
+    }
+}
