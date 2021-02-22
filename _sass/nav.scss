@@ -1,3 +1,6 @@
+$cross-shift: 19.2px;
+$cross-rotate: 45deg;
+
 nav {
     background: $main-gradient;
 
@@ -149,6 +152,7 @@ button {
         span {
             width: 50px;
             height: 4px;
+            margin: 0px;
             background: $main-gradient;
             opacity: 1;
             z-index: 2;
@@ -167,15 +171,15 @@ button {
         }
 
         .active > #menu-1 {
-            -webkit-transform: translate(0px,19px) rotate(45deg);
-                -ms-transform: translate(0px,19px) rotate(45deg);
-                    transform: translate(0px,19px) rotate(45deg);
+            -webkit-transform: translate(0px,$cross-shift) rotate($cross-rotate);
+                -ms-transform: translate(0px,$cross-shift) rotate($cross-rotate);
+                    transform: translate(0px,$cross-shift) rotate($cross-rotate);
         }
         
         .active > #menu-3 {
-            -webkit-transform: translate(0px,-19px) rotate(-45deg);
-                -ms-transform: translate(0px,-19px) rotate(-45deg);
-                    transform: translate(0px,-19px) rotate(-45deg);
+            -webkit-transform: translate(0px,-$cross-shift) rotate(-$cross-rotate);
+                -ms-transform: translate(0px,-$cross-shift) rotate(-$cross-rotate);
+                    transform: translate(0px,-$cross-shift) rotate(-$cross-rotate);
         }
         
         .active > #menu-2 {
