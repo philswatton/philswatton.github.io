@@ -1,6 +1,6 @@
-- title: Lexiteers Look Away, Remania Saved the Day&#58; An Analysis of the Labour Party's 2019 General Election Performance in Light of Brexit
-  desc: In this paper I argue that the best available evidence strongly suggests that Labour's best strategic option in terms of Brexit was to be a broadly remain party.
+- title: A Counterfactual Analysis of Labour's Brexit Position in the 2019 General Election
+  desc: In this paper I use Aldrich-McKelvey scaling to measure party positions. From here, I use conditional logit models, simulations, and MRP models to research counterfactual results across different Labour Party positions.
 - title: The effect of Vocational Training on Voter Choice in the Case of Germany
-  desc: In this paper we perform an exploratory analysis of the effect of vocational education on voter choice in Germany.
+  desc: In this paper we perform an analysis of the effect of vocational education on political participation and attitudes using the case of Germany.
   coauthor: Sarah Wagner
   couni: University of Essex
