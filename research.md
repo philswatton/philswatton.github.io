@@ -30,5 +30,5 @@ In my thesis and my other work I use a wide range of quantitative research metho
 #### {{ item.title }}
 {% if item.coauthor != nil %}*With {{ item.coauthor }} ({{ item.couni}})*.{% endif %}
 
-{{ item.desc }}
+{% if item.desc != nil %}{{ item.desc }}{% endif %}
 {% endfor %}
