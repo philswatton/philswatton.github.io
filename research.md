@@ -1,34 +1,26 @@
 ---
 layout: default
 title: Research
-css: research.css
+subtitle: Last updated 27/08/2021
+css: default.css
 ---
-# Research
 
-My thesis sits in the broad realms of public opinion, elections, and quantiative research methods, with particular emphasis on the broad intersection between these areas. Specifically, I work on the implications of the second dimension for political behaviour and electoral strategy, its relationship with voter demographics, measurement methods for political beliefs, and simulation methods for electoral analysis.
+This page contains a broad description of my research. If instead you'd like to see a complete list of the papers I've been working on, you can do so at my [papers](/publications) page. I'm always open to collaborations and questions so if you'd like to work with me or have questions about my own work, please feel free to get in touch.
 
-My thesis will take on a papers rather than monograph format and thus does not have a single overarching argument, but rather possesses these broad unifying themes. I chose this format largely because I found the freedom to choose projects without the constraint of needed to fit within a wider argument to be deeply appealing.
+## Latent Variable Models and Scaling Methods
 
-Two of my thesis papers are in the working paper stage and will hopefully soon be entering the submissions process and respectively examine the relationship between age and political beliefs, and the problem of acquiescence bias for measuring political beliefs. The third will argue that the Labour party's best available strategy in the 2019 general election was to be a remain party.
+Since starting my PhD, I have developed a keen interest in latent variable models and their uses for both measurement and exploratory research. In terms of the former, since 2019 I have been working on a paper dealing with the problem of acquiescence bias in Likert scales and how it can be corrected using Confirmatory Factor Analysis. Going forward, I plan to follow this up with a paper on the specific implications acquiescence bias has had for some recent research in British political science.
 
-In my thesis and my other work I use a wide range of quantitative research methods including but not limited to multilevel modeling, age-period-cohort analysis, confirmatory factor analysis, simulation, and multilevel regression with postratification. I enjoy the challenges involved in learning and applying statistical methods and hope to do more work in this field. I also particularly enjoy working with the R programming language and have been teaching R since summer last year. In the longer term, I hope to start learning how to write and implement my own R packages, and to incorporate Python in my work where appropriate.
+More recently, I have taken an interest in perceptual data as measured by ordered rating scales. I have been using Aldrich-McKelvey (AM) scaling in my research for some time, but several recent papers have proposed more updated versions of it (or more precisely, of Bayesian AM scaling). I firmly believe that one of the most useful ways to conceptualise these models is as crowd-wisdom estimators/aggregators, as this allows for insighits from the world of forecasting to be adapted to our own challenges in estimating party positions (and voter positions) from this data. To this end I'm writing a paper adapting the Bias-Information-Noise model to this kind of data.
 
-<hr>
+I am also in the process of contributing to some work for the 2021 Royal Statistical Society Conference with Royce Carroll, where we will be presenting work exploring the ideology and attitudes of the US public using data from the 2020 election. In this work we use a range of latent variable models and multidimensional scaling methods to explore the ideological and attitudinal landscape of the 2020 US election.
 
-## Working Papers
-{% for item in site.data.working %}
-#### {{ item.title }}
-{% if item.coauthor != nil %}With {{ item.coauthor }} ({{ item.couni}}).{% endif %}
+## Party Strategy
 
-{{ item.desc }}
-{% endfor %}
+Having previously worked for the Labour Party, I retain a keen interest in party strategy. At present my interests are focussed on the spatial model of political competition but I hope at some point to broaden my interests to valence issues and how they compete with spatial issues. Since 2020 I have been working on a paper where I estimate the Labour Party's best possible EU Integration position in the 2019 general election, with the aim of discussing implications for its party strategy in the election.
 
-<hr>
+## Voter Demographics
 
-## Work in Progress
-{% for item in site.data.wip %}
-#### {{ item.title }}
-{% if item.coauthor != nil %}*With {{ item.coauthor }} ({{ item.couni}})*.{% endif %}
+I been fascinated in the role of voter demographics in shaping voter beliefs and behaviour for some time, having written both my undergraduate and masters disserations in this area. Since starting my PhD I have been working in particular on age-period-cohort models, in an attempt to better understand the role of age and generation in shaping political beliefs in the long term.
 
-{% if item.desc != nil %}{{ item.desc }}{% endif %}
-{% endfor %}
+I have also been working on a paper with Sarah Wagner where we aim to better deliniate the characteristics of education, taking Germany as a case study. Much past research has focused on a 'lower to higher' or 'non-grad vs grad' heuristics. We argue that it is necessary to better break down educational characteristics if we are to fully understand its role in shaping political attitudes and behaviours. 

@@ -1,12 +1,8 @@
 - title: A Counterfactual Analysis of Labour's Brexit Position in the 2019 General Election
-  desc: In this paper I use Aldrich-McKelvey scaling to measure party positions. From here, I use conditional logit models, simulations, and MRP models to research counterfactual results across different Labour Party positions.
-- title: The effect of Vocational Training on Voter Choice in the Case of Germany
-  desc: In this paper we perform an analysis of the effect of vocational education on political participation and attitudes using the case of Germany.
-  coauthor: Sarah Wagner
-  couni: University of Essex
+  authors: Swatton, P.
 - title: Participation and Inequality in the U.S. States
-  coauthor: Filip Kostelka and Lorenzo Crippa
-  couni: University of Essex
+  authors: Kostelka, F., Crippa, L. and Swatton, P.
 - title: Ideology and Attitudes In The 2020 Presidential Election&#58; Exploring Patterns From Survey Data
-  coauthor: Royce Carroll
-  couni: University of Essex
+  authors: Carroll, R. and Swatton, P.
+- title: Putting Scales in the BIN&#58; Assessing Scaling Methods for Party Placement Data with the Bias-Information-Noise Model
+  authors: Swatton, P.

@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Contact
-css: sitepage.css
+css: default.css
 ---
-# Contact
 
 I'm always open to a conversation about my research, your research, elections (especially UK elections), R programming, or anything else that's interesting!
 

@@ -1,7 +1,32 @@
 ---
 ---
 @import "main";
+@import "page";
 
+h1 {
+    -ms-flex-item-align: center;
+
+        align-self: center;
+}
+
+img {
+    height: 300px;
+    border-radius: 50%;
+    margin: 0px;
+
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+@media screen and (max-width: 920px) {
+
+    img {
+        height: 200px;
+    }
+}
+
+/*
 main {
     position: fixed;
     height: 100%;
@@ -21,6 +46,11 @@ img {
 }
 
 h1 {
+    background-image: $main-gradient;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
     margin: 20px 0px 0px 0px;
 }
 
@@ -40,3 +70,5 @@ p {
         height: 200px;
     }
 }
+
+*/
