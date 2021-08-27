@@ -21,6 +21,6 @@ Having previously worked for the Labour Party, I retain a keen interest in party
 
 ## Voter Demographics
 
-I been fascinated in the role of voter demographics in shaping voter beliefs and behaviour for some time, having written both my undergraduate and masters disserations in this area. Since starting my PhD I have been working in particular on age-period-cohort models, in an attempt to better understand the role of age and generation in shaping political beliefs in the long term.
+I have been fascinated in the role of voter demographics in shaping voter beliefs and behaviour for some time, having written both my undergraduate and masters disserations in this area. Since starting my PhD I have been working in particular on age-period-cohort models, in an attempt to better understand the role of age and generation in shaping political beliefs in the long term.
 
 I have also been working on a paper with Sarah Wagner where we aim to better deliniate the characteristics of education, taking Germany as a case study. Much past research has focused on a 'lower to higher' or 'non-grad vs grad' heuristics. We argue that it is necessary to better break down educational characteristics if we are to fully understand its role in shaping political attitudes and behaviours. 
