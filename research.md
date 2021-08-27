@@ -21,6 +21,10 @@ Having previously worked for the Labour Party, I retain a keen interest in party
 
 ## Voter Demographics
 
-I have been fascinated in the role of voter demographics in shaping voter beliefs and behaviour for some time, having written both my undergraduate and masters disserations in this area. Since starting my PhD I have been working in particular on age-period-cohort models, in an attempt to better understand the role of age and generation in shaping political beliefs in the long term.
+I have been fascinated in the role of voter demographics in shaping voter beliefs and behaviour for some time, having written both my undergraduate and masters disserations in this area. Since starting my PhD I have been working in particular on age-period-cohort (APC) models, in an attempt to better understand the role of age and generation in shaping political beliefs in the long term. I am particularly interested in the somewhat controversial hierarchical APC (HAPC) methodology, which uses cross-classified random effects to model the period and cohort components of APC.
 
 I have also been working on a paper with Sarah Wagner where we aim to better deliniate the characteristics of education, taking Germany as a case study. Much past research has focused on a 'lower to higher' or 'non-grad vs grad' heuristics. We argue that it is necessary to better break down educational characteristics if we are to fully understand its role in shaping political attitudes and behaviours. 
+
+## Misc
+
+Beyond the above which summarises the main details of my research to date, I am passionate about statistics and computational social science. Beyond the methods explicitly mentioned above my skillset includes webscraping (having been a TA on the course at the Essex Summer School in 2020 and 2021), Bayesian statistics, random effects models (particularly 'hybrid' random effects models), and machine learning . In terms of the latter I'm particularly interested in the potential of 'cultural' aspects like cross-validation for more traditional applied research.
