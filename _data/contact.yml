@@ -1,12 +1,15 @@
 - social: Email
   text: p.j.swatton@essex.ac.uk
   link: mailto:p.j.swatton@essex.ac.uk
+- social: UCL Email
+  text: p.swatton@ucl.ac.uk (UCL students please contact me here)
+  link: mailto:p.swatton@ucl.ac.uk
 - social: Twitter
   text: "@phil_swatton"
   link: https://twitter.com/phil_swatton
-- social: LinkedIn
-  text: Phil Swatton
-  link: https://www.linkedin.com/in/philswatton/
 - social: GitHub
   text: philswatton
   link: https://github.com/philswatton
+- social: LinkedIn
+  text: Phil Swatton
+  link: https://www.linkedin.com/in/philswatton/
