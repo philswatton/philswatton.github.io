@@ -253,3 +253,55 @@ button {
             background: white;
         }
 }
+
+
+
+
+
+/* ---- Footer ---- */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    left: 30%;
+    width: 40%;
+
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    margin: 0px;
+}
+
+@media screen and (max-width: 1500px) {
+    footer {
+    left: 25%;
+    width: 50%;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    footer {
+    left: 2.5%;
+    width: 95%;
+    }
+}
+
+hr {
+    border: 1px solid black;
+    width:100%;
+}
+
+/*
+svg {
+    fill: $colour1;
+}
+*/
