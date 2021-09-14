@@ -9,7 +9,7 @@ This page contains a complete list of the papers I've been working on. If instea
 
 ## Working Papers
 {% for item in site.data.working %}
-- {{ item.authors }} ({{ item.year }}) "{{ item.title }}" {% if item.pdf != nil %} <a href="{{ item.pdf }}">pdf</a> {% endif %}
+- {{ item.authors }} ({{ item.year }}) "{{ item.title }}" {% if item.pdf != nil %} <a href="{{ item.pdf }}">PDF</a> {% endif %}
 {% endfor %}
 
 ## Works in Progress
