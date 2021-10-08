@@ -2,8 +2,6 @@
   link: /
 - name: About
   link: /about.html
-- name: Research
-  link: /research.html
 - name: Papers
   link: /publications.html
 - name: Contact
