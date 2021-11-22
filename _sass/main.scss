@@ -1,7 +1,8 @@
-$colour1: #b601b2;
-$colour2: #a41598;
-$colour3: #be005e;
-$main-gradient: linear-gradient(90deg, $colour1 0%, $colour2 50%, $colour3 100%);
+$colour1: rgba(24,117,214,1);
+$colour2: rgba(28,87,179,1);
+$colour3: rgba(31,63,150,1);
+$main-gradient: linear-gradient(90deg, $colour1 15%, $colour2 50%, $colour3 75%);
+
 $nav-height: 60px;
 
 :root {
