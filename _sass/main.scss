@@ -65,7 +65,8 @@ $cross-shift: 19.2px;
 $cross-rotate: 45deg;
 
 nav {
-    background: $main-gradient;
+    background: white;
+    /*background: $main-gradient;*/
 
     position: fixed;
     left: 0;
@@ -78,7 +79,11 @@ nav {
     display: -ms-flexbox;
 
     display: flex;
-    -webkit-box-orient: horizontal;
+
+    flex-direction: row;
+
+    justify-content: center;
+    /*-webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
@@ -87,13 +92,16 @@ nav {
             justify-content: flex-end;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center;
+            align-items: center;*/
 
     z-index: 1;
 
 
     a {
-        color: white;
+        background-image: $main-gradient;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         margin: 0px 4px 0px 4px;
         padding: 0px 8px 0px 8px;
         text-decoration: none;
@@ -103,8 +111,8 @@ nav {
     }
 
     a:hover {
-        color: white;
-        /*color: black;
+        /*color: white;
+        color: black;
         background-color: white;*/
         font-weight: bold;
         text-decoration: none;
@@ -127,6 +135,8 @@ button {
 
 @media screen and (max-width: 920px) {
     nav {
+        /*background: $main-gradient;*/
+
         top: 0;
         left: 0;
         height: 0%;
@@ -156,6 +166,11 @@ button {
         }
 
         a {
+
+            /*color: white;
+            background-image: none;
+            background-clip: border-box;*/
+
             margin: 4px 0px 4px 0px;
             padding: 0px;
 
@@ -250,9 +265,9 @@ button {
             opacity: 0;
         }
         
-        .active > span {
+        /*.active > span {
             background: white;
-        }
+        }*/
 }
 
 
