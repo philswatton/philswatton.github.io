@@ -16,6 +16,8 @@ nav {
     left: 0;
     width: 100%;
     height: 0%;
+    -webkit-transition: height 0.5s;
+    -o-transition: height 0.5s;
     transition: height 0.5s;
     z-index: 1;
 
@@ -23,10 +25,19 @@ nav {
     background-color: $blu;
 
     /* Nav flexbox */
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 
     /* Nav links */
     a {
@@ -39,6 +50,8 @@ nav {
         padding: 0px;
 
         opacity: 0;
+        -webkit-transition: opacity 0.5s;
+        -o-transition: opacity 0.5s;
         transition: opacity 0.5s;
     }
 }
@@ -46,11 +59,15 @@ nav {
 /* Open Nav Menu */
 .open {
     height: 100%;
+    -webkit-transition: height 0.5s;
+    -o-transition: height 0.5s;
     transition: height 0.5s;
 
     /* Links */
     a {
         opacity: 1;
+        -webkit-transition: opacity 0.5s;
+        -o-transition: opacity 0.5s;
         transition: opacity 0.5s;
     }
 
@@ -69,10 +86,20 @@ nav {
     height: $nav-height;
     width: $nav-height;
 
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 
     background: none;
     border: none;
@@ -89,7 +116,10 @@ span {
 
     border-radius: 50px;
     transition: opacity 500ms, background-color 500ms, -webkit-transform 500ms;
+    -webkit-transition: opacity 500ms, background-color 500ms, -webkit-transform 500ms;
+    -o-transition: transform 500ms, opacity 500ms, background-color 500ms;
     transition: transform 500ms, opacity 500ms, background-color 500ms;
+    transition: transform 500ms, opacity 500ms, background-color 500ms, -webkit-transform 500ms;
 }
 
 /* Menu button animation */
@@ -98,15 +128,21 @@ span {
 }
 
 .active>#menu-1 {
-    transform: translate(0px, $cross-shift) rotate($cross-rotate);
+    -webkit-transform: translate(0px, $cross-shift) rotate($cross-rotate);
+        -ms-transform: translate(0px, $cross-shift) rotate($cross-rotate);
+            transform: translate(0px, $cross-shift) rotate($cross-rotate);
 }
 
 .active>#menu-3 {
-    transform: translate(0px, -$cross-shift) rotate(-$cross-rotate);
+    -webkit-transform: translate(0px, -$cross-shift) rotate(-$cross-rotate);
+        -ms-transform: translate(0px, -$cross-shift) rotate(-$cross-rotate);
+            transform: translate(0px, -$cross-shift) rotate(-$cross-rotate);
 }
 
 .active>#menu-2 {
-    transform: translate(-4px, 0px);
+    -webkit-transform: translate(-4px, 0px);
+        -ms-transform: translate(-4px, 0px);
+            transform: translate(-4px, 0px);
     opacity: 0;
 }
 
@@ -119,8 +155,16 @@ span {
         height: $nav-height;
         background-color: $yt;
 
-        flex-direction: row;
-        justify-content: center;
+        -webkit-box-orient: horizontal;
+
+        -webkit-box-direction: normal;
+
+            -ms-flex-direction: row;
+
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     
         /* PC Nav Links */
         a {

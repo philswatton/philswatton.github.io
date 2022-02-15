@@ -19,8 +19,6 @@ $pc-width: 40%;
     font-family: 'PT Serif', serif;
     font-size: 16px;
     color: black;
-    /*font-family: 'Source Sans Pro', sans-serif;*/
-    /*font-size: 20px;*/
 }
 
 /* Body width and flex */
@@ -31,9 +29,16 @@ html, body {
 }
 
 body {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 /* Headers */
@@ -61,45 +66,3 @@ a:hover {
     /*font-weight: bold;*/
     text-shadow: 0 0 .5px $blu, 0 0 .5px $blu;
 }
-
-/*h1 {
-    background-image: $main-gradient;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-    -ms-flex-item-align: end;
-
-        align-self: flex-end;
-
-    margin: 0px;
-}
-
-h2 {
-    margin: 10px 0px 10px 0px;
-}
-
-.subtitle {
-
-    -ms-flex-item-align: end;
-
-        align-self: flex-end;
-    margin: 0px 0px 10px 0px;
-    font-weight: bold;
-
-}
-
-p {
-    margin: 10px 0px 10px 0px;
-}
-
-a {
-    color: $colour3;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-a:hover {
-    color: $colour1;
-    text-decoration: underline;
-}*/
