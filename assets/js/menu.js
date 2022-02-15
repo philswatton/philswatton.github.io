@@ -10,7 +10,7 @@ function menuFunction() {
     //drop down the menu
     let y = document.getElementById("nav");
     if (y.className === "nav") {
-      y.className += " drop";
+      y.className += " open";
     } else {
       y.className = "nav";
     }
