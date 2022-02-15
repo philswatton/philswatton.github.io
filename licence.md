@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Licence
-css: default.css
+css: page.css
 ---
 
 The code of this website (HTML, SCSS, Javascript, etc), contents of this website, and PDF documents uploaded to this website are on separate licences.
