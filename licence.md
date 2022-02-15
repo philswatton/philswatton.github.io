@@ -23,6 +23,6 @@ The requirements of this licence are:
 
 All rights are reserved for the content of this website at present.
 
-## PDF Documentss
+## PDF Documents
 
 All rights are reserved for all PDF documents uploaded to this website.
