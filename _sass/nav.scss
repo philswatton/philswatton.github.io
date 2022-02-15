@@ -22,7 +22,7 @@ nav {
     z-index: 1;
 
     /* Nav colour */
-    background-color: $blu;
+    background-color: $yt;
 
     /* Nav flexbox */
     display: -webkit-box;
@@ -44,7 +44,7 @@ nav {
         font-family: $sans;
         font-size: 20px;
         font-weight: bold;
-        color: $yt;
+        color: $grey;
 
         margin: 4px 0px 4px 0px;
         padding: 0px;
@@ -53,6 +53,10 @@ nav {
         -webkit-transition: opacity 0.5s;
         -o-transition: opacity 0.5s;
         transition: opacity 0.5s;
+    }
+
+    a:hover {
+        text-shadow: 0 0 .9px $grey, 0 0 .9px $grey;
     }
 }
 
@@ -69,10 +73,6 @@ nav {
         -webkit-transition: opacity 0.5s;
         -o-transition: opacity 0.5s;
         transition: opacity 0.5s;
-    }
-
-    a:hover {
-        text-shadow: 0 0 .9px $yt, 0 0 .9px $yt;
     }
 }
 
@@ -110,7 +110,7 @@ span {
     width: 50px;
     height: 4px;
     margin: 0px;
-    background: $blu;
+    background: $grey;
     opacity: 1;
     z-index: 2;
 
@@ -123,9 +123,9 @@ span {
 }
 
 /* Menu button animation */
-.active>span {
+/*.active>span {
     background: $yt;
-}
+}*/
 
 .active>#menu-1 {
     -webkit-transform: translate(0px, $cross-shift) rotate($cross-rotate);
@@ -168,7 +168,6 @@ span {
     
         /* PC Nav Links */
         a {
-            color: $blu;
             opacity: 1;
 
             margin: 0px 4px 0px 4px;
