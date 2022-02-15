@@ -1,0 +1,105 @@
+/* Colors */
+$blu: rgba(2, 63, 144, 1);
+$yt: white;
+
+/* Fonts */
+$sans: 'PT Sans', sans-serif;
+
+/* Dynamic placements and widths */
+$mob-left: 2.5%;
+$tab-left: 25%;
+$pc-left: 30%;
+
+$mob-width: 95%;
+$tab-width: 50%;
+$pc-width: 40%;
+
+/* Defaults */
+:root {
+    font-family: 'PT Serif', serif;
+    font-size: 16px;
+    color: black;
+    /*font-family: 'Source Sans Pro', sans-serif;*/
+    /*font-size: 20px;*/
+}
+
+/* Body width and flex */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    font-family: $sans;
+}
+
+h1 {
+    margin: 0px;
+}
+
+/* Text */
+
+p, h2 {
+    margin: 10px 0px 10px 0px;
+}
+
+/* Links */
+a {
+    color: $blu;
+    text-decoration: none;
+}
+
+a:hover {
+    /*font-weight: bold;*/
+    text-shadow: 0 0 .5px $blu, 0 0 .5px $blu;
+}
+
+/*h1 {
+    background-image: $main-gradient;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    -ms-flex-item-align: end;
+
+        align-self: flex-end;
+
+    margin: 0px;
+}
+
+h2 {
+    margin: 10px 0px 10px 0px;
+}
+
+.subtitle {
+
+    -ms-flex-item-align: end;
+
+        align-self: flex-end;
+    margin: 0px 0px 10px 0px;
+    font-weight: bold;
+
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+}
+
+a {
+    color: $colour3;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: $colour1;
+    text-decoration: underline;
+}*/

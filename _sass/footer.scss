@@ -1,24 +1,42 @@
-main {
+footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 
-    padding-top: $nav-height * 2;
     left: $mob-left;
     width: $mob-width;
+
+    font-family: $sans;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    margin: 0px;
+}
+
+hr {
+    border-top: 1px solid black;
+    width: 100%;
 }
 
 /* Media Queries */
 @media screen and (min-width: 920px) {
-    main {
+    footer {
         left: $tab-width;
         width: $tab-width;
     }
 }
 
 @media screen and (min-width: 1500px) {
-    main {
+    footer {
         left: $pc-width;
         width: $pc-width;
     }
 }
+

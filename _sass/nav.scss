@@ -1,0 +1,140 @@
+/* Nav variables */
+$nav-height: 60px;
+
+/* Nav animation variables */
+$cross-shift: 19.2px;
+$cross-rotate: 45deg;
+
+
+/*** Naviagation ***/
+
+/* Unopened navigation */
+nav {
+    /* Nav position */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    transition: height 0.5s;
+    z-index: 1;
+
+    /* Nav colour */
+    background-color: $blu;
+
+    /* Nav flexbox */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* Nav links */
+    a {
+        font-family: $sans;
+        font-size: 20px;
+        font-weight: bold;
+        color: $yt;
+
+        margin: 4px 0px 4px 0px;
+        padding: 0px;
+
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+}
+
+/* Open Nav Menu */
+.open {
+    height: 100%;
+    transition: height 0.5s;
+
+    /* Links */
+    a {
+        opacity: 1;
+        transition: opacity 0.5s;
+    }
+
+    a:hover {
+        text-shadow: 0 0 .9px $yt, 0 0 .9px $yt;
+    }
+}
+
+/* Menu button appearance */
+#menu-icon {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+    height: $nav-height;
+    width: $nav-height;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    background: none;
+    border: none;
+}
+
+
+span {
+    width: 50px;
+    height: 4px;
+    margin: 0px;
+    background: $blu;
+    opacity: 1;
+    z-index: 2;
+
+    border-radius: 50px;
+    transition: opacity 500ms, background-color 500ms, -webkit-transform 500ms;
+    transition: transform 500ms, opacity 500ms, background-color 500ms;
+}
+
+/* Menu button animation */
+.active>span {
+    background: $yt;
+}
+
+.active>#menu-1 {
+    transform: translate(0px, $cross-shift) rotate($cross-rotate);
+}
+
+.active>#menu-3 {
+    transform: translate(0px, -$cross-shift) rotate(-$cross-rotate);
+}
+
+.active>#menu-2 {
+    transform: translate(-4px, 0px);
+    opacity: 0;
+}
+
+
+/* Media Queries */ 
+@media screen and (min-width: 920px) {
+
+    /* PC Nav Display */
+    nav {
+        height: $nav-height;
+        background-color: $yt;
+
+        flex-direction: row;
+        justify-content: center;
+    
+        /* PC Nav Links */
+        a {
+            color: $blu;
+            opacity: 1;
+
+            margin: 0px 4px 0px 4px;
+            padding: 0px 8px 0px 8px;
+        }
+    }
+
+    /* No Menu Button on PC */
+    #menu-icon {
+        display: none;
+    }
+
+}
