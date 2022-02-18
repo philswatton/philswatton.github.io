@@ -10,7 +10,8 @@ main {
         -ms-flex-pack: center;
             justify-content: center;
 
-    padding-top: $nav-height * 2;
+    /*padding-top: $nav-height * 2;*/
+    padding-top: $nav-height * 1.5;
     left: $mob-left;
     width: $mob-width;
 }
@@ -29,3 +30,21 @@ main {
         width: $pc-width;
     }
 }
+
+/* Images */
+figure {
+    /*width: 100%;*/
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Left-aligned images */
+.profile {
+    height: 200px;
+    border-radius: 50%;
+}
+/*.left {
+    align-self: end;
+    height: 150px;
+    border-radius: 50%;
+}*/

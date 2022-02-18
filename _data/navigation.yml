@@ -1,10 +1,6 @@
 - name: Home
   link: /
-- name: About
-  link: /about.html
-- name: Papers
-  link: /publications.html
-- name: Contact
-  link: /contact.html
-- name: CV
-  link: /philswatton_cv.pdf
+- name: Research
+  link: /research.html
+- name: Code
+  link: /code
