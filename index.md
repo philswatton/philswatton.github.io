@@ -12,7 +12,7 @@ css: page.css
 
 I'm a PhD student in the Department of Government at the University of Essex. My reseach interests are in the broad intersection of data science, measurement, survey analysis, public opinion, and political parties. In the course of my work I've also developed a passion for R programming. I'm working on a package of miscellaneous functions relating to my work in various degrees called 'psmisc'. You can find it on github [here](https://github.com/philswatton/psmisc).
 
-My interest in programming extends beyond R. Over the lockdown I started teaching myself how to write web code and by now am reasonably proficient in HTML, CSS, and Javascript. Since then when time has allowed I've been very gradually pursuing Harvard's CS50x Introduction to Computer Science course through which I have some initial experience with C, Python, and SQLite.
+My interest in programming extends beyond R. Over the lockdown I started teaching myself how to write web code and by now I'm reasonably proficient in HTML, CSS, and Javascript. Since then when time has allowed I've been very gradually pursuing Harvard's CS50x Introduction to Computer Science course through which I have some initial experience with C, Python, and SQLite.
 
 Over the course of my PhD I've spent a large amount of time teaching quantitative research methods and R programming. My teaching experience has primarily been at the Essex Summer School and UCL. The courses I've taught on have covered ground such as R programming, statistics, philosophy of science, causal inference, measurement, and webscraping.
 
