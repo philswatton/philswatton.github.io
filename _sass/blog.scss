@@ -1,0 +1,14 @@
+.hex-gb {
+    width: 520px;
+    height: 680px;
+    border: none;
+    transform: scale(0.5);
+    align-self: center;
+}
+
+@media screen and (min-width: 920px) {
+    .hex-gb {
+        height: 800px;
+        transform: scale(1);
+    }
+}

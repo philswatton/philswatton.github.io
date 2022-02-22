@@ -7,9 +7,10 @@
 
     <!-- Mobile Friendly -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--meta http-equiv="X-UA-Compatible" content="IE=edge"-->
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="/assets/css/{{ page.css }}">
+    <link rel="stylesheet" href="/assets/css/{{ page.css }}"-->
 
     <!-- Fonts -->
     <style>
@@ -19,10 +20,13 @@
     <!-- Scripts -->
     <script src="/assets/js/menu.js" type="text/JavaScript"></script>
 
-    <!-- Mathjax -->
-    {% if page.usemath == true %}
-    {% include math.html %}
+    <!-- Blog Scripts -->
+    {% if page.script %}
+      {% include {{ page.script }} %}
     {% endif %}
+
+    <!-- Mathjax -->
+    {% include math.html %}
   </head>
   <body>
     <button class="menu-icon" id="menu-icon" onclick="menuFunction()">
