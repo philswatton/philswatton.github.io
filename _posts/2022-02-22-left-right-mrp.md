@@ -182,7 +182,9 @@ Probably of broader interests is this map of GB parliamentary constituencies. If
 
 Broadly, the more red a constituency is the more left-wing it is and the more blue a constituency is the more right-wing it is. The colours are assigned based on the range of the scale and correspond to left-right, but since the most left-wing constituency has a smaller value, '0' isn't the exact middle of the scale and the white colour doesn't exactly correspond to this. I stuck with this because of the aforementioned arbitaryness of the 0 point - instead these colours show how relatively left/right the constituencies are with respect to each other. 
 
+<figure>
 <iframe src="/interactive/map.html" class="hex-gb"></iframe>
+</figure>
 
 ## Footnotes
 
