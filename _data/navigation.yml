@@ -1,5 +1,7 @@
 - name: Home
   link: /
+- name: Blog
+  link: /blog.html
 - name: Research
   link: /research.html
 - name: Code
