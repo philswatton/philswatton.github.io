@@ -180,7 +180,7 @@ The most striking from the more extreme results is how strongly they correspond 
 
 Probably of broader interests is this map of GB parliamentary constituencies. If you hover over the hexes, you'll see the name of the constituency, its region, the winning party in 2019, and its left-right score as predicted by the MRP model. A fair warning here in that I suspect this is likely to display much better (and be much more useable) on PC rather than mobile. I also can't necessarily guarantee that it will work well outside of Chrome (though please do let me know if not).
 
-Broadly, the more red a constituency is the more left-wing it is and the more blue a constituency is the more right-wing it is. The colours are assigned based on the range of the scale and correspond to left-right, but since the most left-wing constituency has a smaller value, '0' isn't the exact middle of the scale and the white colour doesn't exactly correspond to this. I stuck with this because of the aforementioned arbitaryness of the 0 point - instead these colours show how relatively left/right the constituencies are with respect to each other. 
+Broadly, the more red a constituency is the more left-wing it is and the more blue a constituency is the more right-wing it is. The colours are assigned based on the range of the scale and correspond to left-right, but since the most left-wing constituency has a larger absolute value, '0' isn't the exact middle of the scale and the white colour doesn't exactly correspond to this. I stuck with this because of the aforementioned arbitaryness of the 0 point - instead these colours show how relatively left/right the constituencies are with respect to each other. 
 
 <iframe src="/interactive/map.html" class="hex-gb"></iframe>
 
