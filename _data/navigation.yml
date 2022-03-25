@@ -4,5 +4,7 @@
   link: /blog.html
 - name: Research
   link: /research.html
+- name: Software
+  link: /software
 - name: Code
-  link: /code
+  link: /Collected-R-Code/index.html
