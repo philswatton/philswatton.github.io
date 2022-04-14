@@ -5,7 +5,8 @@ $yt: rgb(255, 255, 255);
 $blu: rgba(2, 63, 144, 1);
 
 /* Fonts */
-$sans: 'PT Sans', sans-serif;
+$sans: 'Karla', sans-serif;
+/* $sans: 'PT Sans', sans-serif; */
 
 /* Dynamic placements and widths */
 $mob-left: 2.5%;
@@ -18,7 +19,8 @@ $pc-width: 40%;
 
 /* Defaults */
 :root {
-    font-family: 'PT Serif', serif;
+    /* font-family: 'PT Serif', serif;*/
+    font-family: $sans;
     font-size: 16px;
     color: black;
 }
