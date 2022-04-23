@@ -36,15 +36,15 @@ figure {
     /*width: 100%;*/
     display: flex;
     justify-content: space-evenly;
+    padding: 0px;
+    margin: 0px;
 }
 
-/* Left-aligned images */
 .profile {
     height: 200px;
     border-radius: 50%;
 }
-/*.left {
-    align-self: end;
-    height: 150px;
-    border-radius: 50%;
-}*/
+
+.blog-image {
+    width: 100%;
+}
