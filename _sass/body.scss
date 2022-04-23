@@ -76,3 +76,23 @@ hr {
     border-top: 1px solid black;
     width: 100%;
 }
+
+/* Code chunks */
+
+code {
+    font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+    display: block;
+    width: 100%;
+    padding: 4px;
+    background: $black;
+    color: $yt;
+    white-space: break-spaces;
+    word-wrap: break-word;
+}
+
+p > code {
+    display: inline;
+    padding: 0px;
+    color: $black;
+    background-color: transparent;
+}
