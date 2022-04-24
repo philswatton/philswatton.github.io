@@ -10,7 +10,7 @@ While most readers will primarily be reading the unstructured text on a given Wi
 
 Equally as interesting as the secondary data that Wikipedia collates and organises is the user data associated with its pages. As unsubtly declared by the title of this blog post, one example would be page views for its content. If interest is in a particular set of pages, it becomes possible to compare the view counts for the pages or to use said counts in more sophisticated analyses.
 
-In the particular case of this blog post, I'm inspired by a tweet plotting out the page view counts for Canadian MPs[^2]. I decided to produce a similar plot to the one in the tweet, except using UK MPs instead. I also decided it would be more interesting to use the top 50 most-visited instead of just the party leaders. 
+In the particular case of this blog post, I'm inspired by a tweet plotting out the page view counts for Canadian MPs[^2]. I decided to produce a similar plot to the one in the tweet, except examining UK MPs. I also decided it would be more interesting to use the top 50 most-visited instead of just the party leaders. 
 
 ## Legislator Data
 
