@@ -1,10 +1,10 @@
 - name: Home
   link: /
 - name: Blog
-  link: /blog.html
+  link: /blog
 - name: Research
-  link: /research.html
-- name: Software
-  link: /software
+  link: /research
+- name: Projects
+  link: /Projects
 - name: Code
-  link: /Collected-R-Code/index.html
+  link: https://philswatton.github.io/Collected-R-Code/
