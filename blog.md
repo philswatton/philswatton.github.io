@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Blog
-css: page.css
 ---
 
 {% for post in site.posts %}

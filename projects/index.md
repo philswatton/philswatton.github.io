@@ -1,7 +1,6 @@
 ---
 layout: default
 title: projects
-css: page.css
 ---
 
 ## psmisc

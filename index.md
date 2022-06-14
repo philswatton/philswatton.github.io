@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Home
-css: page.css
 ---
 
 <figure>
