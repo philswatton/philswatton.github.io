@@ -1,7 +1,14 @@
 ---
 ---
-@import "body";
+// Core bits
+@import "core";
+
+// Page structure
 @import "nav";
-@import "main";
 @import "footer";
+
+// Content
+@import "content";
+
+// Extras
 @import "blog";

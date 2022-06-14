@@ -1,0 +1,67 @@
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    font-family: $sans;
+}
+
+h1 {
+    margin: 0px;
+}
+
+/* Text */
+p, h2 {
+    margin: 10px 0px 10px 0px;
+}
+
+/* Links */
+a {
+    color: $blu;
+    text-decoration: none;
+}
+
+a:hover {
+    // font-weight: bold;
+    // text-shadow: 0 0 .5px $blu, 0 0 .5px $blu;
+    text-decoration: underline;
+}
+
+hr {
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+/* Images */
+figure {
+    /*width: 100%;*/
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin: 0px;
+}
+
+.profile {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.blog-image {
+    width: 100%;
+}
+
+/* Code chunks */
+code {
+    font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+    display: block;
+    width: 100%;
+    padding: 4px;
+    background: $black;
+    color: $yt;
+    white-space: break-spaces;
+    word-wrap: break-word;
+}
+
+p > code {
+    display: inline;
+    padding: 0px;
+    color: $black;
+    background-color: transparent;
+}
