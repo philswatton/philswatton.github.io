@@ -49,7 +49,7 @@ function showBox(n) {
 
     // Validate input
     if (n < 0) {
-        n = nobx - 1;
+        n = nbox - 1;
     } else if (n >= nbox) {
         n = 0;
     }
