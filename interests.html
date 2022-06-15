@@ -3,21 +3,31 @@ layout: default
 title: interests
 ---
 
-{% for interest_list in site.data.interests %}
-<div class="interest-list">
-    <h1 class="interest-list-title">{{ interest_list[0] | replace: "_", " " }}</h1>
-    {% for interest in interest_list[1] %}
-    <div class="interest-box">
-    <h2 class="interest-title">{{ interest.name }}</h2>
-    <p class="interest-desc">{{ interest.desc }}</p>
+<div class="interest-div">
+    <a class="prev" onclick="plusInterest(-1)">&#10094;</a>
+    <div class="interest-panel">
+        {% for interest_list in site.data.interests %}
+        <div class="interest-list">
+            <h1 class="interest-list-title">{{ interest_list[0] | replace: "_", " " }}</h1>
+            {% for interest in interest_list[1] %}
+            <div class="interest-box">
+                <h2 class="interest-title">{{ interest.name }}</h2>
+                <p class="interest-desc">{{ interest.desc }}</p>
+            </div>
+            {% endfor %}
+            {% for interest in interest_list[1] %}
+                <button onclick="showInterest({{ forloop.index }}-1)">{{ interest.name }}</button>
+            {% endfor %}
+        </div>
+        {% endfor %}
     </div>
-    {% endfor %}
+    <a class="next" onclick="plusInterest(1)">&#10095;</a>
 </div>
-{% endfor %}
 
+<!-- buttons -->
 <div>
     {% for interest_list in site.data.interests %}
-    <button>{{ interest_list[0] | replace: "_", " " }}</button>
+    <button onclick="showList({{ forloop.index }}-1)">{{ interest_list[0] | replace: "_", " " }}</button>
     {% endfor %}
 </div>
 <!-- 
