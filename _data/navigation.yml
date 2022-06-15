@@ -1,10 +1,14 @@
-- name: Home
+- name: Phil Swatton's Website
   link: /
-- name: Blog
-  link: /blog
+- name: About
+  link: /about.html
+- name: Interests
+  link: /interests.html
 - name: Research
-  link: /research
+  link: /research.html
 - name: Projects
-  link: /projects
+  link: /projects/
+- name: Blog
+  link: /blog.html
 - name: Code
   link: https://philswatton.github.io/Collected-R-Code/

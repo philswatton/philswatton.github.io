@@ -7,8 +7,10 @@ title: interests
 <div class="interest-list">
     <h1 class="interest-list-title">{{ interest_list[0] | replace: "_", " " }}</h1>
     {% for interest in interest_list[1] %}
+    <div class="interest-box">
     <h2 class="interest-title">{{ interest.name }}</h2>
     <p class="interest-desc">{{ interest.desc }}</p>
+    </div>
     {% endfor %}
 </div>
 {% endfor %}
