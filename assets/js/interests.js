@@ -19,7 +19,7 @@ function showList(n) {
     }
 
     // Display list n
-    lists[n].style.display = "block";
+    lists[n].style.display = "flex";
 
     // Display first box
     showBox(0);
