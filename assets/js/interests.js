@@ -1,5 +1,6 @@
-// Global list variable
+// Global variables
 let listIndex = 0;
+let boxIndex = 0;
 
 // Selecting list to display
 function showList(n) {
@@ -21,7 +22,7 @@ function showList(n) {
     lists[n].style.display = "block";
 
     // Display first box
-    showInterest(0);
+    showBox(0);
 }
 
 // Function to close open boxes
@@ -39,11 +40,22 @@ function closeBoxes() {
 }
 
 // Selecting box to display
-function showInterest(n) {
+function showBox(n) {
 
     // Get array of interest boxes in current interest lists
     let lists = document.getElementsByClassName("interest-list");
     let boxes = lists[listIndex].getElementsByClassName("interest-box");
+    let nbox = boxes.length;
+
+    // Validate input
+    if (n < 0) {
+        n = nobx - 1;
+    } else if (n >= nbox) {
+        n = 0;
+    }
+
+    // Update box index
+    boxIndex = n;
 
     // Hide all boxes
     closeBoxes();
@@ -52,7 +64,10 @@ function showInterest(n) {
     boxes[n].style.display = "block";
 }
 
-
+// Next and previous buttons
+function changeBox(n) {
+    showBox(boxIndex + n);
+}
 
 
 

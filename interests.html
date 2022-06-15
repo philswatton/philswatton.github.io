@@ -4,7 +4,7 @@ title: interests
 ---
 
 <div class="interest-div">
-    <a class="prev" onclick="plusInterest(-1)">&#10094;</a>
+    <a class="prev" onclick="changeBox(-1)">&#10094;</a>
     <div class="interest-panel">
         {% for interest_list in site.data.interests %}
         <div class="interest-list">
@@ -16,16 +16,16 @@ title: interests
             </div>
             {% endfor %}
             {% for interest in interest_list[1] %}
-                <button onclick="showInterest({{ forloop.index }}-1)">{{ interest.name }}</button>
+                <button onclick="showBox({{ forloop.index }}-1)">{{ interest.name }}</button>
             {% endfor %}
         </div>
         {% endfor %}
     </div>
-    <a class="next" onclick="plusInterest(1)">&#10095;</a>
+    <a class="next" onclick="changeBox(1)">&#10095;</a>
 </div>
 
 <!-- buttons -->
-<div>
+<div class="interest-menu">
     {% for interest_list in site.data.interests %}
     <button onclick="showList({{ forloop.index }}-1)">{{ interest_list[0] | replace: "_", " " }}</button>
     {% endfor %}
