@@ -1,0 +1,25 @@
+---
+layout: default
+title: interests
+---
+
+{% for interest_list in site.data.interests %}
+<div class="interest-list">
+    <h1 class="interest-list-title">{{ interest_list[0] | replace: "_", " " }}</h1>
+    {% for interest in interest_list[1] %}
+    <h2 class="interest-title">{{ interest.name }}</h2>
+    <p class="interest-desc">{{ interest.desc }}</p>
+    {% endfor %}
+</div>
+{% endfor %}
+
+<div>
+    {% for interest_list in site.data.interests %}
+    <button>{{ interest_list[0] | replace: "_", " " }}</button>
+    {% endfor %}
+</div>
+<!-- 
+
+- {{ item.authors }} ({{ item.year }}) "{{ item.title }}" {% if item.pdf != nil %} <a href="{{ item.pdf }}">PDF</a> {% endif %}
+
+--->
