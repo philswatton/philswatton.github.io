@@ -9,4 +9,4 @@ title: projects
 
 ## Unsure Calculator
 
-I'm a big fan of Filip Hráček's [**Unsure Calculator**](https://filiph.github.io/unsure/), so I decided to go ahead and build my own version as programming practice. You can find my calculator [at this link](https://philswatton.github.io/unsure-calculator/); and the github repositort [at this link](https://github.com/philswatton/unsure-calculator).
+I'm a big fan of Filip Hráček's [Unsure Calculator](https://filiph.github.io/unsure/), so I decided to go ahead and build my own version as programming practice. You can find my calculator [at this link](https://philswatton.github.io/unsure-calculator/); and the github repositort [at this link](https://github.com/philswatton/unsure-calculator).
