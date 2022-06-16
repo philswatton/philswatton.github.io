@@ -20,17 +20,16 @@
       @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
     </style>
 
-    <!-- Scripts -->
+    <!-- Site-wide javascript -->
     <script src="/assets/js/site.js" type="text/JavaScript"></script>
-    {% if page.url == "/interests.html" %}<script src="/assets/js/interests.js" type="text/JavaScript"></script>{% endif %}
 
-    <!-- Blog Scripts -->
-    {% if page.script %}
-      {% include {{ page.script }} %}
-    {% endif %}
+    <!-- Page-specific Scripts -->
+    {% if page.script %}<script src="{{ page.script }}" type="text/JavaScript"></script>{% endif %}
 
     <!-- Mathjax -->
-    {% include math.html %}
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
   </head>
   <body>
     <button class="menu-icon" id="menu-icon" onclick="menuFunction()">
