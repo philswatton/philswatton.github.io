@@ -1,6 +1,6 @@
 /* Home page layout */
 .home-div {
-    height: calc(100vh - 200px);
+    height: calc(100vh - 165px); //60*1.5 for main padding, 60 for footer height, 15 for footer padding
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,6 +15,7 @@
 
 /* Typing effect */
 .welcome {
+    font-size: 20px;
     font-family: $serif;
     margin: 0px;
     width: 100%;
@@ -24,6 +25,11 @@
     white-space: nowrap; //keeps everything on the same line
     border-right: 3px solid; //this is the cursor
     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+}
+
+.typing-div{
+    margin: 0px;
+    padding: 0px;
 }
 
 @keyframes typing {
