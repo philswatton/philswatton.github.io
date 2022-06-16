@@ -1,7 +1,7 @@
 ---
 layout: default
 title: research
-subtitle: Last updated 22/11/2021
+subtitle: Last updated 15/06/2022
 ---
 
 This page contains a complete list of the papers I've been working on. I'm always open to collaborations and questions so if you'd like to work with me on a project or have questions about my own work, please feel free to get in touch via one of the mediums listed on my [contact page](/contact).
