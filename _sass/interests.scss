@@ -20,6 +20,8 @@
 
 .interest-box {
     display: none;
+    // animation: fadein 1.5s;
+    animation: fadeout 1.5s;
 }
 
 
@@ -29,7 +31,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    //margin-top: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .list-menu {
@@ -37,12 +40,16 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 .interest-button, .list-menu>button {
+    font-size: 14px;
+    color: $black;
     background-color: $yt;
     border: 1px $black solid;
     border-radius: 10px;
+    margin: 5px;
 }
 
 .interest-button:hover, .list-menu>button:hover {
@@ -77,4 +84,16 @@
 .interest-list-title {
     justify-self: flex-start;
     //margin-bottom: auto;
+}
+
+
+/* Fade in/out animations */
+// @keyframes fadein {
+//     from {opacity: 1}
+//     to {opacity: .2}
+// }
+
+@keyframes fadeout {
+    from {opacity: .2}
+    to {opacity: 1}
 }
