@@ -43,30 +43,3 @@
       border-color: transparent
     }
   }
-
-
-/* CV Display */
-.cv-div {
-    width: 100%;
-    margin-top: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-    a {
-        font-size: 20px;
-        color: $black;
-        background-color: $yt;
-        padding-left: 5px;
-        padding-right: 5px;
-        margin: 5px;
-        border: 1px solid $black;
-        border-radius: 10px;
-    }
-
-    a:hover {
-        color: $yt;
-        background-color: $black;
-        text-decoration: none;
-    }
-}
