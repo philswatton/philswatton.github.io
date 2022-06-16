@@ -37,3 +37,17 @@ footer p {
     }
 }
 
+
+/* SVG */
+svg {
+    background-color: $yt;
+    fill: $black;
+    border-radius: 50%;
+    border: 1px solid $yt;
+}
+svg:hover {
+    background-color: $black;
+    fill: $yt;
+    border: 1px solid $black;
+}
+
