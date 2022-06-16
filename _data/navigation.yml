@@ -2,12 +2,12 @@
   link: /
 - name: About
   link: /about.html
-- name: Interests
-  link: /interests.html
 - name: Research
   link: /research.html
 - name: Projects
   link: /projects/
+- name: Interests
+  link: /interests.html
 - name: Blog
   link: /blog.html
 - name: Code
