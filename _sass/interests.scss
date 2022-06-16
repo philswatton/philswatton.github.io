@@ -43,7 +43,7 @@
     margin-bottom: 10px;
 }
 
-.interest-button, .list-menu>button {
+.interest-button, .list-button {
     font-size: 14px;
     color: $black;
     background-color: $yt;
@@ -52,9 +52,15 @@
     margin: 5px;
 }
 
-.interest-button:hover, .list-menu>button:hover {
+.interest-button:hover, .list-button:hover {
     background-color: $black;
     color: $yt
+}
+
+.grey-button, .grey-button:hover {
+    color: $yt;
+    background-color: $lite-grey;
+    border: 1px $lite-grey solid;
 }
 
 
@@ -83,6 +89,7 @@
 /* Text */
 .interest-list-title {
     justify-self: flex-start;
+    align-self: center;
     //margin-bottom: auto;
 }
 

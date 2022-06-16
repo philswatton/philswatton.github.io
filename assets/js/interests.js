@@ -21,6 +21,17 @@ function showList(n) {
     // Display list n
     lists[n].style.display = "flex";
 
+    // Get array of buttons
+    let buttons = document.getElementsByClassName("list-button");
+
+    // Set all to default style
+    for (let i=0; i<buttons.length; i++) {
+        buttons[i].className = "list-button";
+    }
+
+    // Change nth button to grey
+    buttons[n].className += " grey-button";
+
     // Display first box
     showBox(0);
 }
@@ -62,6 +73,17 @@ function showBox(n) {
 
     // Display box n
     boxes[n].style.display = "block";
+
+    // Get array of buttons
+    let buttons = lists[listIndex].getElementsByClassName("interest-button");
+
+    // Set all to default style
+    for (let i=0; i<buttons.length; i++) {
+        buttons[i].className = "interest-button";
+    }
+
+    // Change nth button to grey
+    buttons[n].className += " grey-button";
 }
 
 // Next and previous buttons

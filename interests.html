@@ -30,7 +30,7 @@ script: /assets/js/interests.js
 <!-- buttons -->
 <div class="list-menu">
     {% for interest_list in site.data.interests %}
-    <button onclick="showList({{ forloop.index }}-1)">{{ interest_list[0] | replace: "_", " " }}</button>
+    <button onclick="showList({{ forloop.index }}-1)" class="list-button">{{ interest_list[0] | replace: "_", " " }}</button>
     {% endfor %}
 </div>
 <!-- 
