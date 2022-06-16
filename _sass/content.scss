@@ -19,9 +19,12 @@ a {
 }
 
 a:hover {
-    // font-weight: bold;
-    // text-shadow: 0 0 .5px $blu, 0 0 .5px $blu;
+    color: $lite-blu;
     text-decoration: underline;
+}
+
+button {
+    font-family: $serif;
 }
 
 hr {

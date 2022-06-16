@@ -22,7 +22,7 @@ nav {
 
     /* Nav links */
     a {
-        font-family: $sans;
+        font-family: $serif;
         font-size: 20px;
         font-weight: bold;
         color: $grey;
@@ -123,6 +123,11 @@ span {
 
             margin: 0px 4px 0px 4px;
             padding: 0px 8px 0px 8px;
+        }
+
+        /* Nav Home Link */
+        #home {
+            margin-right: auto;
         }
 
         /* Nav border */
