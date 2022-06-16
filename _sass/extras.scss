@@ -4,6 +4,7 @@
     flex-direction: row;
     align-items: center;
     min-height: calc(100vh - 200px);
+    width: 100%;
 }
 
 .interest-panel {
@@ -14,7 +15,7 @@
     height: 100%;
     display: none;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .interest-box {
@@ -23,9 +24,16 @@
 
 
 
-/* Buttons */
+/* Selection Buttons */
+.interest-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    //margin-top: auto;
+}
+
 .list-menu {
-    justify-self: flex-end;
+    // justify-self: flex-end;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -44,7 +52,29 @@
 
 
 
-/* Content */
+/* Next/Previous */
+.prev {
+    margin-right: 10px;
+}
+.next {
+    margin-left: 10px;
+}
+.prev, .next {
+    min-width: 25px;
+    height: 25px;
+    background-color: $yt;
+    border: 1px $black solid;
+    border-radius: 50%;
+}
+.prev:hover, .next:hover {
+    background-color: $black;
+    color: $yt;
+}
+
+
+
+/* Text */
 .interest-list-title {
     justify-self: flex-start;
+    //margin-bottom: auto;
 }

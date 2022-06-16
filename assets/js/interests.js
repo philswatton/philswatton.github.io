@@ -68,3 +68,9 @@ function showBox(n) {
 function changeBox(n) {
     showBox(boxIndex + n);
 }
+
+
+// Show first list
+window.onload = function() {
+    showList(listIndex);
+}
