@@ -34,9 +34,17 @@ nav {
         transition: opacity 0.5s;
     }
 
-    // a:hover {
-    //     text-shadow: 0 0 .9px $grey, 0 0 .9px $grey;
-    // }
+    a:hover {
+        color: $grey;
+    }
+
+    .current, .current:hover {
+        color: $lite-grey;
+    }
+
+    #home {
+        font-size: 24px;
+    }
 }
 
 /* Open Nav Menu */
