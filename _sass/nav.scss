@@ -139,7 +139,12 @@ span {
         }
 
         /* Nav border */
-        border-bottom-style: solid;
+        border-bottom: 1px solid $black;
+    }
+
+    /* Nav hover */
+    nav:hover {
+        box-shadow: 0px 1px $grey;
     }
 
     /* No Menu Button on PC */
