@@ -20,8 +20,9 @@ $mob-width: 95%;
 $tab-width: 50%;
 $pc-width: 40%;
 
-/* Nav variables */
+/* Height variables */
 $nav-height: 60px;
+$footer-height: 20px;
 
 /* Nav animation variables */
 $cross-shift: 19.2px;
@@ -51,15 +52,37 @@ body {
 
 /* Main */
 main {
+    //Height
+    min-height: 100vh;
+    max-height: auto;
+
+    //Width
+    left: $mob-left;
+    width: $mob-width;
+
+    //Box model
+    margin: 0px;
+    padding: 0px;
+}
+
+// Content container
+.content {
+    //Height
+    height: auto;
+
+    //Width
+    width: 100%;
+
+    // Box Model
+    margin: 0px;
+    padding: 0px;
+    padding-top: $nav-height * 1.5;
+    padding-bottom: $footer-height * 1.5;
+
+    // Layout
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    // padding-top: $nav-height * 2;
-    margin: 0px;
-    padding-top: $nav-height * 1.5;
-    left: $mob-left;
-    width: $mob-width;
 }
 
 /* Media Queries */
