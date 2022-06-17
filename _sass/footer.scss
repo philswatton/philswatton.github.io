@@ -8,7 +8,7 @@ footer {
     height: $footer-height;
     width: 100%;
     background-color: $yt;
-    border-top: 1px solid black;
+    border-top: 1px solid $yt-grey;
 
     // Box Model
     margin: 0px;
@@ -29,7 +29,6 @@ footer {
     }
 }
 
-
 .copyright {
     margin: 0px 0px 0px 10px;
 }
@@ -46,6 +45,10 @@ footer {
             justify-content: center;
             align-items: center;
         }
+    }
+
+    footer:hover {
+        box-shadow: 0px -1px $yt-grey;
     }
 }
 
