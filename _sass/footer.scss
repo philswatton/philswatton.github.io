@@ -1,32 +1,31 @@
 footer {
+    // Position
     position: fixed;
     bottom: 0;
     left: 0;
+
+    // Appearance
     height: $footer-height;
+    width: 100%;
+    background-color: $yt;
+    border-top: 1px solid black;
+
+    // Box Model
     margin: 0px;
     padding-bottom: 5px;
     padding-top: 10px;
-    background-color: $yt;
-    //opacity: 0.5;
 
+    // Display
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin-top: auto;
 
-    //left: $mob-left;
-    width: 100%;
-
+    // Content
     font-family: $serif;
 
-    border-top: 1px solid black;
-
     div {
-        margin: 0px 10px 0px 0px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: none;
     }
 }
 
@@ -36,12 +35,19 @@ footer {
 }
 
 /* Media Queries */
-// @media screen and (min-width: 920px) {
-//     footer {
-//         left: $tab-width;
-//         width: $tab-width;
-//     }
-// }
+@media screen and (min-width: 920px) {
+    footer {
+        
+        justify-content: space-between;
+
+        div {
+            margin: 0px 10px 0px 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
 
 // @media screen and (min-width: 1500px) {
 //     footer {
