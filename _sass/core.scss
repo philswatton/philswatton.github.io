@@ -45,6 +45,10 @@ html, body {
 }
 
 body {
+    // Always show scroll
+    overflow-y: scroll;
+
+    // Layout
     display: flex;
     flex-direction: column;
     align-items: center;
