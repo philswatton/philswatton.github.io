@@ -1,6 +1,6 @@
 /* Home page layout */
 .home-div {
-    height: calc(100vh - 180px); //60*1.5 for main padding, 60 for footer height, 15 for footer padding
+    height: calc(100vh - 180px);
     display: flex;
     flex-direction: column;
     justify-content: center;
