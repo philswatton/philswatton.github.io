@@ -5,7 +5,7 @@ title: interests
 
 # About me
 
-I'm a PhD student in the Department of Government at the University of Essex. My research interests sit in the broad intersection of data science, political methodology, and comaprative politics. You can check out a list of my work on my [research page](/research), or a description of my interests on my [interests page](/interests). If you'd just like to get the full rundown on my skills and experience, you can check out one of my CVs:
+I'm a PhD student in the Department of Government at the University of Essex. My research interests sit in the broad intersection of data science, political methodology, and comaprative politics. You can check out a list of my work on my [research page](/research)<!--, or a description of my interests on my [interests page](/interests)-->. If you'd just like to get the full rundown on my skills and experience, you can check out one of my CVs:
 
 <div class="cv-div">
     <a href="Phil_Swatton_Academic_CV.pdf">Academic CV</a>

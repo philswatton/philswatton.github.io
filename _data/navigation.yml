@@ -6,8 +6,8 @@
   link: /research.html
 - name: Projects
   link: /projects/
-- name: Interests
-  link: /interests.html
+# - name: Interests
+#   link: /interests.html
 - name: Blog
   link: /blog.html
 - name: Code
