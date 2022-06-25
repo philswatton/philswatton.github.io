@@ -10,7 +10,7 @@
     <!--meta http-equiv="X-UA-Compatible" content="IE=edge"-->
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="/assets/css/page.css"-->
+    <link rel="stylesheet" href="/assets/css/page.css">
 
     <!-- Fonts -->
     <style>
@@ -36,7 +36,10 @@
     </button>
     {% include navigation.html %}
     <main>
-      {{ content }}
+      <div class="content">
+        {% if page.subtitle != nil %} <p class="subtitle">{{ page.subtitle }}</p> {% endif %}
+        {{ content }}
+      </div>
     </main>
     <footer>
       <p class="copyright">&copy; 2020-{{ 'now' | date: "%Y" }} Phil Swatton | <a href="\licence">Licence</p>

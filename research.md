@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: research
 subtitle: Last updated 15/06/2022
 ---
