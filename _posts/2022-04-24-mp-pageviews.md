@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Which of the 2019 MPs had the most Wikipedia pageviews this far into 2022?
-css: page.css
 ---
 
 According to Wikipedia's page on Wikipedia[^1], Wikipedia is the most-read reference work in history, contains about 58 million articles, and as of this year is the 10th most popular website according to Alexa (an Amazon subsidiary but afaik unrelated to the home assistant). It's also a growing source of secondary data for social scientific research.

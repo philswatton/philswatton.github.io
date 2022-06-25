@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Left-Right Placements of GB Westminster Constituencies in 2021
-css: page.css
 ---
 
 For the first blog post on my website, I thought it would be interesting to demonstrate some of the MRP results from my own research. In this case, I ran an MRP model to estimate average left-right opinion in all of the Westminster parliamentary constituencies in Great Britain.
