@@ -25,7 +25,7 @@ layout: default
 
 {{ content }}
 
-<div>
+<div class="citation-details">
     <p>Please cite this blog post as:</p>
 
     <div class="cite-div">
@@ -34,10 +34,10 @@ layout: default
 
     <p>Bibtex:</p>
     <div class="cite-div">
-        <p>@misc{swatton{{ page.title | split:" " | first }},<br>
+        <p>@misc{swatton{{ page.date | date_to_string | slice: -4, 4 }}{{ page.title | split:" " | first }},<br>
         &emsp;&emsp;author = {Swatton, P.J.},<br>
         &emsp;&emsp;title = &#123;{{ page.title }}&#125;,<br>
-        &emsp;&emsp;url = &#123;{{ page.url | absolute_url }}&#125;,<br>
+        &emsp;&emsp;url = &#123;<a href="{{ page.url | absolute_url }}">{{ page.url | absolute_url }}</a>&#125;,<br>
         &emsp;&emsp;year = &#123;{{ page.date | date_to_string | slice: -4, 4 }}&#125;<br>
     }</p>
     </div>
