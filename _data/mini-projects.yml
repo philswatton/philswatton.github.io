@@ -1,0 +1,4 @@
+- name: Votes from Seats Calculator
+  link: https://philswatton.github.io/VfS_Calculator/index.html
+  repo: https://github.com/philswatton/VfS_Calculator
+  desc: Calculator for the four laws articulated in <a href="https://www.cambridge.org/core/books/votes-from-seats/890D24F8D0DB2FF9CCEA1C77CE4E463F">Votes from Seats</a>.
