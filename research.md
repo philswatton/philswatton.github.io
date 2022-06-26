@@ -6,12 +6,32 @@ subtitle: Last updated 15/06/2022
 
 This page contains a complete list of the papers I've been working on. I'm always open to collaborations and questions so if you'd like to work with me on a project or have questions about my own work, please feel free to get in touch via one of the mediums listed on my [contact page](/contact).
 
-## Working Papers
-{% for item in site.data.working %}
-- {{ item.authors }} ({{ item.year }}) "{{ item.title }}" {% if item.pdf != nil %} <a href="{{ item.pdf }}">PDF</a> {% endif %}
-{% endfor %}
+# Working Papers
 
-## Works in Progress
-{% for item in site.data.wip %}
-- {{ item.authors }} "{{ item.title }}"
-{% endfor %}
+<ol>
+    {% for paper in site.data.working %}
+    <li>
+        <div class="project-div">
+            <h3>{{ paper.title }}</h3>
+            <p>{{ paper.authors }} ({{ paper.year }})</p>
+            <div>
+                {% if paper.pdf != nil %}<a href="{{ paper.pdf }}" class="item-link">PDF</a>{% endif %}
+            </div>
+        </div>
+    </li>
+    {% endfor %}
+</ol>
+
+
+# Works in Progress
+
+<ol>
+    {% for paper in site.data.wip %}
+    <li>
+        <div class="project-div">
+            <h3>{{ paper.title }}</h3>
+            <p>{{ paper.authors }}</p>
+        </div>
+    </li>
+    {% endfor %}
+</ol>
