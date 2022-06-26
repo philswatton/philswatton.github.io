@@ -1,7 +1,7 @@
 - name: psmic
   repo: https://github.com/philswatton/psmisc
   desc: R package implementing methods and measures developed for political science research.
-- name: Mote Carlo Calculator
-  link: https://philswatton.github.io/unsure-calculator/
-  repo: https://github.com/philswatton/unsure-calculator
+- name: Monte Carlo Calculator
+  link: https://philswatton.github.io/monte-carlo-calculator/
+  repo: https://github.com/philswatton/monte-carlo-calculator
   desc: Calculator that allows the inclusion of uncertainty in the numbers inputted. Not as good as regular statistics, but much easier to use. Inspired by Filip Hráček's <a href="https://filiph.github.io/unsure/">Unsure Calculator</a>.
