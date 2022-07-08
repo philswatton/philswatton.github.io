@@ -16,6 +16,7 @@ subtitle: Last updated 15/06/2022
             <p>{{ paper.authors }} ({{ paper.year }})</p>
             <div>
                 {% if paper.pdf != nil %}<a href="{{ paper.pdf }}" class="item-link">PDF</a>{% endif %}
+                {% if paper.app != nil %}<a href="{{ paper.app }}" class="item-link">Appendix</a>{% endif %}
             </div>
         </div>
     </li>
