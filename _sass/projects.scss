@@ -15,3 +15,7 @@
     background-color: $yt-grey;
     border-radius: 10px;
 }
+
+.research-list > li::marker {
+    font-weight: bold;
+}
