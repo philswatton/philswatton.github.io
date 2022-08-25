@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    // text-align: center;
 
     figure {
         margin-bottom: 20px;
@@ -13,33 +13,33 @@
 }
 
 
-/* Typing effect */
-.welcome {
-    font-size: 20px;
-    font-family: $serif;
-    margin: 0px;
-    width: 100%;
-    //margin-top: 20px;
-    //margin-bottom: 20px;
-    overflow: hidden; //hides the text while typing occurs
-    white-space: nowrap; //keeps everything on the same line
-    border-right: 3px solid; //this is the cursor
-    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-}
+// /* Typing effect */
+// .welcome {
+//     font-size: 20px;
+//     font-family: $serif;
+//     margin: 0px;
+//     width: 100%;
+//     //margin-top: 20px;
+//     //margin-bottom: 20px;
+//     overflow: hidden; //hides the text while typing occurs
+//     white-space: nowrap; //keeps everything on the same line
+//     border-right: 3px solid; //this is the cursor
+//     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+// }
 
-.typing-div{
-    margin: 0px;
-    padding: 0px;
-}
+// .typing-div{
+//     margin: 0px;
+//     padding: 0px;
+// }
 
-@keyframes typing {
-    from {
-      width: 0
-    }
-  }
+// @keyframes typing {
+//     from {
+//       width: 0
+//     }
+//   }
       
-  @keyframes blink {
-    50% {
-      border-color: transparent
-    }
-  }
+//   @keyframes blink {
+//     50% {
+//       border-color: transparent
+//     }
+//   }
