@@ -5,7 +5,7 @@ title: interests
 
 # About me
 
-At the moment, I'm a PhD student in the Department of Government at the University of Essex. From October, I'll be starting at the Alan Turing Institute as a Data Scientist. My PhD thesis is titled 'Three Essays on the Measurement of Political Ideology'. Beyond my thesis, I've been involved in research projects in the realms of political methodology, public opinion, and comparative politics. You can check out a list of my work on my [research page](/research)<!--, or a description of my interests on my [interests page](/interests)-->. If you'd just like to get the full rundown on my skills and experience, you can check out one of my CVs:
+I'm a Data Scientist at the Alan Turing Institute. I'm also a PhD student in the Department of Government at the University of Essex, where I'm currently awaiting my viva. My PhD thesis is titled 'Three Essays on the Measurement of Political Ideology'. Beyond my thesis, I've been involved in research projects in the realms of political methodology, public opinion, and comparative politics. You can check out a list of my work on my [research page](/research)<!--, or a description of my interests on my [interests page](/interests)-->. If you'd just like to get the full rundown on my skills and experience, you can check out one of my CVs:
 
 <div class="cv-div">
     <a href="Phil_Swatton_Academic_CV.pdf">Academic CV</a>
