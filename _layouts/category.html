@@ -1,0 +1,8 @@
+---
+layout: default
+---
+
+<h2>{{page.category_name}} Posts</h2>
+{% for post in site.categories[page.category_name] %}
+{% include post_card.html %}
+{% endfor %}
