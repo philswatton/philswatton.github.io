@@ -34,14 +34,14 @@ layout: default
     <p>Please cite this blog post as:</p>
 
     <div class="cite-div">
-        <p>Swatton, P.J. ({{ page.date | date_to_string | slice: -4, 4 }}) {{ page.title }} Available at: <a href="{{ page.url | absolute_url }}">{{ page.url | absolute_url }}</a></p>
+        <p>Swatton, P.J. ({{ page.date | date_to_string | slice: -4, 4 }}) {{ page.title }}: {{ page.subtitle }}. Available at: <a href="{{ page.url | absolute_url }}">{{ page.url | absolute_url }}</a></p>
     </div>
 
     <p>Bibtex:</p>
     <div class="cite-div">
         <p>@misc{swatton{{ page.date | date_to_string | slice: -4, 4 }}{{ page.title | split:" " | first }},<br>
         &emsp;&emsp;author = {Swatton, P.J.},<br>
-        &emsp;&emsp;title = &#123;{{ page.title }}&#125;,<br>
+        &emsp;&emsp;title = &#123;{{ page.title }}: {{ page.subtitle }}&#125;,<br>
         &emsp;&emsp;url = &#123;<a href="{{ page.url | absolute_url }}">{{ page.url | absolute_url }}</a>&#125;,<br>
         &emsp;&emsp;year = &#123;{{ page.date | date_to_string | slice: -4, 4 }}&#125;<br>
     }</p>
