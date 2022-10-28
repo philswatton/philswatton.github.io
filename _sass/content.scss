@@ -1,8 +1,4 @@
 /* Headers */
-h1, h2, h3, h4, h5, h6 {
-    font-family: $sans;
-}
-
 h1 {
     margin: 0px;
 }
@@ -23,10 +19,6 @@ a:hover {
     text-decoration: underline;
 }
 
-button {
-    font-family: $serif;
-}
-
 hr {
     border-top: 1px solid black;
     width: 100%;
@@ -42,7 +34,7 @@ figure {
 }
 
 .profile {
-    height: 200px;
+    height: 150px;
     border-radius: 50%;
 }
 
@@ -52,14 +44,18 @@ figure {
 
 /* Code chunks */
 code {
-    font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+    // Display
     display: block;
     width: 100%;
     padding: 4px;
-    background: $black;
-    color: $yt;
+    background: $yt-grey;
+    border-radius: 5px;
     white-space: break-spaces;
     word-wrap: break-word;
+
+    // Font
+    font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+    font-size: 14px;
 }
 
 p > code {

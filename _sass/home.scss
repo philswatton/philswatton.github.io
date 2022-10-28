@@ -1,45 +1,23 @@
 /* Home page layout */
 .home-div {
-    height: calc(100vh - 180px);
+    // height: calc(100vh - 180px);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     // text-align: center;
+    margin-bottom: 40px;
 
     figure {
         margin-bottom: 20px;
     }
 }
 
+.post-card {
 
-// /* Typing effect */
-// .welcome {
-//     font-size: 20px;
-//     font-family: $serif;
-//     margin: 0px;
-//     width: 100%;
-//     //margin-top: 20px;
-//     //margin-bottom: 20px;
-//     overflow: hidden; //hides the text while typing occurs
-//     white-space: nowrap; //keeps everything on the same line
-//     border-right: 3px solid; //this is the cursor
-//     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-// }
+    margin: 10px 0px 10px 0px;
 
-// .typing-div{
-//     margin: 0px;
-//     padding: 0px;
-// }
-
-// @keyframes typing {
-//     from {
-//       width: 0
-//     }
-//   }
-      
-//   @keyframes blink {
-//     50% {
-//       border-color: transparent
-//     }
-//   }
+    h3, p {
+        margin: 0px;
+    }
+}

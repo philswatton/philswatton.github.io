@@ -1,17 +1,17 @@
 /* Colors */
-$black: rgb(0, 0, 0);
+$black: #1D1D2E;
 $dark-grey: rgb(45, 45, 45);
 $grey: rgb(52, 61, 70);
 $lite-grey: rgb(158, 158, 158);
-$yt-grey: rgb(237, 237, 237);
+$yt-grey: #F6F8FA;
 $yt-yt-grey: rgb(250, 250, 250);
 $yt: rgb(255, 255, 255);
 $blu: rgb(2, 63, 144);
 $lite-blu: rgb(85, 85, 238);
 
 /* Fonts */
-$sans: 'Roboto', sans-serif;
-$serif: 'Arvo', serif;
+// $sans: 'Overpass', sans-serif;
+// $serif: 'Arvo', serif;
 $mono: 'Robot Mono', monospace;
 
 /* Dynamic placements and widths */
@@ -34,8 +34,8 @@ $cross-rotate: 45deg;
 
 /* Defaults */
 :root {
-    font-family: $serif;
-    font-size: 15px;
+    font-family: 'Overpass', sans-serif;;
+    font-size: 16px;
     color: $black;
 }
 
