@@ -8,18 +8,18 @@ layout: default
 </div>
 
 <div class="post-info">
-    <div class="info-div">
+    <!-- <div class="info-div">
         <p class="info-name">Author:</p>
         <p>Phil Swatton</p>
-    </div>
+    </div> -->
     <div class="info-div">
         <p class="info-name">Published:</p>
         <p>{{ page.date | date_to_string }}</p>
     </div>
-    <div class="info-div">
+    <!-- <div class="info-div">
         <p class="info-name">Citation:</p>
         <p>Swatton, P.J. ({{ page.date | date_to_string | slice: -4, 4 }})</p>
-    </div>
+    </div> -->
     <div class="info-div">
         <p class="info-name">Category:</p>
         <p><a href="/categories/{{ page.categories }}">{{ page.categories }}</a></p>
@@ -28,7 +28,7 @@ layout: default
 
 {{ content }}
 
-<h2>Citation</h2>
+<!-- <h2>Citation</h2>
 
 <div class="citation-details">
     <p>Please cite this blog post as:</p>
@@ -46,4 +46,4 @@ layout: default
         &emsp;&emsp;year = &#123;{{ page.date | date_to_string | slice: -4, 4 }}&#125;<br>
     }</p>
     </div>
-</div>
+</div> -->
