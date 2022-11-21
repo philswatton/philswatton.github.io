@@ -53,13 +53,13 @@ I chose 1500 simply because it's a relatively standard choice - no special reaso
 
 Once that was done, the big thing to implement is the iterative update algorithm. At the time of writing there are 44,060 matches in the dataset, starting in 1872.
 
-The eloratings.net update is calculated as[^4]
+The eloratings.net update is calculated as[^3]
 
 $$ R_n = R_o + K \times (W - W_e) $$
 
 where \\(R_n\\) is the new elo rating, \\(R_o\\) is the old elo rating, \\(K\\) is an importance value, \\(W\\) is the result, and \\(W_e\\) is the expected result. These last three terms obviously need some defining.
 
-Starting with the importance value, \\(K\\), this essentially determines the size of the update. At about 1, there's barely any update. At 100, the update is usually too large. 30 is a fairly standard value[^3]. The eloratings.net use the following values, conditional on the matches being played[^4]:
+Starting with the importance value, \\(K\\), this essentially determines the size of the update. At about 1, there's barely any update. At 100, the update is usually too large. 30 is a fairly standard value[^4]. The eloratings.net use the following values, conditional on the matches being played[^3]:
 
 - **60** for world cup finals
 - **50** for continental championship finals and major intercontinental tournaments
@@ -126,7 +126,7 @@ teams %>% arrange(rating) %>% `[`(32:1,) %>% head(5)
 26     Belgium 2049.297
 ```
 
-Reassuringly, these are the same top 5 as eloratings.net[^4], with the same rank order. The scores are slightly different, but this shouldn't dramatically alter things.
+Reassuringly, these are the same top 5 as eloratings.net[^3], with the same rank order. The scores are slightly different, but this shouldn't dramatically alter things.
 
 
 ## Monte Carlo Simulation
@@ -552,7 +552,7 @@ For the first one, the best betting odds are on Harry Kane, who was also the las
 
 I also used the same number of red cards from the previous world cup: 4.
 
-Finally, for the last question I found a report from 2010 indicating that for that world cup this was positive and statistically significant. So that was my answer.
+Finally, for the last question I found a report from 2010 indicating that for that world cup this was positive and statistically significant[^5]. So that was my answer.
 
 ## Conclusion
 
@@ -565,7 +565,6 @@ Hopefully these predictions do okay. At some point, I may try and find some othe
 
 [^1]: Football matches dataset: <https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017>
 [^2]: Fixture dates website: <https://fixturedownload.com/>
-[^3]: Blog post by Edouard Mathieu implementing a similar project for 2018, using the `elo` R package: <https://edomt.github.io/Elo-R-WorldCup/>
-[^4]: Elo Ratings website: <http://eloratings.net/about>
-[^5]: Predictions for the Fifa World Cup 2018 using R: <https://www.kaggle.com/code/lekroll/predictions-for-the-fifa-world-cup-2018-using-r/notebook>
-[^6]: Page x, if you're interested: <https://www.pwc.com/gx/en/issues/economy/global-economy-watch/assets/pdfs/global-economy-watch-june-2014-how-to-win-the-world-cup.pdf>
+[^3]: Elo Ratings website: <http://eloratings.net/about>
+[^4]: Blog post by Edouard Mathieu implementing a similar project for 2018, using the `elo` R package: <https://edomt.github.io/Elo-R-WorldCup/>
+[^5]: PDF page 5/report page 3, if you're interested: <https://www.pwc.com/gx/en/issues/economy/global-economy-watch/assets/pdfs/global-economy-watch-june-2014-how-to-win-the-world-cup.pdf>
