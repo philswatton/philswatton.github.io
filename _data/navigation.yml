@@ -10,5 +10,5 @@
 #   link: /interests.html
 - name: Blog
   link: /blog.html
-- name: Code
-  link: https://philswatton.github.io/Collected-R-Code/
+- name: Resources
+  link: /resources/
