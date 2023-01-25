@@ -17,7 +17,25 @@ title: research
     <li>Social Democratic Party Positions on the EU&#58; The Case of Brexit</li>
 </ol>
 
-I am currently awaiting my viva.
+<p>I have completed my viva and am currently working on minor corrections.</p>
+
+<h2>Preprints</h2>
+
+<ol class="research-list">
+    {% for paper in site.data.preprints %}
+    <li>
+        <div class="project-div">
+            <h3>{{ paper.title }}</h3>
+            <p>{{ paper.authors }} ({{ paper.year }})</p>
+            <div>
+                {% if paper.link != nil %}<a href="{{ paper.link }}" class="item-link">Link</a>{% endif %}
+                {% if paper.pdf != nil %}<a href="{{ paper.pdf }}" class="item-link">PDF</a>{% endif %}
+                {% if paper.app != nil %}<a href="{{ paper.app }}" class="item-link">Appendix</a>{% endif %}
+            </div>
+        </div>
+    </li>
+    {% endfor %}
+</ol>
 
 <h2>Working Papers</h2>
 
