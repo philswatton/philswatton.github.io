@@ -5,7 +5,7 @@ title: git-reference
 
 # Git Reference
 
-This is a short reference sheet of git commands. I wrote it for my own uses as I frequently forget
+This is a short reference sheet of git commands. I wrote it for my own uses as I frequently forget the commands I should be using. This reference assumes that you'll be using GitHub as a remote repository.
 
 ## Initialising a repository
 
@@ -14,12 +14,31 @@ Initialise a repository
 git init
 ```
 
-Set default checkout branch to be `main`
+## Branch Management
+
+Create a branch called `main` and switch to it. Note you'll need to do this when creating the repository for the first time. Branch names should align with github branch names.
 ```
 git checkout -b main
 ```
 
-Add remote origin. Copy from SSH
+Switch current working branch to `main`.
+```
+git checkout main
+```
+
+List existing branches on your machine
+```
+git branch
+```
+
+Delete a branch called `implement_issue`
+```
+git branch -D implement_issue
+```
+
+## Remote Management
+
+Add remote origin. Copy SSH from github and replace as appropriate below
 ```
 git remote add origin git@github.com:username/repo.git
 ```
