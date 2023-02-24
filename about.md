@@ -3,21 +3,26 @@ layout: default
 title: interests
 ---
 
-# About me
+## About me
 
-I'm a Data Scientist at the Alan Turing Institute. I'm also a PhD student in the Department of Government at the University of Essex, where I'm currently awaiting my viva. My PhD thesis is titled 'Three Essays on the Measurement of Political Ideology'. Beyond my thesis, I've been involved in research projects in the realms of political methodology, public opinion, and comparative politics. You can check out a list of my work on my [research page](/research)<!--, or a description of my interests on my [interests page](/interests)-->. If you'd just like to get the full rundown on my skills and experience, you can check out one of my CVs:
+I'm a Data Scientist at the Alan Turing Institute. I'm also a PhD student in the Department of Government at the University of Essex, where I've recently passed my viva. My PhD thesis is titled 'Three Essays on the Measurement of Political Ideology'. Beyond my thesis, I've been involved in research projects in the realms of political methodology, public opinion, and comparative politics. In my spare time, I enjoy reading, programming, and learning new things.
+
+## My CV
+
+Academic and industry positions have different priorities and norms for CVs. For that reason, I maintain two CVs for applying to different kinds of position. Feel free to read one or both:
 
 <div class="cv-div">
     <a href="Phil_Swatton_Academic_CV.pdf">Academic CV</a>
     <a href="Phil_Swatton_Industry_CV.pdf">Industry CV</a>
 </div>
 
-In the course of my work I've also developed a passion for both R programming and more general programming. I also maintain a [projects page](/projects) on this website. I started developing an interest in general programming during the first lockdown when I learned how to write web code. By now I'm sufficiently proficient to have pursued several projects - including this website.
+## Contact
 
-During my PhD I've spent a large amount of time teaching quantitative research methods and R programming. My teaching experience has primarily been at the Essex Summer School and UCL. The courses I've taught on have covered ground such as R programming, statistics, philosophy of science, causal inference, measurement, webscraping, and machine learning.
+If you'd like to get in touch, you can:
 
-I also have professional experience in politics and have lecturered on political negotiation and rhetoric at the University of Suffolk.
-
-If you'd like to get in touch, you can tweet me at [@phil_swatton](https://twitter.com/phil_swatton), email me at [p.j.swatton@essex.ac.uk](mailto:p.j.swatton@essex.ac.uk), or find me on linkedin as [Phil Swatton](https://www.linkedin.com/in/philswatton/). If you'd like to see my code, anything that's publically available is on my github page where my username is [philswatton](https://github.com/philswatton).
-
-<!-- on research gate as [Philip Swatton](https://www.researchgate.net/profile/Philip-Swatton) -->
+- Tweet me at [@phil_swatton](https://twitter.com/phil_swatton)
+- Email me at:
+  - [p.j.swatton@essex.ac.uk](mailto:p.j.swatton@essex.ac.uk) (regarding my research as a PhD student)
+  - [pswatton@turing.ac.uk](pswatton@turing.ac.uk) (regarding my work at the Turing institute)
+- Find me on linkedin as [Phil Swatton](https://www.linkedin.com/in/philswatton/).
+- Browse my code on github at <https://github.com/philswatton>
