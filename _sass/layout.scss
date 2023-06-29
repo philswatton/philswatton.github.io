@@ -1,0 +1,89 @@
+/* Defaults */
+:root {
+    // font-family: 'Overpass', sans-serif;;
+    font-size: 16px;
+    color: $black;
+}
+
+/* Body width and flex */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    // Always show scroll
+    overflow-y: scroll;
+
+    // Layout
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Main */
+main {
+    //Height
+    min-height: 100vh;
+    max-height: auto;
+
+    //Width
+    left: $mob-left;
+    width: $mob-width;
+
+    //Box model
+    margin: 0px;
+    padding: 0px;
+}
+
+// Content container
+.content, .flexi-content {
+    //Height
+    height: auto;
+
+    //Width
+    width: 100%;
+
+    // Box Model
+    margin: 0px;
+    padding: 0px;
+    padding-top: $nav-height * 1.5;
+    padding-bottom: $footer-height * 2;
+}
+
+.content {
+    // Layout
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Media Queries */
+@media screen and (min-width: 920px) {
+    main:has(> .content) {
+        left: $tab-left;
+        width: $tab-width;
+    }
+
+    .columns-div {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    
+        div {
+            flex-grow: 1;
+            flex-basis: 0;
+        }
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    main:has(> .content) {
+        left: $pc-left;
+        width: $pc-width;
+    }
+}
+
+

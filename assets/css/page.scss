@@ -1,18 +1,18 @@
 ---
 ---
 // Core bits
-@import "core";
+@import "constants";
+@import "layout";
 
-// Page structure
+// Additional Layout CSS
 @import "nav";
 @import "footer";
 
 // Content
 @import "content";
 
-// Page Extras
+// Extra CSS for Pages
 @import "home";
-@import "about";
-@import "projects";
-@import "interests";
+@import "about"; // CV div
+@import "interests"; // page is now hidden - keep out of main
 @import "blog";

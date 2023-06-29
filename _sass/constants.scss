@@ -1,0 +1,39 @@
+/* Colors */
+$black: #1D1D2E;
+$dark-grey: rgb(45, 45, 45);
+$grey: rgb(52, 61, 70);
+$lite-grey: rgb(158, 158, 158);
+$yt-grey: #F6F8FA;
+$yt-yt-grey: rgb(250, 250, 250);
+$yt: rgb(255, 255, 255);
+$blu: rgb(2, 63, 144);
+$lite-blu: rgb(85, 85, 238);
+
+/* Fonts */
+$sans: 'Overpass', sans-serif;
+$serif: 'Arvo', serif;
+$mono: monospace;//'Robot Mono', monospace;
+
+/* Dynamic placements and widths */
+$mob-left: 2.5%;
+$tab-left: 25%;
+$pc-left: 30%;
+
+$mob-width: 95%;
+$tab-width: 50%;
+$pc-width: 40%;
+
+/* Height variables */
+$nav-height: 60px;
+$footer-height: 20px;
+
+/* Nav animation variables */
+$cross-shift: 19.2px;
+$cross-rotate: 45deg;
+
+/* Defaults */
+:root {
+    font-family: 'Overpass', sans-serif;;
+    font-size: 16px;
+    color: $black;
+}

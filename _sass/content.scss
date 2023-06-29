@@ -19,6 +19,13 @@ a:hover {
     text-decoration: underline;
 }
 
+.item-link {
+    padding: 4px;
+    background-color: $yt-grey;
+    border-radius: 10px;
+}
+
+/* Horizontal Rules */
 hr {
     border-top: 1px solid black;
     width: 100%;
@@ -63,4 +70,22 @@ p > code {
     padding: 0px;
     color: $black;
     background-color: transparent;
+}
+
+
+/* Research/project-related CSS */
+.project-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px 0px 20px 0px;
+
+    h3 {
+        margin: 0px;
+    }
+}
+
+.research-list > li::marker {
+    font-weight: bold;
 }
