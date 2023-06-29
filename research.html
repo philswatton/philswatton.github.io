@@ -1,82 +1,97 @@
 ---
-layout: default-cols
+layout: default
 title: research
 ---
 
 <h1>Research</h1>
 <p class="subtitle"><em>Last updated 24/02/2023</em></p>
 
-<div class="columns-div">
-    <div>
-        <h2>Peer Reviewed</h2>
 
-        <h3>PhD Thesis</h3>
-    
-        <p>My PhD thesis is titled <strong>Three Essays on the Measurement of Political Ideology</strong>. It has three component papers:</p>
-        <ol>
-            <li>Agree to Agree&#58; Correcting Acquiescence Bias in the Case of Fully Unbalanced Scales with Application to UK Measurements of Political Beliefs</li>
-            <li>Age Isn't Just a Number&#58; A Comparative Age-Period-Cohort Analysis of Political Beliefs in Europe</li>
-            <li>Social Democratic Party Positions on the EU&#58; The Case of Brexit</li>
-        </ol>
-        
-        <p>I have passed my viva and am currently working on minor corrections.</p>
-    </div>
-    
-    <div>
-        <h2>Reports and Preprints</h2>
+<div>
+    <h2>Peer-Reviewed Articles</h2>
 
-        <h3>Preprints</h3>
-    
-        <ol class="research-list">
-            {% for paper in site.data.preprints %}
-            <li>
-                <div class="project-div">
-                    <h3>{{ paper.title }}</h3>
-                    <p>{{ paper.authors }} ({{ paper.year }})</p>
-                    <div>
-                        {% if paper.link != nil %}<a href="{{ paper.link }}" class="item-link">Link</a>{% endif %}
-                        {% if paper.pdf != nil %}<a href="{{ paper.pdf }}" class="item-link">PDF</a>{% endif %}
-                        {% if paper.app != nil %}<a href="{{ paper.app }}" class="item-link">Appendix</a>{% endif %}
-                    </div>
+    <ol class="research-list">
+        {% for paper in site.data.articles.academic %}
+        <li>
+            <div class="project-div">
+                <h3>{{ paper.title }}</h3>
+                <p>{{ paper.authors }} ({{ paper.year }})</p>
+                <div>
+                    {% if paper.doi != nil %}<a href="{{ paper.doi }}" class="item-link">DOI</a>{% endif %}
+                    {% if paper.github != nil %}<a href="{{ paper.github }}" class="item-link">GitHub</a>{% endif %}
                 </div>
-            </li>
-            {% endfor %}
-        </ol>
-    </div>
-    
-    <div>
-        <h2>Currently Working On</h2>
+            </div>
+        </li>
+        {% endfor %}
+    </ol>
+</div>
 
-        <h3>Working Papers</h3>
-        <ol class="research-list">
-            {% for paper in site.data.working %}
-            <li>
-                <div class="project-div">
-                    <h3>{{ paper.title }}</h3>
-                    <p>{{ paper.authors }} ({{ paper.year }})</p>
-                    <div>
-                        {% if paper.pdf != nil %}<a href="{{ paper.pdf }}" class="item-link">PDF</a>{% endif %}
-                        {% if paper.app != nil %}<a href="{{ paper.app }}" class="item-link">Appendix</a>{% endif %}
-                    </div>
+
+<div>
+    <h2>PhD Thesis</h2>
+
+    <p>My PhD thesis is titled <strong>Three Essays on the Measurement of Political Ideology</strong>. It has three component papers:</p>
+    <ol>
+        <li>Agree to Agree&#58; Correcting Acquiescence Bias in the Case of Fully Unbalanced Scales with Application to UK Measurements of Political Beliefs</li>
+        <li>Age Isn't Just a Number&#58; A Comparative Age-Period-Cohort Analysis of Political Beliefs in Europe</li>
+        <li>Social Democratic Party Positions on the EU&#58; The Case of Brexit</li>
+    </ol>
+    
+    <a href="https://repository.essex.ac.uk/35479/" class="item-link">Link</a>
+</div>
+
+<div>
+    <h2>Preprints</h2>
+
+    <ol class="research-list">
+        {% for paper in site.data.wip.preprints %}
+        <li>
+            <div class="project-div">
+                <h3>{{ paper.title }}</h3>
+                <p>{{ paper.authors }} ({{ paper.year }})</p>
+                <div>
+                    {% if paper.link != nil %}<a href="{{ paper.link }}" class="item-link">Link</a>{% endif %}
+                    {% if paper.pdf != nil %}<a href="{{ paper.pdf }}" class="item-link">PDF</a>{% endif %}
+                    {% if paper.app != nil %}<a href="{{ paper.app }}" class="item-link">Appendix</a>{% endif %}
                 </div>
-            </li>
-            {% endfor %}
-        </ol>
-        
-        
-        <h3>Work In Progress</h3>
-        
-        <ol class="research-list">
-            {% for paper in site.data.wip %}
-            <li>
-                <div class="project-div">
-                    <h3>{{ paper.title }}</h3>
-                    <p>{{ paper.authors }}</p>
+            </div>
+        </li>
+        {% endfor %}
+    </ol>
+</div>
+
+<div>
+    <h2>Working Papers</h2>
+
+    <ol class="research-list">
+        {% for paper in site.data.wip.working %}
+        <li>
+            <div class="project-div">
+                <h3>{{ paper.title }}</h3>
+                <p>{{ paper.authors }} ({{ paper.year }})</p>
+                <div>
+                    {% if paper.pdf != nil %}<a href="{{ paper.pdf }}" class="item-link">PDF</a>{% endif %}
+                    {% if paper.app != nil %}<a href="{{ paper.app }}" class="item-link">Appendix</a>{% endif %}
                 </div>
-            </li>
-            {% endfor %}
-        </ol>
-    </div>
+            </div>
+        </li>
+        {% endfor %}
+    </ol>
+</div>
+
+<div>
+    <h2>Work In Progress</h2>
+    
+    <ol class="research-list">
+        {% for paper in site.data.wip.wip %}
+        <li>
+            <div class="project-div">
+                <h3>{{ paper.title }}</h3>
+                <p>{{ paper.authors }}</p>
+            </div>
+        </li>
+        {% endfor %}
+    </ol>
 </div>
 
 

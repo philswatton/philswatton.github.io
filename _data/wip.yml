@@ -1,10 +1,32 @@
-- title: Mind the Acquiescence Gap&#58; The British Electorate is Less Left-Wing and Authoritarian than You Think
-  authors: Swatton, P.J.
-- title: Ideology and Attitudes In The 2020 Presidential Election&#58; Exploring Patterns From Survey Data
-  authors: Carroll, R. and Swatton, P.J.
-- title: Ideological and Issue Representation in the UK
-  authors: Carroll, R. and Swatton, P.J.
-- title: How Parties Die? Political Parties Change and Mortality in Western Democracies
-  authors: Kuraishi, A., Swatton, P.J., and Zur, R.
-- title: Participation and Inequality in the U.S. States
-  authors: Kostelka, F., Crippa, L. and Swatton, P.J.
+preprints:
+  - title: Collected Notes on Aldrich-McKelvey Scaling
+    authors: Swatton, P.J.
+    link: https://arxiv.org/abs/2301.08819
+    pdf: https://arxiv.org/pdf/2301.08819.pdf
+    year: 2023
+working:
+  - title: Agree to Agree&#58; Correcting Acquiescence Bias in the Case of Fully Unbalanced Scales with Application to UK Measurements of Political Beliefs
+    authors: Swatton, P.J.
+    year: 2021
+    pdf: /papers/a2a.pdf
+    app: /papers/a2a_appendix.pdf
+  - title: Age Isn't Just a Number&#58; A Comparative Age-Period-Cohort Analysis of Political Beliefs in Europe
+    authors: Swatton, P.J.
+    year: 2021
+    pdf: /papers/apc_lr.pdf
+    app: /papers/apc_lr_appendix.pdf
+  - title: The effect of Vocational Training on Voter Choice in the Case of Germany
+    authors: Swatton, P.J. and Wagner, S.
+    year: 2021
+    pdf: /papers/vocational_paper.pdf
+wip:
+  - title: Mind the Acquiescence Gap&#58; The British Electorate is Less Left-Wing and Authoritarian than You Think
+    authors: Swatton, P.J.
+  - title: Ideology and Attitudes In The 2020 Presidential Election&#58; Exploring Patterns From Survey Data
+    authors: Carroll, R. and Swatton, P.J.
+  - title: Ideological and Issue Representation in the UK
+    authors: Carroll, R. and Swatton, P.J.
+  - title: How Parties Die? Political Parties Change and Mortality in Western Democracies
+    authors: Kuraishi, A., Swatton, P.J., and Zur, R.
+  - title: Participation and Inequality in the U.S. States
+    authors: Kostelka, F., Crippa, L. and Swatton, P.J.
