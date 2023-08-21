@@ -21,8 +21,6 @@ Academic and industry positions have different priorities and norms for CVs. For
 If you'd like to get in touch, you can:
 
 - Tweet me at [@phil_swatton](https://twitter.com/phil_swatton)
-- Email me at:
-  - [p.j.swatton@essex.ac.uk](mailto:p.j.swatton@essex.ac.uk) (regarding my research as a PhD student)
-  - [pswatton@turing.ac.uk](pswatton@turing.ac.uk) (regarding my work at the Turing institute)
+- Email me at [pswatton@turing.ac.uk](pswatton@turing.ac.uk)
 - Find me on linkedin as [Phil Swatton](https://www.linkedin.com/in/philswatton/).
 - Browse my code on github at <https://github.com/philswatton>
