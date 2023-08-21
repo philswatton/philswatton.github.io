@@ -20,12 +20,12 @@ working:
     year: 2021
     pdf: /papers/vocational_paper.pdf
 wip:
-  - title: Mind the Acquiescence Gap&#58; The British Electorate is Less Left-Wing and Authoritarian than You Think
-    authors: Swatton, P.J.
-  - title: Ideology and Attitudes In The 2020 Presidential Election&#58; Exploring Patterns From Survey Data
-    authors: Carroll, R. and Swatton, P.J.
-  - title: Ideological and Issue Representation in the UK
-    authors: Carroll, R. and Swatton, P.J.
+  # - title: Mind the Acquiescence Gap&#58; The British Electorate is Less Left-Wing and Authoritarian than You Think
+  #   authors: Swatton, P.J.
+  # - title: Ideology and Attitudes In The 2020 Presidential Election&#58; Exploring Patterns From Survey Data
+  #   authors: Carroll, R. and Swatton, P.J.
+  # - title: Ideological and Issue Representation in the UK
+  #   authors: Carroll, R. and Swatton, P.J.
   - title: How Parties Die? Political Parties Change and Mortality in Western Democracies
     authors: Kuraishi, A., Swatton, P.J., and Zur, R.
   - title: Participation and Inequality in the U.S. States
