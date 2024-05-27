@@ -1,3 +1,19 @@
+published:
+- title: Social Democratic Party Positions on the EU&#58; The Case of Brexit
+  year: 2023
+  authors: Swatton, P.J.
+  doi: https://doi.org/10.1177/13540688231177557
+  github: https://github.com/philswatton/SocDem-Parties-EU-Replication
+- title: "Model Similarity Phase 2: Dataset Similarity"
+  year: 2023
+  authors: Swatton, P., Knight, J. and Bishop, J.
+  pdf: https://www.turing.ac.uk/sites/default/files/2024-04/arc_model_similarity_2.pdf
+  github: https://github.com/alan-turing-institute/arc-model-similarities-phase-2
+- title: "Agree to Agree: Correcting Acquiescence Bias in the Case of Fully Unbalanced Scales with Application to UK Measurements of Political Beliefs"
+  authors: Swatton, P.J.
+  year: 2024
+  doi: https://doi.org/10.1007/s11135-024-01891-0
+  github: https://github.com/philswatton/Correcting-Acquiescence-Unbalanced-Replication
 preprints:
   - title: Collected Notes on Aldrich-McKelvey Scaling
     authors: Swatton, P.J.
@@ -5,11 +21,6 @@ preprints:
     pdf: https://arxiv.org/pdf/2301.08819.pdf
     year: 2023
 working:
-  - title: Agree to Agree&#58; Correcting Acquiescence Bias in the Case of Fully Unbalanced Scales with Application to UK Measurements of Political Beliefs
-    authors: Swatton, P.J.
-    year: 2021
-    pdf: /papers/a2a.pdf
-    app: /papers/a2a_appendix.pdf
   - title: Age Isn't Just a Number&#58; A Comparative Age-Period-Cohort Analysis of Political Beliefs in Europe
     authors: Swatton, P.J.
     year: 2021

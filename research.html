@@ -4,20 +4,21 @@ title: research
 ---
 
 <h1>Research</h1>
-<p class="subtitle"><em>Last updated 24/02/2023</em></p>
+<p class="subtitle"><em>Last updated 27/05/2024</em></p>
 
 
 <div>
-    <h2>Peer-Reviewed Articles</h2>
+    <h2>Publications</h2>
 
     <ol class="research-list">
-        {% for paper in site.data.articles.academic %}
+        {% for paper in site.data.research.published reversed %}
         <li>
             <div class="project-div">
                 <h3>{{ paper.title }}</h3>
                 <p>{{ paper.authors }} ({{ paper.year }})</p>
                 <div>
                     {% if paper.doi != nil %}<a href="{{ paper.doi }}" class="item-link">DOI</a>{% endif %}
+                    {% if paper.pdf != nil %}<a href="{{ paper.pdf }}" class="item-link">PDF</a>{% endif %}
                     {% if paper.github != nil %}<a href="{{ paper.github }}" class="item-link">GitHub</a>{% endif %}
                 </div>
             </div>
@@ -44,7 +45,7 @@ title: research
     <h2>Preprints</h2>
 
     <ol class="research-list">
-        {% for paper in site.data.wip.preprints %}
+        {% for paper in site.data.research.preprints %}
         <li>
             <div class="project-div">
                 <h3>{{ paper.title }}</h3>
@@ -64,7 +65,7 @@ title: research
     <h2>Working Papers</h2>
 
     <ol class="research-list">
-        {% for paper in site.data.wip.working %}
+        {% for paper in site.data.research.working %}
         <li>
             <div class="project-div">
                 <h3>{{ paper.title }}</h3>
@@ -83,7 +84,7 @@ title: research
     <h2>Work In Progress</h2>
     
     <ol class="research-list">
-        {% for paper in site.data.wip.wip %}
+        {% for paper in site.data.research.wip %}
         <li>
             <div class="project-div">
                 <h3>{{ paper.title }}</h3>
