@@ -4,7 +4,7 @@ title: research
 ---
 
 <h1>Research</h1>
-<p class="subtitle"><em>Last updated 27/05/2024</em></p>
+<p class="subtitle"><em>Last updated 09/06/2024</em></p>
 
 
 <div>
@@ -18,6 +18,7 @@ title: research
                 <p>{{ paper.authors }} ({{ paper.year }})</p>
                 <div>
                     {% if paper.doi != nil %}<a href="{{ paper.doi }}" class="item-link">DOI</a>{% endif %}
+                    {% if paper.link != nil %}<a href="{{ paper.link }}" class="item-link">Link</a>{% endif %}
                     {% if paper.pdf != nil %}<a href="{{ paper.pdf }}" class="item-link">PDF</a>{% endif %}
                     {% if paper.github != nil %}<a href="{{ paper.github }}" class="item-link">GitHub</a>{% endif %}
                 </div>
@@ -25,20 +26,6 @@ title: research
         </li>
         {% endfor %}
     </ol>
-</div>
-
-
-<div>
-    <h2>PhD Thesis</h2>
-
-    <p>My PhD thesis is titled <strong>Three Essays on the Measurement of Political Ideology</strong>. It has three component papers:</p>
-    <ol>
-        <li>Agree to Agree&#58; Correcting Acquiescence Bias in the Case of Fully Unbalanced Scales with Application to UK Measurements of Political Beliefs</li>
-        <li>Age Isn't Just a Number&#58; A Comparative Age-Period-Cohort Analysis of Political Beliefs in Europe</li>
-        <li>Social Democratic Party Positions on the EU&#58; The Case of Brexit</li>
-    </ol>
-    
-    <a href="https://repository.essex.ac.uk/35479/" class="item-link">Link</a>
 </div>
 
 <div>
@@ -54,6 +41,25 @@ title: research
                     {% if paper.link != nil %}<a href="{{ paper.link }}" class="item-link">Link</a>{% endif %}
                     {% if paper.pdf != nil %}<a href="{{ paper.pdf }}" class="item-link">PDF</a>{% endif %}
                     {% if paper.app != nil %}<a href="{{ paper.app }}" class="item-link">Appendix</a>{% endif %}
+                </div>
+            </div>
+        </li>
+        {% endfor %}
+    </ol>
+</div>
+
+<div>
+    <h2>Other Writing</h2>
+    
+    <ol class="research-list">
+        {% for paper in site.data.research.writing %}
+        <li>
+            <div class="project-div">
+                <h3>{{ paper.title }}</h3>
+                <p>{{ paper.authors }} ({{ paper.year }})</p>
+                <div>
+                    {% if paper.link != nil %}<a href="{{ paper.link }}" class="item-link">Link</a>{% endif %}
+                    {% if paper.pdf != nil %}<a href="{{ paper.pdf }}" class="item-link">PDF</a>{% endif %}
                 </div>
             </div>
         </li>
@@ -96,3 +102,15 @@ title: research
 </div>
 
 
+<div>
+    <h1>PhD Thesis</h1>
+
+    <p>My PhD thesis is titled <strong>Three Essays on the Measurement of Political Ideology</strong>. It has three component papers:</p>
+    <ol>
+        <li>Agree to Agree&#58; Correcting Acquiescence Bias in the Case of Fully Unbalanced Scales with Application to UK Measurements of Political Beliefs</li>
+        <li>Age Isn't Just a Number&#58; A Comparative Age-Period-Cohort Analysis of Political Beliefs in Europe</li>
+        <li>Social Democratic Party Positions on the EU&#58; The Case of Brexit</li>
+    </ol>
+    
+    <a href="https://repository.essex.ac.uk/35479/" class="item-link">Link</a>
+</div>

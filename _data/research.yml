@@ -10,16 +10,26 @@ published:
   pdf: https://www.turing.ac.uk/sites/default/files/2024-04/arc_model_similarity_2.pdf
   github: https://github.com/alan-turing-institute/arc-model-similarities-phase-2
 - title: "Agree to Agree: Correcting Acquiescence Bias in the Case of Fully Unbalanced Scales with Application to UK Measurements of Political Beliefs"
-  authors: Swatton, P.J.
+  authors: Swatton, P.
   year: 2024
   doi: https://doi.org/10.1007/s11135-024-01891-0
   github: https://github.com/philswatton/Correcting-Acquiescence-Unbalanced-Replication
+- title: "AI-Enabled Influence Operations: The Threat to the UK General Election"
+  authors: Stockwell, S., Hughes, M., Swatton, P., and Bishop, K.
+  year: 2024
+  link: https://cetas.turing.ac.uk/publications/ai-enabled-influence-operations-threat-uk-general-election
+  pdf: https://cetas.turing.ac.uk/sites/default/files/2024-05/cetas_briefing_paper_-_ai-enabled_influence_operations_-_the_threat_to_the_uk_general_election.pdf
 preprints:
   - title: Collected Notes on Aldrich-McKelvey Scaling
     authors: Swatton, P.J.
     link: https://arxiv.org/abs/2301.08819
     pdf: https://arxiv.org/pdf/2301.08819.pdf
     year: 2023
+writing:
+  - title: "What are deepfakes and how can we detect them?: The science behind the tech that's transforming the online world"
+    authors: Swatton, P., and Leblanc, M.
+    link: https://www.turing.ac.uk/blog/what-are-deepfakes-and-how-can-we-detect-them
+    year: 2024
 working:
   - title: Age Isn't Just a Number&#58; A Comparative Age-Period-Cohort Analysis of Political Beliefs in Europe
     authors: Swatton, P.J.
