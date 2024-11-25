@@ -8,7 +8,7 @@ The code of this website (HTML, SCSS, Javascript, etc), contents of this website
 
 ## Code
 
-The code of this website is available under the CC BY 4.0 licence. You can read the full terms of the licence [here](https://creativecommons.org/licenses/by/4.0/legalcode).
+The *code* of this website is available under the CC BY 4.0 licence. You can read the full terms of the licence [here](https://creativecommons.org/licenses/by/4.0/legalcode).
 
 In short, you are free to:
 
@@ -21,7 +21,7 @@ The requirements of this licence are:
 
 ## Content
 
-All rights are reserved for the content of this website at present.
+All rights are reserved for the *content* of this website at present
 
 ## PDF Documents
 

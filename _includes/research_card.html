@@ -1,0 +1,11 @@
+<div class="research-card">
+    <p class="research-title">{{ paper.title }}</p>
+    <p><em>{{ paper.authors }}</em>{% if paper.year != nil %} ({{ paper.year }}){% endif %}</p>
+    <div class="research-links">
+        {% if paper.doi != nil %}<a href="{{ paper.doi }}" class="item-link">DOI</a>{% endif %}
+        {% if paper.link != nil %}<a href="{{ paper.link }}" class="item-link">Link</a>{% endif %}
+        {% if paper.pdf != nil %}<a href="{{ paper.pdf }}" class="item-link">PDF</a>{% endif %}
+        {% if paper.github != nil %}<a href="{{ paper.github }}" class="item-link">GitHub</a>{% endif %}
+    </div>
+</div>
+

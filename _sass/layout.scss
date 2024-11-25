@@ -1,19 +1,21 @@
 /* Defaults */
 :root {
-    // font-family: 'Overpass', sans-serif;;
+    font-family: $sans;
     font-size: 16px;
     color: $black;
 }
 
-/* Body width and flex */
-html, body {
+html {
     height: 100%;
     width: 100%;
     margin: 0;
 }
 
+/* Body */
 body {
-    // Always show scroll
+    padding: 1;
+
+    // Always show scroll bar
     overflow-y: scroll;
 
     // Layout
@@ -22,68 +24,23 @@ body {
     align-items: center;
 }
 
-/* Main */
-main {
-    //Height
-    min-height: 100vh;
-    max-height: auto;
-
-    //Width
-    left: $mob-left;
-    width: $mob-width;
-
-    //Box model
-    margin: 0px;
-    padding: 0px;
-}
-
-// Content container
-.content, .flexi-content {
-    //Height
-    height: auto;
-
-    //Width
+/* Responsive Width */
+.container {
     width: 100%;
-
-    // Box Model
-    margin: 0px;
-    padding: 0px;
-    padding-top: $nav-height * 1.5;
-    padding-bottom: $footer-height * 2;
+    max-width: 40em;
 }
 
-.content {
-    // Layout
+/* Footer */
+footer {
+    margin: 1em 0 1em 0;
+
+    // Display
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
-/* Media Queries */
-@media screen and (min-width: 920px) {
-    main:has(> .content) {
-        left: $tab-left;
-        width: $tab-width;
-    }
-
-    .columns-div {
-        margin-top: 20px;
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
-    
-        div {
-            flex-grow: 1;
-            flex-basis: 0;
-        }
-    }
+.copyright {
+    margin: 0px 0px 0px 10px;
 }
-
-@media screen and (min-width: 1500px) {
-    main:has(> .content) {
-        left: $pc-left;
-        width: $pc-width;
-    }
-}
-
-
