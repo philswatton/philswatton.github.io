@@ -3,11 +3,11 @@ layout: default
 title: resources
 ---
 
-<h1>Resources</h1>
+# Resources
 
 Some resources that I've either made myself or found useful.
 
-<h2>Code and Notes</h2>
+## Code
 
 <div>
     <h3>R Model Codes</h3>
@@ -26,3 +26,10 @@ Some resources that I've either made myself or found useful.
         <a href="https://github.com/philswatton/neural-networks-by-hand" class="item-link">GitHub</a>
     </div>
 </div>
+
+## Notes
+
+{% for paper in site.data.research.notes %}
+{% include research_card.html %}
+{% endfor %}
+

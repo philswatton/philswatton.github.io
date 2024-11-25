@@ -29,34 +29,29 @@ published:
   year: 2024
   link: https://cetas.turing.ac.uk/publications/ai-enabled-influence-operations-safeguarding-future-elections
   pdf: https://cetas.turing.ac.uk/sites/default/files/2024-11/cetas_research_report_-_ai-enabled_influence_operations_-_safeguarding_future_elections.pdf
-# preprints:
-#   - title: Collected Notes on Aldrich-McKelvey Scaling
-#     authors: Swatton, P.J.
-#     link: https://arxiv.org/abs/2301.08819
-#     pdf: https://arxiv.org/pdf/2301.08819.pdf
-#     year: 2023
-writing:
-  - title: "What are deepfakes and how can we detect them?: The science behind the tech that's transforming the online world"
-    authors: Swatton, P., and Leblanc, M.
-    link: https://www.turing.ac.uk/blog/what-are-deepfakes-and-how-can-we-detect-them
-    year: 2024
 working:
-  - title: Age Isn't Just a Number&#58; A Comparative Age-Period-Cohort Analysis of Political Beliefs in Europe
-    authors: Swatton, P.J.
-    year: 2021
-    pdf: /papers/apc_lr.pdf
-    app: /papers/apc_lr_appendix.pdf
-  - title: The effect of Vocational Training on Voter Choice in the Case of Germany
-    authors: Swatton, P.J. and Wagner, S.
-    year: 2021
-    pdf: /papers/vocational_paper.pdf
-  # - title: Mind the Acquiescence Gap&#58; The British Electorate is Less Left-Wing and Authoritarian than You Think
-  #   authors: Swatton, P.J.
-  # - title: Ideology and Attitudes In The 2020 Presidential Election&#58; Exploring Patterns From Survey Data
-  #   authors: Carroll, R. and Swatton, P.J.
-  # - title: Ideological and Issue Representation in the UK
-  #   authors: Carroll, R. and Swatton, P.J.
-  - title: How Parties Die? Political Parties Change and Mortality in Western Democracies
-    authors: Kuraishi, A., Swatton, P.J., and Zur, R.
-  # - title: Participation and Inequality in the U.S. States
-  #   authors: Kostelka, F., Crippa, L. and Swatton, P.J.
+- title: Age Isn't Just a Number&#58; A Comparative Age-Period-Cohort Analysis of Political Beliefs in Europe
+  authors: Swatton, P.J.
+  year: 2021
+  pdf: /papers/apc_lr.pdf
+  app: /papers/apc_lr_appendix.pdf
+- title: The effect of Vocational Training on Voter Choice in the Case of Germany
+  authors: Swatton, P.J. and Wagner, S.
+  year: 2021
+  pdf: /papers/vocational_paper.pdf
+- title: How Parties Die? Political Parties Change and Mortality in Western Democracies
+  authors: Kuraishi, A., Swatton, P.J., and Zur, R.
+# - title: Mind the Acquiescence Gap&#58; The British Electorate is Less Left-Wing and Authoritarian than You Think
+#   authors: Swatton, P.J.
+# - title: Ideology and Attitudes In The 2020 Presidential Election&#58; Exploring Patterns From Survey Data
+#   authors: Carroll, R. and Swatton, P.J.
+# - title: Ideological and Issue Representation in the UK
+#   authors: Carroll, R. and Swatton, P.J.
+# - title: Participation and Inequality in the U.S. States
+#   authors: Kostelka, F., Crippa, L. and Swatton, P.J.
+notes:
+- title: Collected Notes on Aldrich-McKelvey Scaling
+  authors: Swatton, P.J.
+  link: https://arxiv.org/abs/2301.08819
+  pdf: https://arxiv.org/pdf/2301.08819.pdf
+  year: 2023
