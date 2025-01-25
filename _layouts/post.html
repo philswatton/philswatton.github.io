@@ -13,16 +13,14 @@ layout: default
         <p>Phil Swatton</p>
     </div> -->
     <div class="info-div">
-        <p class="info-name">Published:</p>
-        <p>{{ page.date | date_to_string }}</p>
+        <p><strong>Published:</strong> {{ page.date | date_to_string }}</p>
     </div>
     <!-- <div class="info-div">
         <p class="info-name">Citation:</p>
         <p>Swatton, P.J. ({{ page.date | date_to_string | slice: -4, 4 }})</p>
     </div> -->
     <div class="info-div">
-        <p class="info-name">Category:</p>
-        <p><a href="/categories/{{ page.categories }}">{{ page.categories }}</a></p>
+        <p><strong>Tag:</strong> <a href="/tags">{{ page.tags }}</a></p>
     </div>
 </div>
 

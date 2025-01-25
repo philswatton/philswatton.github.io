@@ -2,7 +2,7 @@
 layout: post
 title: Aldrich-McKelvey Scaling
 subtitle: An Opinionated Guide to the Method and the Literature
-categories: ["Political Methodology"]
+tags: ["Political Methodology"]
 ---
 
 Aldrich-McKelvey scaling (henceforth AM scaling) is a fairly niche method in political science. Developed by Aldrich and McKelvey in a 1977 paper[^1], as a method it isn't widely known or used in political science. This is partly because it's so application-specific. You could use it solely to measure the positions of political parties from mass surveys, but there are often better methods available. It's typically used as a means of obtaining measures of ideology for both political parties and respondents on the same scale. Even here, it's entirely dependent on the availability of ordered rating scales of both voter and party positions in the same survey.
