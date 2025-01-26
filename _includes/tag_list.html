@@ -1,0 +1,8 @@
+{% for post in site.posts %}
+{% if post.categories contains 'archive' %}
+{% else %}
+{% if post.tags contains page.title %}
+{% include post_card.html %}
+{% endif %}
+{% endif %}
+{% endfor %}

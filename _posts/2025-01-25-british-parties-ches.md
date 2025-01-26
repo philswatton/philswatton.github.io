@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What Makes the British Party System Different?
-tags: ["Political Science"]
+tag: Political Science
 ---
 
 Ideology is an attribute we associate with many actors and objects. Voters, politicians, political parties, and manifestos are all things which we consider to have, or express, ideology.

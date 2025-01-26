@@ -2,7 +2,7 @@
 layout: post
 title: Forecasting the 2022 World Cup
 subtitle: How I used Elo Ratings and Monte Carlo simulation to enter the Essex Department of Government World Cup Prediction Contest
-tags: ["R"]
+tag: R
 ---
 
 I recently entered a world cup prediction contest in the Department of Government at Essex University. This isn't super-abnormal, except that my football knowledge is marginally less than my chances of home ownership.
