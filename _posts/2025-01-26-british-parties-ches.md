@@ -54,7 +54,7 @@ Each grid is subdivided into a plot for each survey year in which that question 
 
 ### Economic Left-Right
 
-<img src="/assets/images/blog/2025-01-25/left-right.png" alt="Grid of plots showing party left-right postions." class="blog-img">
+<img src="/assets/images/blog/2025-01-26/left-right.png" alt="Grid of plots showing party left-right postions." class="blog-img">
 
 I'm starting this analysis with economic left-right positions because of its continuing importance in West European party competition. It's true that we no longer exist in a world where politics is straightforwardly about competiting visions of economic justice and/or efficiency - too many othe dimensions of competition now exist. But economics remains arguably the most salient dimension in party competition.
 
@@ -68,7 +68,7 @@ It's more difficult to describe UKIP and the Brexit Party as idiosyncratic in th
 
 ### Europe
 
-<img src="/assets/images/blog/2025-01-25/eu.png" alt="Grid of plots showing party postions on Europe." class="blog-img">
+<img src="/assets/images/blog/2025-01-26/eu.png" alt="Grid of plots showing party postions on Europe." class="blog-img">
 
 The next dimension I looked at is orientations on Europe. As discussed above, the British public is arguably unique in West Europe for the degree and strength of Euroscepticism found within it. This is strongly reflected in the British party system. Equally interesting here is the way in which Brexit has influenced the positions of the British left on European integration.
 
@@ -81,7 +81,7 @@ On the rest of the left, the Greens show the most drastic pattern of shifts. In 
 
 ### Immigration
 
-<img src="/assets/images/blog/2025-01-25/immigration.png" alt="Grid of plots showing party postions on Europe." class="blog-img">
+<img src="/assets/images/blog/2025-01-26/immigration.png" alt="Grid of plots showing party postions on Europe." class="blog-img">
 
 At this point it's worth declaring: I've frontloaded the most interesting dimensions of party competition. In much of the rest of this post, British parties start to look more like their European cousins. This is true for the most part on immigration, but with a couple of interesting exceptions.
 
@@ -92,7 +92,7 @@ The liberal party family is fairly idiosyncratic on immigration, but the Liberal
 
 ### Socio-Cultural Issues
 
-<img src="/assets/images/blog/2025-01-25/gal-tan.png" alt="Grid of plots showing party postions on the GAL-TAN dimension." class="blog-img">
+<img src="/assets/images/blog/2025-01-26/gal-tan.png" alt="Grid of plots showing party postions on the GAL-TAN dimension." class="blog-img">
 
 Finally, I will discuss the positions of the parties on socio-cultural issues. In CHES, this is measured using something called the GAL-TAN dimension, which stands for Green-Alternative-Libertarian versus Traditionalist-Authoritarian-Nationalist[^6]. This captures a range of social and cultural issues which generally 'go together' (or oppose each other) in certain ways, such as environmentalism, authoritarianism, and nationalism - in other words, what it says on the tin.
 
@@ -104,7 +104,7 @@ All of the preceeding analysis has examined a single dimension at a time, and fo
 
 ### Left-Right vs EU Position
 
-<img src="/assets/images/blog/2025-01-25/lr-vs-eu.png" alt="Plot of party positions on the left-right (x-axis) versus EU positon (y-axis) dimensions." class="blog-img">
+<img src="/assets/images/blog/2025-01-26/lr-vs-eu.png" alt="Plot of party positions on the left-right (x-axis) versus EU positon (y-axis) dimensions." class="blog-img">
 
 When plotting left-right against party EU positions - and I hate writing this - a sort of 'horseshoe' shape comes out. I don't want to validate the folk political science of 'horseshoe theory' here. This is a fairly dumb notion that the far left and far right are far closer to each other than they are to say, the centre-left or centre-right respectively.
 
@@ -114,7 +114,7 @@ For the purposes of this blog post, the other thing this plot does is confirm so
 
 ### Left-Right vs Immigration
 
-<img src="/assets/images/blog/2025-01-25/lr-vs-immig.png" alt="Plot of party positions on the left-right (x-axis) versus EU positon (y-axis) dimensions." class="blog-img">
+<img src="/assets/images/blog/2025-01-26/lr-vs-immig.png" alt="Plot of party positions on the left-right (x-axis) versus EU positon (y-axis) dimensions." class="blog-img">
 
 If the last plot brings up the thought of horseshoe theory, then this plot provides another argument against it. Whether you get a horshoeshoe shape - or a linear one - is a function of which dimension you concentrate on. Party competition on economics and immigration is fairly one-dimensional in Western Europe across all survey years. In plots like these, we would expect high mutual information *and* a high pearson's correlation.
 
@@ -122,7 +122,7 @@ As before, it's interesting which parties are close to which across these two di
 
 ### Left-Right vs GAL-TAN
 
-<img src="/assets/images/blog/2025-01-25/lr-vs-galtan.png" alt="Plot of party positions on the left-right (x-axis) versus EU positon (y-axis) dimensions." class="blog-img">
+<img src="/assets/images/blog/2025-01-26/lr-vs-galtan.png" alt="Plot of party positions on the left-right (x-axis) versus EU positon (y-axis) dimensions." class="blog-img">
 
 As before, looking at GAL-TAN after looking at immigration is not particulary interesting or revealing. As with immigration, the positions of parties are fairly linearly correlated. Similar inferences as to party positions apply - I won't repeat them at this point. Instead, I'll conclude by noting that the extent to which West European party competition is linear or non-linear strongly depends on the dimensions of competition one is considering.
 
