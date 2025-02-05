@@ -6,13 +6,19 @@
 
 /* Headings */
 h1 {
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: bold;
     margin: 0.5em 0 0.1em 0;
 }
 h2 {
     font-size: 1.5em;
     font-weight: bold;
+}
+
+/* Footnote style */
+sup {
+    vertical-align: text-top;
+    font-size: 12px;
 }
 
 /* Link Style */
