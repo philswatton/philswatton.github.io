@@ -30,28 +30,7 @@ My PhD thesis is titled <strong>Three Essays on the Measurement of Political Ide
 2. Age Isn't Just a Number:  A Comparative Age-Period-Cohort Analysis of Political Beliefs in Europe
 3. Social Democratic Party Positions on the EU: The Case of Brexit
 
-<a href="https://repository.essex.ac.uk/35479/" class="item-link">Link</a>
-
-
-<!-- 
-
-<div>
-    <h2>Other Writing</h2>
-    
-    <ol class="research-list">
-        {% for paper in site.data.research.writing %}
-        <li>
-            <div class="project-div">
-                <h3>{{ paper.title }}</h3>
-                <p>{{ paper.authors }} ({{ paper.year }})</p>
-                <div>
-                    {% if paper.link != nil %}<a href="{{ paper.link }}" class="item-link">Link</a>{% endif %}
-                    {% if paper.pdf != nil %}<a href="{{ paper.pdf }}" class="item-link">PDF</a>{% endif %}
-                </div>
-            </div>
-        </li>
-        {% endfor %}
-    </ol>
+<div class="research-links">
+    <a href="https://repository.essex.ac.uk/35479/" class="item-link">Link</a>
+    <a href="https://repository.essex.ac.uk/35479/1/thesis.pdf" class="item-link">PDF</a>
 </div>
-
- -->
