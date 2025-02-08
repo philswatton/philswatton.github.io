@@ -10,7 +10,7 @@ An indicator outside of a social scientific setting might be the distinctive qui
 
 ### Likert scales
 
-In the social scientific setting, we rely on survey data to measurface is how to measure these concepts interest when they are attributes of individuals. A popular way of doing this is the _Likert scale_. In a Likert scale, survey respondents are given a number of questions to respond to, typically with a set of responses ranging from "strongly disagree" to "strongly agree" (precise wording varies).
+In the social scientific setting, we rely on survey data to measure these concepts of interest when they are attributes of individuals. A popular way of doing this is the _Likert scale_. In a Likert scale, survey respondents are given a number of questions to respond to, typically with a set of responses ranging from "strongly disagree" to "strongly agree" (precise wording varies).
 
 Researchers assign numbers to these (e.g. 0 = "strongly disagree", 4 = "strongly agree") and aggregate them in some way (e.g. take the mean). If some of the statements are worded in one direction and some in the opposite direction (e.g. some are left wing, some are right wing), then the statements for one direction will be coded in the reverse direction (e.g. for left-wing statements set 0 = "strongly agree", 4 = "strongly disagree"). The output scale of the aggregation is a Likert scale[^1].
 
