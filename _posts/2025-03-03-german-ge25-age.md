@@ -8,7 +8,7 @@ A small update this time. I'm still digesting much of the recent news and trying
 
 ## The Age Divides
 
-At this point, the age divides in the election have been widely reported. Namely: Die Linke came first among the youngest voters and the AfD came second. There is a clear gender divide: support for Die Linke was largely driven by women. The CDU/CSU and SPD meanwhile did best among older voters. You can see all of this in the plot below, for which I used data from the Infratest dimap exit poll[^1]:
+At this point, the age divides in the election have been widely reported. Namely: Die Linke came first among the youngest voters and the AfD came second. There is a clear gender divide: support for Die Linke was largely driven by women. The CDU/CSU and SPD meanwhile did best among older voters. You can see most of this in the plot below, for which I used data from the Infratest dimap exit poll[^1]:
 
 <img src="/assets/images/blog/2025-03-03/de_ge_25_by_age.png" alt="Plot of German 2025 general election results by age." class="blog-img">
 
