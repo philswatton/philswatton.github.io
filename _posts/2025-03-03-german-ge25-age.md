@@ -24,7 +24,7 @@ But in Germany, the AfD does better with young voters than it does older voters,
 
 In short, it *sort of* holds up, at least from the 18-24 age group to the 45-59 age group. Weirdly, the 60-69 and 70+ age groups look more like the 35-44 age group. I don't really know why this is. But they're still much less left-wing than the youngest age groups, which is probably the main thing to take from here.
 
-The next thing I looked at is the *composition* of the left-wing and right-wing votes in the election. Basically, I took the percentage each party represents of its grouping. For example: for the Greens I took the percentage of left-wing votes in that age group going to the Greens. The results are below:
+The next thing I looked at is the *composition* of the left-wing and right-wing votes in the election. Basically, I took the percentage each party represents of its grouping. For example: for the Greens I took the percentage of left-wing votes in that age group going to the Greens; while for the CDU/CSU I took the percentage of right-wing votes going to the CDU/CSU. The results are below:
 
 <img src="/assets/images/blog/2025-03-03/de_ge_25_lr_comp_by_age.png" alt="Plot of German 2025 general election results in terms of composition of left/right for each party by age." class="blog-img">
 
@@ -44,7 +44,7 @@ The open question is how much this will interact with the typical life-trajector
 
 One thing I haven't explored here is the gender dynamics of all of this. It's now known, if not as widely reported as it *should* be, that the swing to Die Linke among younger voters was driven by women[^5]. If memory serves, all of this mirrors the basic patterns around Reform and Green support in the UK. Younger UK voters on average do not vote right, but if they do they vote Reform. But this is largely driven by young men, and not young women.
 
-It's plausible that young German women will remain to the left of men of the same generation for the rest of their lives. There is also evidence for this in terms of cohort effects[^6]. Notably, in the same evidence older women tend to be the right of older men: I would not be surprised if a similar dynamic held with CDU/CSU and SPD support among the old.
+It's plausible that young German women will remain to the left of men of the same generation for the rest of their lives. There is also evidence for this in terms of cohort effects[^6]. Notably, in the same evidence older women tend to be *ceteris paribus* to the right of older men: I would not be surprised if a similar dynamic held with CDU/CSU and SPD support among the old.
 
 ## Coda
 
