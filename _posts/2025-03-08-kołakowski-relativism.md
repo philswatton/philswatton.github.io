@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kołakowski Against Relativism
-tag: Literature
+tag: Philosophy
 ---
 
 I have recently had the pleasure of aquainting myself with Leszek Kołakowski's essays collected in *[Is God Happy?](https://www.penguin.co.uk/books/184067/is-god-happy-by-kolakowski-leszek/9780141389554)* published by Penguin. I discovered Kołakowski through an essay of [Tony Judt](https://www.penguin.co.uk/books/431344/reappraisals-by-tony-judt/9780099532330)'s, and was immediately intrigued by his intellectual trajectory. Kołakowski was a Polish philosopher who was forced from his homeland for his criticism of Stalinist orthodoxy and moved to England. He had some fame at the time as a dissident Marxist humanist, but by the move to England had already abandoned his earlier position and came to see Stalinism not as an abberation but as a logical consequence of Marxism. In the 1970s he wrote and published *Main Currents of Marxism*, a deeply ambitious intellectual history of Marxist philosophy from pre-Marxist origins to Stalinist and revisionist present considered to be his magnum opus. Having written this, his interest in Marxism and Marxist philosophy subsequently declined and he took to further developing his interest in the philosophy of religion.
