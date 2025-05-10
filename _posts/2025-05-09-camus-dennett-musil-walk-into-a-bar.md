@@ -32,7 +32,7 @@ Dennett, for his part, does not attempt to challenge Camus' claim - on the groun
 
 Dennett's perspective is thus not to rubbish the humanistic perspective of Camus and Musil, but rather to assert that science can serve to produce a richer experience of the world, contra the aversion of both to its classifications and enumerations:
 
-> "Fiery gods driving golden chariots across the skies are simpleminded comic-book fare compared to the ravishing strangeness of contemporary cosmology, and the recursive intracies of the reproductive machinery of DNA make _élan vital_ about as interesting as Superman's dread kryptonite. When we understand consciousness - when there is no more mustery - consciousness will be different, but there will still be beauty, and more room than ever for awe."
+> "Fiery gods driving golden chariots across the skies are simpleminded comic-book fare compared to the ravishing strangeness of contemporary cosmology, and the recursive intracies of the reproductive machinery of DNA make _élan vital_ about as interesting as Superman's dread kryptonite. When we understand consciousness - when there is no more mystery - consciousness will be different, but there will still be beauty, and more room than ever for awe."
 
 ---
 
