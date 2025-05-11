@@ -10,7 +10,7 @@ The decision to work with ideology in this abstract, low-dimensional setting is 
 
 ### Ideological Constraints
 
-An obvious constraint is logic, which goes to the effect of "if you believe x, it makes sense to believe y". But there are other sources of constrain. Psycholical constraints are those where if one is attached to a particular ideology or belief system such as Marxism, then one is constrained to hold beliefs associated with Marxism. Social constraints are a certain common sense of "what goes together", which are really culturally contingent between both time periods and contexts.
+An obvious constraint is logic, which goes to the effect of "if you believe x, it makes sense to believe y". But there are other sources of constraint. Psychological constraints are those where if one is attached to a particular ideology or belief system such as Marxism, then one is constrained to hold beliefs associated with Marxism. Social constraints are a certain common sense of "what goes together", which are really culturally contingent between both time periods and contexts.
 
 Exactly how constrained voters are is a matter of debate among political scientists, and voters vary in their level of constraint. More 'sophisticated' voters (i.e. those more knowledgeable about politics) are typically more constrained, and constrained in predictable ways. It's due to these constraints that the idea of low-dimensional ideology is a principled one to work with.
 
