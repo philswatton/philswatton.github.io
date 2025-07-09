@@ -29,6 +29,15 @@ published:
   year: 2024
   link: https://cetas.turing.ac.uk/publications/ai-enabled-influence-operations-safeguarding-future-elections
   pdf: https://cetas.turing.ac.uk/sites/default/files/2024-11/cetas_research_report_-_ai-enabled_influence_operations_-_safeguarding_future_elections.pdf
+- title: Selective Forgetting in LLMs
+  authors: Dymond, J., Swatton, P., Roberts, J. and Bishop, J.
+  year: 2024
+  pdf: https://www.turing.ac.uk/sites/default/files/2025-07/arc_selective_forgetting_in_llms.pdf
+  github: https://github.com/alan-turing-institute/arc-selective-forgetting
+- title: Closed-Domain Event Extraction&#58; Literature Review
+  authors: Swatton, P., Hickey, A., Knight, J. and Bishop, J.
+  year: 2025
+  pdf: https://www.turing.ac.uk/sites/default/files/2025-07/arc_event_extraction_lit_review.pdf
 working:
 - title: Age Isn't Just a Number&#58; A Comparative Age-Period-Cohort Analysis of Political Beliefs in Europe
   authors: Swatton, P.J.

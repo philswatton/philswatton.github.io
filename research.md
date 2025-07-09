@@ -3,7 +3,7 @@ layout: default
 title: writing
 ---
 # Research
-<p class="update-notice"><em>Last updated 25/11/2024</em></p>
+<p class="update-notice"><em>Last updated 09/07/2025</em></p>
 
 I'm lucky enough to do research for a living, previously as a PhD student and now as a Data Scientist. This page lists my publications, with work conducted across the fields of political science, data science, and artificial intelligence. I do my best to keep this page up to date, but for a list that's more likely (though not guaranteed) to be current I recommend visiting my [google scholar profile](https://scholar.google.co.uk/citations?user=mbxIgHAAAAAJ&hl=en&oi=ao).
 
