@@ -5,7 +5,7 @@ title: writing
 # Research
 <p class="update-notice"><em>Last updated 09/07/2025</em></p>
 
-I'm lucky enough to do research for a living, previously as a PhD student and now as a Data Scientist. This page lists my publications, with work conducted across the fields of political science, data science, and artificial intelligence. I do my best to keep this page up to date, but for a list that's more likely (though not guaranteed) to be current I recommend visiting my [google scholar profile](https://scholar.google.co.uk/citations?user=mbxIgHAAAAAJ&hl=en&oi=ao).
+I'm lucky enough to do research for living, currently as a Data Scientist and previously as a PhD student in political science. I still try to publish in political science when my spare time allows. This page lists my published research and working papers, with work conducted across the fields of political science, data science, and artificial intelligence. "Published" here means a mix of peer-reviewed journal articles, technical reports, and research reports. This page is usually the most up to date list of my research, but you can also visit my [google scholar profile](https://scholar.google.co.uk/citations?user=mbxIgHAAAAAJ&hl=en&oi=ao).
 
 
 ## Publications
