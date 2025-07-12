@@ -36,7 +36,7 @@ Given the wide range of meanings of the term, there is a correspondingly wide ra
 
 Crick explicitly expresses distaste for the use of "democracy" to mean "mixed government" in (his reading of) the Aristotlean sense of the term (a "polity"), combining both aristocratic and democratic principles. The aristocratic principle is a recognition of the importance of experience, skill, and knowledge to good governance, and a rejection of opinion alone. Reconciling it to the democratic principle requires however that governance be subjected to the consent of the governed. In Crick's account, Aristotle
 
-> "saw [Democracy] as a necessary element in polity or mixed-government, but alone it was destructive of the political community"
+> "saw [Democracy] as a necessary element in polity or mixed-government, but alone it was destructive of the political community."
 
 <p style="text-align:center"><strong>Liberal Democracy</strong></p>
 
