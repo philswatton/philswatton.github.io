@@ -28,11 +28,15 @@ title: Home
 <div class="box">
   <p class="box-title">Latest Blog Posts</p>
   <div class="box-content">
-    {% for post in site.posts limit:3 %}
-    {% if post.categories contains 'archive' %}
-    {% else %}
-    {% include post_card.html %}
-    {% endif %}
+    {% assign counter = 0 %}
+    {% for post in site.posts %}
+      {% if post.categories contains 'archive' %}
+      {% else %}
+        {% if counter < 3 %}
+          {% include post_card.html %}
+          {% assign counter = counter | plus: 1 %}
+        {% endif %}
+      {% endif %}
     {% endfor %}
   </div>
 </div>
