@@ -10,25 +10,25 @@ As I write, a radical right political movement has captured the government of th
 
 I am focussing here on the second of the five defences, which is the defence of politics against democracy. To clarify the nature of Crick's defence, it is important to understand what he means by "politics" and by "democracy". Politics for Crick is:
 
-> "the activity by which differeing interests within a given unit of rule are conciliated by giving them a share in power in proportion to their importance to the welfare and the survival of the whole community"
+> the activity by which differeing interests within a given unit of rule are conciliated by giving them a share in power in proportion to their importance to the welfare and the survival of the whole community
 
 In this definition Crick is drawing on his reading of Aristotle, and setting him against Plato. Plato characterises politics as aiming at unity[^2], where Aristotle recognises that politics is an aggregation of many members of a community. Crick considers politics to be a solution to the "problem of diversity", which is the problem of reconciling many groups with differing interests and preferences to coexist with one another in peace. It is one of many possible alternatives to the problem of diversity, of which others are tyranny (rule by one man) and oligrarchy (rule by a single group in its own interest). All of these others solves the problem of diversity through coercion and force: only in political rule are competing interests reconciled to one another. Politics therefore arises in response to the simultaneous existence of
 
-> "... different groups, hence different interests and different traditions, within a territorial unit under a common rule."
+> ... different groups, hence different interests and different traditions, within a territorial unit under a common rule.
 
 Politics for Crick is an activity conducted by humans, rather than a set of principles or traditional habits requiring preservation. It is the specific activity which enables the possibility of pluralism and enables us to enjoy the variety of civilisation without descent into anarchy or the subsequent turn to tyranny. Not quite for the last time in the book, Crick compares politics to sex (one wonders if he enjoyed politics rather a lot, or sex not very much):
 
-> "... one does not create it or decide to join in - one simply becomes more and more aware that one is involved in it as part of the human condition."
+> ... one does not create it or decide to join in - one simply becomes more and more aware that one is involved in it as part of the human condition.
 
 Crick favours political rule precisely because it is the form of rule which aims to rule through consent and consiliation, rather than through coercion. It does not require consensus, but rather arrives at a provisional consensus through the process of consilitation. Indeed, the idea that a consensus is required in the form of Rousseau's General Will can even be destructive to the process of politics. Political rule, unlike others, allows for freedom precisely because it does not aim at unity:
 
-> "... politics represents at least some tolerance of differing truths, some recognition that gobernment is possible, indeed best conducted, amid the open canvassing of rival interests."
+> ... politics represents at least some tolerance of differing truths, some recognition that gobernment is possible, indeed best conducted, amid the open canvassing of rival interests.
 
 <p style="text-align:center"><strong>Democracy</strong></p>
 
 Democracy, Crick tells us, is among the most promiscuous[^3] of words, for
 
-> "She is everybody's mistress and yet somehow retains her magic even when a lover sees that her favours are being, in his light, illicitly shared by many another."
+> She is everybody's mistress and yet somehow retains her magic even when a lover sees that her favours are being, in his light, illicitly shared by many another.
 
 What he means by this is that the word "democracy" has taken on a range of meanings over time; including "majority rule", the right of minority groups to speak out against the majority, a synonym for equality, the "will of the peoople", rule by the poorest in the society, mob rule, or a political system placing constitutional limitations on a freely elected government. As we shall see, Crick considers the last of these - still one of the most common uses today and likely for the forseeable future - to be the most historically implausible use.
 
@@ -36,7 +36,7 @@ Given the wide range of meanings of the term, there is a correspondingly wide ra
 
 Crick explicitly expresses distaste for the use of "democracy" to mean "mixed government" in (his reading of) the Aristotlean sense of the term (a "polity"), combining both aristocratic and democratic principles. The aristocratic principle is a recognition of the importance of experience, skill, and knowledge to good governance, and a rejection of opinion alone. Reconciling it to the democratic principle requires however that governance be subjected to the consent of the governed. In Crick's account, Aristotle
 
-> "saw [Democracy] as a necessary element in polity or mixed-government, but alone it was destructive of the political community."
+> saw [Democracy] as a necessary element in polity or mixed-government, but alone it was destructive of the political community.
 
 <p style="text-align:center"><strong>Liberal Democracy</strong></p>
 
