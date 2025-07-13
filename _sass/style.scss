@@ -31,6 +31,12 @@ a:hover {
     text-decoration-color: $black;
 }
 
+/* Block quote style */
+blockquote {
+    border-left: 3px solid $colour;
+    margin: 0px;
+    padding: 0px 1em;
+}
 
 /* Navigation */
 nav {
