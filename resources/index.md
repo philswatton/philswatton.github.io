@@ -33,7 +33,7 @@ The following is two pieces of WIP that I may or may not get around to finishing
 
 Some fun or interesting reads that are deserving of a wider readership
 
-- [What the Tortoise Said to Achilles](/assets/pdfs/What the Tortoise Said to Achilles.pdf) - Lewis Carroll (1985)
+- [What the Tortoise Said to Achilles](/assets/pdfs/What the Tortoise Said to Achilles.pdf) - Lewis Carroll (1895)
 - [Is It O.K. To Be A Luddite?](https://archive.nytimes.com/www.nytimes.com/books/97/05/18/reviews/pynchon-luddite.html) - Thomas Pynchon (1984)
 - [The Tyranny of Time](https://www.noemamag.com/the-tyranny-of-time/) - Joe Zadeh (2021)
 
