@@ -29,13 +29,28 @@ The following is two pieces of WIP that I may or may not get around to finishing
     </div>
 </div>
 
-## Links
+## Good Reads
 
-Some fun or interesting reads that are deserving of a wider readership
+Some fun or interesting reads deserving of a wider readership.
 
+- [The Witness](https://web.mit.edu/allanmc/www/borges.thewitness.pdf) - Jorge Luis Borges (1967)
 - [What the Tortoise Said to Achilles](/assets/pdfs/What the Tortoise Said to Achilles.pdf) - Lewis Carroll (1895)
+- [R : Past and Future History](https://cran.r-project.org/doc/html/interface98-paper/paper.html) - Ross Ihaka (1998) [[PDF Version](https://www.stat.auckland.ac.nz/~ihaka/downloads/Interface98.pdf)]
+- [PEP 20 - The Zen of Python](https://peps.python.org/pep-0020/) - Tim Peters (2004)
 - [Is It O.K. To Be A Luddite?](https://archive.nytimes.com/www.nytimes.com/books/97/05/18/reviews/pynchon-luddite.html) - Thomas Pynchon (1984)
 - [The Tyranny of Time](https://www.noemamag.com/the-tyranny-of-time/) - Joe Zadeh (2021)
+
+## Links
+
+Websites and webpages I return to again and again either because they are incredibly useful or because I enjoy them.
+
+- [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/)
+
+## Media
+
+A journalist interviewed me once about deepfakes and was quoted twice in the subsquent article, so that justifies the existence of this section.
+
+- ['This Isn't Funny Anymore': AI Deepfakes Are Stealing Millions Every Year — and These Entrepreneurs Are Racing to Stop Them](https://www.entrepreneur.com/science-technology/ai-deepfakes-are-stealing-millions-every-year-whos/494361), Entrepreneur Magazine
 
 ## Notes
 

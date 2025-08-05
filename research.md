@@ -14,6 +14,11 @@ I'm lucky enough to do research for living, currently as a data scientist and pr
 {% include research_card.html %}
 {% endfor %}
 
+## Preprints
+
+{% for paper in site.data.research.preprint %}
+{% include research_card.html %}
+{% endfor %}
 
 ## Working Papers
 
@@ -24,7 +29,7 @@ I'm lucky enough to do research for living, currently as a data scientist and pr
 
 ## PhD Thesis
 
-My PhD thesis is titled <strong>Three Essays on the Measurement of Political Ideology</strong>. It has three component papers:
+My PhD thesis is titled <strong>Three Essays on the Measurement of Political Ideology</strong>. It has three component papers, along with an introduction and conclusion which I'm particularly proud of (typos aside):
 
 1. Agree to Agree: Correcting Acquiescence Bias in the Case of Fully Unbalanced Scales with Application to UK Measurements of Political Beliefs
 2. Age Isn't Just a Number:  A Comparative Age-Period-Cohort Analysis of Political Beliefs in Europe

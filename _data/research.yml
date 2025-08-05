@@ -38,6 +38,12 @@ published:
   authors: Swatton, P., Hickey, A., Knight, J. and Bishop, J.
   year: 2025
   pdf: https://www.turing.ac.uk/sites/default/files/2025-07/arc_event_extraction_lit_review.pdf
+preprint:
+- title: Applying Psychometrics to Large Language Model Simulated Populations&#58; Recreating the HEXACO Personality Inventory Experiment with Generative Agents
+  authors: Mercer, S., Martin, D.P. and Swatton, P.
+  year: 2025
+  doi: https://doi.org/10.48550/arXiv.2508.00742
+  pdf: https://arxiv.org/pdf/2508.00742
 working:
 - title: Age Isn't Just a Number&#58; A Comparative Age-Period-Cohort Analysis of Political Beliefs in Europe
   authors: Swatton, P.J.
