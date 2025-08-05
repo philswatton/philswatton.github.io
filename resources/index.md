@@ -48,7 +48,7 @@ Websites and webpages I return to again and again either because they are incred
 
 ## Media
 
-A journalist interviewed me once about deepfakes and was quoted twice in the subsquent article, so that justifies the existence of this section.
+A journalist interviewed me once about deepfakes and I was quoted twice in the subsquent article, so that justifies the existence of this section.
 
 - ['This Isn't Funny Anymore': AI Deepfakes Are Stealing Millions Every Year — and These Entrepreneurs Are Racing to Stop Them](https://www.entrepreneur.com/science-technology/ai-deepfakes-are-stealing-millions-every-year-whos/494361), Entrepreneur Magazine
 
