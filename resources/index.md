@@ -38,6 +38,7 @@ Some fun or interesting reads deserving of a wider readership.
 - [R : Past and Future History](https://cran.r-project.org/doc/html/interface98-paper/paper.html) - Ross Ihaka (1998) [[PDF Version](https://www.stat.auckland.ac.nz/~ihaka/downloads/Interface98.pdf)]
 - [PEP 20 - The Zen of Python](https://peps.python.org/pep-0020/) - Tim Peters (2004)
 - [Is It O.K. To Be A Luddite?](https://archive.nytimes.com/www.nytimes.com/books/97/05/18/reviews/pynchon-luddite.html) - Thomas Pynchon (1984)
+- [Advice for new software devs who've read all those other advice essays](https://buttondown.com/hillelwayne/archive/advice-for-new-software-devs-whove-read-all-those/) - Hillel Wayne (2023)
 - [The Tyranny of Time](https://www.noemamag.com/the-tyranny-of-time/) - Joe Zadeh (2021)
 
 ## Links
