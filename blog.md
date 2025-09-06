@@ -5,7 +5,7 @@ title: Blog
 
 # Blog
 
-This page presents all blog posts hosted on this website. You can view a version of this page where posts are sorted by their tags [at this link](/tags).
+This blog serves to collect some notes and thoughts from my readings. Most of them in my spare time and not in any area of expertise, but some inspired by my research. You can view a version of this page where posts are sorted by their tags rather than (only) chronologically [at this link](/tags).
 
 ## Posts
 

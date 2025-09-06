@@ -7,7 +7,7 @@ title: writing
 
 ## Dysfunctional Programming
 
-[Dysfunctional Programming](https://dysfunctionalprogramming.substack.com/) is my substack. I am still in the process of defining what I'll do with this. At the moment, the plan is to post two kinds of content here. First, every two weeks I intend to share a reading list of highlights from the past two weeks. Second, I intend post longform reads on topics where I draw on my research experience to comment on topics of general interest.
+[Dysfunctional Programming](https://dysfunctionalprogramming.substack.com/) is my substack. I am still in the process of defining what I'll do with this, having written two posts for it then immediately neglected it. It will probably act primarily as a place for longer-form content not appropriate for the blog on this website.
 
 ## Other Writing
 
