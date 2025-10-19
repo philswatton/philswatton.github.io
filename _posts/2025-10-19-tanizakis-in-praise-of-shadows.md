@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tanzaki's In Praise of Shadows
+title: Tanizaki's In Praise of Shadows
 tag: Literature
 ---
 
