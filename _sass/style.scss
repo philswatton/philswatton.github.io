@@ -64,8 +64,23 @@ nav {
     }
 }
 
+/* Blog Styling */
+.centre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .blog-img {
     width: 100%;
+}
+
+.blog-img-80 {
+    width: 80%;
+}
+
+.blog-img-50 {
+    width: 50%;
 }
 
 .post-info{
