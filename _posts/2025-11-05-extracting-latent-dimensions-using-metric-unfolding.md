@@ -50,7 +50,7 @@ Intuitively, this property means that \\(g(x,y)\\) "touches" \\(f(x)\\) at \\(x=
 
 $$ f(x^*) \le g(x^*,y) \le g(y,y) = f(y) $$
 
-This inequality ensures the new proposed value \\(x^*\\) does not increase the original function and so guarantees montonic improvement. Each new value further minimises both the surrogate, and by construction, the original function \\(f\\) - without ever needing to evaluate it. The resulting iterative procedure is:
+This inequality ensures the new proposed value \\(x^*\\) does not increase the original function and so guarantees montonic improvement. Each new value further minimises both the surrogate, and by construction, the original function \\(f\\) - without ever needing to evaluate it. To iterate, set the value of \\(y\\) to be \\(x^\*\\) and repeat the process of finding a new point. The resulting iterative procedure is:
 
 1. Choose an initial starting value \\(y := y_0\\)
 2. Find update \\(x^{(t)}\\) such that \\(g(x^{(t)}, y) \le g(y,y)\\)
@@ -65,7 +65,7 @@ For this example, I'm using the 2024 ANES dataset, and I'm using most of the pos
 ```R
 anes <- anes %>% filter(complete.cases(.)) # filtering missing data
 therms <- anes |> select(-libcon_self) # used later on for visualisation
-therms <- 100 - therms
+therms <- 100 - therms # reverse the direction
 ```
 
 The exact dimensionality of the solution is chosen in advance by the practitioner. At times, 2 or 3 will be natural choices, as the goal will largely be to plot distance data and these are the maximum values for being able to do so. At other times there may be a good reason for choosing a particular value. However, in situations where there is an absence of such a priori criteria, such as this one, we can instead approach selection by producing a scree plot, much as we would in PCA. For this example I ran solutions up to 10 dimensions, including a progress bar in the code as this can be a little slow:
