@@ -44,6 +44,10 @@ preprint:
   year: 2025
   doi: https://doi.org/10.48550/arXiv.2508.00742
   pdf: https://arxiv.org/pdf/2508.00742
+- title: Predictive Modelling Shows Demographics Do Not Predict Vote Choice at the Individual Level
+  authors: Swatton, P.
+  year: 2025
+  doi: https://doi.org/10.31235/osf.io/m9ft3_v1
 working:
 - title: Age Isn't Just a Number&#58; A Comparative Age-Period-Cohort Analysis of Political Beliefs in Europe
   authors: Swatton, P.J.
@@ -54,7 +58,7 @@ working:
   authors: Swatton, P.J. and Wagner, S.
   year: 2021
   pdf: /papers/vocational_paper.pdf
-- title: How Parties Die? Political Parties Change and Mortality in Western Democracies
+- title: How Do Parties Die? Political Parties Change and Mortality in Western Democracies
   authors: Kuraishi, A., Swatton, P.J., and Zur, R.
 # - title: Mind the Acquiescence Gap&#58; The British Electorate is Less Left-Wing and Authoritarian than You Think
 #   authors: Swatton, P.J.
