@@ -1,0 +1,13 @@
+---
+layout: post
+title: The Good Commuter's Rulebook
+tag: Miscellaneous
+---
+
+1. The good commuter is anyone who, for the purposes of work, has to take some form of public transport for a great distance and time (say, two hours or more for one direction). The good commuter does not respect casual commuters who live a short drive away from work who wish to complain about twenty minutes of traffic, or a short thirty minute train ride to a station close to their place of work. Such amateurs are precluded from the good commuter's club.
+2. The good commuter must regard the fact that one commutes for four or more hours a day as a form of time theft by one's workplace. The good commuter should therefore seek as much as possible to work from home, to avoid all work while working from home, and to procrastinate actively while at work. Work has stolen the commuting time from the good commuter, and so the good commuter should under all circumstances steal this time back.
+3. The good commuter should hold a deep contempt for train operators who place five seats to a row, rather than the more comfortable four. It is known to the good commuter that such arrangements are made solely for the purpose of making the journey as uncomfortable as humanly possible.
+4. Under all circumstances, the good commuter should carry a bag and place it such that it is impossible for another commuter to sit next to them without asking for the bag to be moved.
+5. On being asked to move one's bag by another commuter, the good commuter being a law-abiding citizen should move that bag, but should silently begrudge the other commuter's temerity to disturb their comfort, and curse them, their family, their ancestors, their pet, their pet's family, their pet's ancestors, and their religion or lack thereof.
+6. When getting on a busy train, given a choice between a free seat next to someone and a seat blocked by a bag next to someone, the good commuter under all circumstances should prefer to take the latter. The good commuter knows this will likely be a more uncomfortable journey given that this person is less likely to make accommodations to allow a fair distribution of space. The good commuter should therefore be willing to press their elbow into the other person as necessary.
+7. Where enacting point 6, the good commuter should proceed to silently judge the anti-social behaviour of the person whose baggage they have just attempted to move. The good commuter knows that if everyone were to behave this way, this would in the long term encourage a general spread of such anti-social behaviour and further degrade the comfort of the commute.
