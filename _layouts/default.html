@@ -19,11 +19,16 @@
     <!-- Page-specific Scripts (legacy) -->
     {% if page.script %}<script src="{{ page.script }}" type="text/JavaScript"></script>{% endif %}
 
-    <!-- Mathjax -->
-     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <!-- Mathjax https://www.mathjax.org/ -->
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+    <!-- Highlight.js https://highlightjs.org/ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/languages/python.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/languages/r.min.js"></script>
+    <script>hljs.highlightAll();</script>
 
-    
   </head>
   <body>
     <div class="container">

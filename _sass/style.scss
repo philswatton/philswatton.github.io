@@ -15,6 +15,12 @@ h2 {
     font-weight: bold;
 }
 
+/* Code */
+code {
+    font-family: $mono;
+    font-size: 0.8em;
+}
+
 /* Footnote style */
 sup {
     vertical-align: text-top;
