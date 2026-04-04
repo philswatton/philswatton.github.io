@@ -5,6 +5,8 @@ title: Tags
 
 # Tags
 
+[Back to blog](\blog)
+
 {% assign sortedTags = site.tags | sort %}
 {% for tag in sortedTags %}
  <h2>{{ tag[0] }}</h2>
