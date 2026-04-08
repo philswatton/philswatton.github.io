@@ -76,8 +76,8 @@ where \\(\boldsymbol{\mu}_A\\) and \\(\boldsymbol{\mu}_B\\) are the mean vectors
 
 We can use this analytic form to compute a dataset distance metric under the following conditions:
 
-1. Our datasets \\(D_A\\) and \\(D_B\\) are both drawn from the same feature space (i.e. have the same features and the distance function above is well-defined between any two observations in each dataset). This is required as otherwise the matrix operations in the formula are not defined (and nor, indeed, would the euclidean distance between points from each dataset be)
-2. We assume that the features of our datasets \\(D_A\\) and \\(D_B\\) both follow gaussian distributions
+1. Our datasets \\(\mathcal{D}_A\\) and \\(\mathcal{D}_B\\) are both drawn from the same feature space (i.e. have the same features and the distance function above is well-defined between any two observations in each dataset). This is required as otherwise the matrix operations in the formula are not defined (and nor, indeed, would the euclidean distance between points from each dataset be)
+2. We assume that the features of our datasets \\(\mathcal{D}_A\\) and \\(\mathcal{D}_B\\) both follow gaussian distributions
 
 Where these conditions are met, we can compute the means and variance-covariance matrices from the features of both datasets, and compute \\(W^{2}_{2}\\) as a dataset distance metric.
 
@@ -113,7 +113,7 @@ What treating our samples as Dirac delta functions means _in practice_ is that g
 
 $$ \hat{P} = \frac{1}{N}\sum^{N}_{i=1}\delta(x-x_i) $$
 
-In plainer language, we just say that every sample has probability mass \\(\frac{1}{N}\\) and all other regions have probability mass 0 and each data point forms its own bin in the histogram. Given two datasets \\(\mathcal{D_1}\\) and \\(\mathcal{D_2}\\) with \\(N_1\\) and \\(N_2\\) observations respectively, \\(\boldsymbol{a}\\) would be a vector of length \\(N_1\\) where each element has the value \\(\frac{1}{N_1}\\), and \\(\boldsymbol{b}\\) would be a vector of length \\(N_2\\) where each element has the value \\(\frac{1}{N_2}\\). The transport plan \\(\boldsymbol{T}\\) will be an \\(N_1 \times N_2\\) matrix.
+In plainer language, we just say that every sample has probability mass \\(\frac{1}{N}\\) and all other regions have probability mass 0 and each data point forms its own bin in the histogram. Given two datasets \\(\mathcal{D}_1\\) and \\(\mathcal{D}_2\\) with \\(N_1\\) and \\(N_2\\) observations respectively, \\(\boldsymbol{a}\\) would be a vector of length \\(N_1\\) where each element has the value \\(\frac{1}{N_1}\\), and \\(\boldsymbol{b}\\) would be a vector of length \\(N_2\\) where each element has the value \\(\frac{1}{N_2}\\). The transport plan \\(\boldsymbol{T}\\) will be an \\(N_1 \times N_2\\) matrix.
 
 This works for optimal transport because the cost matrix will preserve information about distances between data points. So even where our individual samples are k-dimensional vectors with continuous elements, this will work. This is usually what is meant by 'discretising' the data in optimal transport papers, which can be a bit misleading if you are used to 'discretise' meaning 'make continuous data disceret' and not 'just assign samples the same probability'. For the rest of this post you can assume that this is the approach taken to computing the discrete solution to optimal transport.
 
@@ -589,7 +589,7 @@ The focus of this blog is, based on my needs, on dataset similarity. But a final
 - **Fréchet Inception Distance (FID):** This is a metric for computing the quality of a set of images from a generative model (such as a GAN) and a real set of images. It is computed by using Inception to embed the images, then computing the Gaussian \\(W_2\\) between them[^fid].
 - The Sinkhorn divergence was itself developed as a loss function for learning generative models. This is why it (and the Sinkhorn distance) was implemented in the `geomloss` library in Python.
 - **Wasserstein GAN (WGAN):** The Wasserstein distance itself has been used as a loss function in learning GANs.
-- **Flow matching:**: Diffusion models can be thought of as learning an optimal transport map between noise and an output data distribution.
+- **Flow matching:** Diffusion models can be thought of as learning an optimal transport map between noise and an output data distribution.
 - OT metrics, including JDOT and OTDD, can be used to align source and target distributions for transfer learning -- this is what I understand the authors of OTDD to have been doing in their second paper, at any rate.
 
 ---
