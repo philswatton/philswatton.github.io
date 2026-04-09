@@ -5,7 +5,11 @@ title: Blog
 
 # Blog
 
-This blog serves to collect some notes and thoughts from my readings. Most of them in my spare time and not in any area of expertise, but some inspired by my research. You can view a version of this page where posts are sorted by their tags rather than (only) chronologically [at this link](/tags).
+[Organised by tags](/tags)
+
+Like anyone else, I'm just trying to make sense of the planet I've found myself on and the universe I've found myself in. This blog collects various write-ups and thoughts from my reading and research, along with other miscellanea. Most of these are from my spare time and so represent no expertise other than curiosity, others are however drawn from my working life and are better informed. Most of them were written for my own purposes, a couple of them to amuse my wife.
+
+Since the topics reflect my own interests at different points in time, they can be rather eclectic. You'll probably be well-served to follow the link above to get the blog organised by tags as this will better enable you to find those most relevant to you, or to visit the page for a specific tag.
 
 ## Posts
 
