@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<div class="title-area">
+    <h1>{{ page.title }}</h1>
+    <p><em>{{ page.subtitle}}</em></p>
+</div>
+
+<div class="post-info">
+    <!-- <div class="info-div">
+        <p class="info-name">Author:</p>
+        <p>Phil Swatton</p>
+    </div> -->
+    <div class="info-div">
+        <p><strong>Date Created:</strong> <em>{{ page.created | date_to_string }}</em></p>
+        <p><strong>Last Updated:</strong> <em>{{ page.updated | date_to_string }}</em></p>
+    </div>
+    <!-- <div class="info-div">
+        <p class="info-name">Citation:</p>
+        <p>Swatton, P.J. ({{ page.date | date_to_string | slice: -4, 4 }})</p>
+    </div> -->
+    <div class="info-div">
+        <!-- <p><strong>Tag:</strong> <a href="/tags/{{ page.tag }}">{{ page.tag }}</a></p> -->
+        <p><a href="/notes/">Back to notes</a></p>
+    </div>
+</div>
+
+{{ content }}
+
+<!-- <h2>Citation</h2>
+
+<div class="citation-details">
+    <p>Please cite this blog post as:</p>
+
+    <div class="cite-div">
+        <p>Swatton, P.J. ({{ page.date | date_to_string | slice: -4, 4 }}) {{ page.title }}: {{ page.subtitle }}. Available at: <a href="{{ page.url | absolute_url }}">{{ page.url | absolute_url }}</a></p>
+    </div>
+
+    <p>Bibtex:</p>
+    <div class="cite-div">
+        <p>@misc{swatton{{ page.date | date_to_string | slice: -4, 4 }}{{ page.title | split:" " | first }},<br>
+        &emsp;&emsp;author = {Swatton, P.J.},<br>
+        &emsp;&emsp;title = &#123;{{ page.title }}: {{ page.subtitle }}&#125;,<br>
+        &emsp;&emsp;url = &#123;<a href="{{ page.url | absolute_url }}">{{ page.url | absolute_url }}</a>&#125;,<br>
+        &emsp;&emsp;year = &#123;{{ page.date | date_to_string | slice: -4, 4 }}&#125;<br>
+    }</p>
+    </div>
+</div> -->
