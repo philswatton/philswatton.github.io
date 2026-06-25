@@ -13,7 +13,7 @@ title: Notes
    | where_exp: "page", "page.dir == '/notes/' or page.name == 'index.md'"
    | where_exp: "page", "page.title != 'Notes'" %}
 {% for page in pages %}
-- <p class="note-link"><a href="{{page.url}}">{{page.title}}</a></p>
+- <p class="note-link"><a href="{{page.url}}">{{page.title}}</a> (Last Updated: {{page.updated}})</p>
 {% endfor %}
 
 
