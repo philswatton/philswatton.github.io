@@ -31,15 +31,17 @@ The following is two pieces of WIP that I may or may not get around to finishing
 
 ## Good Reads
 
-Some fun or interesting reads deserving of a wider readership.
+Some fun or interesting reads, some well-known, some less so.
 
+- [Advice for new software devs who've read all those other advice essays](https://buttondown.com/hillelwayne/archive/advice-for-new-software-devs-whove-read-all-those/) - Hillel Wayne (2023)
+- [Is It O.K. To Be A Luddite?](https://archive.nytimes.com/www.nytimes.com/books/97/05/18/reviews/pynchon-luddite.html) - Thomas Pynchon (1984)
+- [PEP 20 - The Zen of Python](https://peps.python.org/pep-0020/) - Tim Peters (2004)
+- [R : Past and Future History](https://cran.r-project.org/doc/html/interface98-paper/paper.html) - Ross Ihaka (1998) [[PDF Version](https://www.stat.auckland.ac.nz/~ihaka/downloads/Interface98.pdf)]
+- [The Ones Who Walk Away From Omelas](https://shsdavisapes.pbworks.com/f/Omelas.pdf) - Ursula Le Guin (1973)
+- [The Protagonist Problem](https://www.uncannymagazine.com/article/the-protagonist-problem/) - Ada Palmer and Jo Walton (2021)
+- [The Tyranny of Time](https://www.noemamag.com/the-tyranny-of-time/) - Joe Zadeh (2021)
 - [The Witness](https://web.mit.edu/allanmc/www/borges.thewitness.pdf) - Jorge Luis Borges (1967)
 - [What the Tortoise Said to Achilles](/assets/pdfs/What the Tortoise Said to Achilles.pdf) - Lewis Carroll (1895)
-- [R : Past and Future History](https://cran.r-project.org/doc/html/interface98-paper/paper.html) - Ross Ihaka (1998) [[PDF Version](https://www.stat.auckland.ac.nz/~ihaka/downloads/Interface98.pdf)]
-- [PEP 20 - The Zen of Python](https://peps.python.org/pep-0020/) - Tim Peters (2004)
-- [Is It O.K. To Be A Luddite?](https://archive.nytimes.com/www.nytimes.com/books/97/05/18/reviews/pynchon-luddite.html) - Thomas Pynchon (1984)
-- [Advice for new software devs who've read all those other advice essays](https://buttondown.com/hillelwayne/archive/advice-for-new-software-devs-whove-read-all-those/) - Hillel Wayne (2023)
-- [The Tyranny of Time](https://www.noemamag.com/the-tyranny-of-time/) - Joe Zadeh (2021)
 
 ## Links
 
@@ -61,3 +63,6 @@ Notes on topics that don't really belong as full research papers. Hopefully usef
 {% include research_card.html %}
 {% endfor %}
 
+## Useful Political Science Datasets
+
+I've collated a list of datasets I've come across over time (and therefore mostly relevant to my interests) [here](datasets). Also available is the much more comprehensive PolData page on GitHub from Erik Gahner [here](https://github.com/erikgahner/PolData).
