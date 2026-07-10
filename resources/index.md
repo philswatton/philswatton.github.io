@@ -63,6 +63,6 @@ Notes on topics that don't really belong as full research papers. Hopefully usef
 {% include research_card.html %}
 {% endfor %}
 
-## Useful Political Science Datasets
+<!-- ## Useful Political Science Datasets
 
-I've collated a list of datasets I've come across over time (and therefore mostly relevant to my interests) [here](datasets). Also available is the much more comprehensive PolData page on GitHub from Erik Gahner [here](https://github.com/erikgahner/PolData).
+I've collated a list of datasets I've come across over time (and therefore mostly relevant to my interests) [here](datasets). Also available is the much more comprehensive PolData page on GitHub from Erik Gahner [here](https://github.com/erikgahner/PolData). -->
