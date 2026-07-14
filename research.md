@@ -1,6 +1,6 @@
 ---
 layout: default
-title: writing
+title: research
 ---
 # Research
 <p class="update-notice"><em>Last updated 09/07/2025</em></p>

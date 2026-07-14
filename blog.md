@@ -9,13 +9,17 @@ title: Blog
 
 Like anyone else, I'm just trying to make sense of the planet I've found myself on and the universe I've found myself in. This blog collects various write-ups and thoughts from my reading and research, along with other miscellanea. Most of these are from my spare time and so represent no expertise other than curiosity, others are however drawn from my working life and are better informed. Most of them were written for my own purposes, a couple of them to amuse my wife.
 
-Since the topics reflect my own interests at different points in time, they can be rather eclectic. You'll probably be well-served to follow the link above to get the blog organised by tags as this will better enable you to find those most relevant to you, or to visit the page for a specific tag.
+Since the topics reflect my own interests at different points in time, they can be rather eclectic. You'll probably be well-served to follow the link above to get the blog organised by tags as this will better enable you to find those most relevant to you, or to visit the page for a specific tag
 
-## Posts
-
+{% assign current_year = "" %}
 {% for post in site.posts %}
 {% if post.categories contains 'archive' %}
 {% else %}
+{% assign post_year = post.date | date: "%Y" %}
+{% if post_year != current_year %}
+{% assign current_year = post_year %}
+<h2 class="year-heading">{{ current_year }}</h2>
+{% endif %}
 {% include post_card.html %}
 {% endif %}
 {% endfor %}
