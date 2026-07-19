@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Siddhartha&colon; An Experimental Life
+title: "Siddhartha: An Experimental Life"
 tag: Literature
 ---
 
