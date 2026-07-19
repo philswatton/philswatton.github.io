@@ -33,6 +33,6 @@ For much the same reason, Siddhartha cannot prevent his son from making the same
 
 Nietzsche was committed to perspectivism, the view that knowledge, truth, and values are rooted in subjective perspectives. From this he rejected the idea that moral facts exist, that there can be a one-size-fits-all approach to life. He rejected the view that the same morals should exist for everyone alike.
 
-Caution is needed here: it is all too easy to santise Nietzsche, who believed that most people were not capable of finding their own way and who regarded egalitarianism as a herd morality. But I said at the start that Hesse's _Siddhartha_ draws on a _reading_ of Nietzsche. What Nietzsche would have made of it I know not: I know only that it was made of Nietzsche.
+Caution is needed here: it is all too easy to santise Nietzsche, who believed that most people were not capable of finding their own way and who regarded egalitarianism as a herd morality. But I said at the start that Hesse's _Siddhartha_ draws on _a reading_ of Nietzsche. What Nietzsche would have made of it I know not: I know only that it could have been made from Nietzsche.
 
 What is striking to me in _Siddhartha_ is that unlike Kundera, who regards the impossibility of knowing what kind of life will best suit us as a kind of tragedy, Hesse seems to regard experiment as the only way worth living. It is in taking on enough experiences, each educating us further about ourselves, that we find our way to live. This, for me, is the great appeal of Siddhartha.
