@@ -35,6 +35,7 @@ Some fun or interesting reads, some well-known, some less so.
 
 - [Advice for new software devs who've read all those other advice essays](https://buttondown.com/hillelwayne/archive/advice-for-new-software-devs-whove-read-all-those/) - Hillel Wayne (2023)
 - [Is It O.K. To Be A Luddite?](https://archive.nytimes.com/www.nytimes.com/books/97/05/18/reviews/pynchon-luddite.html) - Thomas Pynchon (1984)
+- [On Progress and Historical Change](https://www.exurbe.com/on-progress-and-historical-change/) - Ada Palmer (2017) [particularly the parts on Francis Bacon and on the fish tank metaphor for making change]
 - [PEP 20 - The Zen of Python](https://peps.python.org/pep-0020/) - Tim Peters (2004)
 - [R : Past and Future History](https://cran.r-project.org/doc/html/interface98-paper/paper.html) - Ross Ihaka (1998) [[PDF Version](https://www.stat.auckland.ac.nz/~ihaka/downloads/Interface98.pdf)]
 - [The Ones Who Walk Away From Omelas](https://shsdavisapes.pbworks.com/f/Omelas.pdf) - Ursula Le Guin (1973)
