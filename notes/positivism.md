@@ -18,4 +18,4 @@ Lezsek Kołakowski defines Positivism as having four rules:
 
 ## To Read:
 
-- Edmonds, D. () _The Murder of Professor Schlick: The Rise and Fall of the Vienna Circle_
+- Edmonds, D. (2020) _The Murder of Professor Schlick: The Rise and Fall of the Vienna Circle_
