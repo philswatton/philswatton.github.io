@@ -2,27 +2,32 @@
 layout: note
 title: Pragmatism
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-09-02
 ---
 
 > Consider what effects, which might conceivably have practical bearings, we conceive the object of our conception to have. Then, our conception of those effects is the whole of our conception of the object.
-> <span class="quote-author">[C.S. Peirce](https://en.wikipedia.org/wiki/Charles_Sanders_Peirce), the Pragmatic Maxim as stated in _How to make our ideas clear_</span>
+> <span class="quote-author">C.S. Peirce, the Pragmatic Maxim as stated in _How to make our ideas clear_</span>
 
 > [...] ideas (which themselves are but parts of our experience) become true just in so far as they help us get into satisfactory relation with other parts of our experience [...]
-> <span class="quote-author">[William James](https://en.wikipedia.org/wiki/William_James), _What Pragmatism Means_ (Lecture II of the Pragmatism Lectures, collected in _Pragmatism and Other Writings_)</span>
+> <span class="quote-author">William James, _What Pragmatism Means_ (Lecture II of the Pragmatism Lectures, collected in _Pragmatism and Other Writings_)</span>
 
-> Pragmatism is a philosophical tradition that -- very broadly -- understands knowing the world as inseparable from agency within it.
-> <span class="quote-author">Catherine Legg and Christopher Hookway, _Pragmatism_ (The Stanford Encyclopedia of Philosophy)</span>
+> The intellect, hitherto regarded as essentially eternal, now had to be accounted for in terms of evolution. Instead of having existed before the mountains were brought forth, it now appeared to have originated in time---not all at once, but through the struggle for existence and the survival of the fittest. It was an instrument, a tool, an asset in the struggle; and those possessing it had survived because of its great practical value. Now it was recalled that Kant already had insisted that we cannot apprehend ultimate reality, and that what we know are but phenomena. In other words, the world of our experience is not a likeness of the "real" world. And as Kant's philosophy was fused with Darwin's theory, the doctrine developed that our "truths" are not accurate descriptions of a transcendent reality, but simply statements that "work" and thus fit us for survival"
+> <span class="quote-author">Walter Kaufmann, in _Nietzsche: Philosopher, Pscyhologist, Antichrist_</span>
 
-<!-- > Consider what effects, which might conceivably have practical bearings, we conceive the object of our conception to have. Then, our conception of those effects is the whole of our conception of the object.
-> <span class="quote-author">[C.S. Pierce](https://en.wikipedia.org/wiki/Charles_Sanders_Peirce)</span> -->
+## Background
 
-Pragmatism is a varied and variable philosophical tradition very loosely united by an interest in the meaning or truth of beliefs as defined by their consequences. Its origins are in several discussions at the 'Metaphysical Club' in Harvard in 1870 when C.S. Peirce developed his key ideas (Legg and Hookway 2024). Peirce then developed these ideas across several publications, of which the key paper is _How to make our ideas clear_ in which he coined the _Pragmatic Maxim_. This basically says that our conception of the effects an object has _is_ our conception of the object. Implicitly, if two concepts of the same thing share identical consequences, then this maxim states that there is no different between these concepts. Pragmatism here is an account of _meaning_.
+Pragmatism is a varied philosophical tradition very loosely united by an interest in a notion of knowledge as a form of agency (Legg and Hookway 2024). Its origins are in several discussions at the 'Metaphysical Club' in Harvard in the early 1870s when C.S. Peirce conceived his key ideas, which he then developed across several publications. The crucial paper in these publications is _How to make our ideas clear_ in which he coined the _Pragmatic Maxim_. Responding to an emphasis in philosophy on 'clear and distinct' ideas (originating in Descartes), Peirce coins what is now known as the pragmatic maxim, quoted above.
 
-James popularised Pragmatism, citing Peirce's maxim, but also characterising it as a theory of _truth_. The mainstream theory of truth in philosophy is the _correspondence theory of truth_, where my belief is true to the extent it corresponds to reality. In James' pragmatist concept of truth, a belief is true insofar as it is _practically useful_. For me, this begs the question of what makes a belief useful. Where I'm at at the moment is that correspondence _is_ a criterion of usefulness when it comes to physical reality, but in domains such as ethics there is nothing for our beliefs to correspond to. But we can say that, say, certain political systems are _preferable_ because they produce more equitable outcomes. I'm not sure I'd call this truth so much as justification, but I think it shows that the death of God and the absence of an absolute truth in morality need lead to relativism.
+The core claim of this maxim is that our conception of the effects an object has _is_ our whole conception of the object. In many ways this is a straightforwardly phenomenalist statement, aligning Peirce's (early) pragmatism somewhat with [positivism](/notes/positivism). Implicitly, if two concepts of the same thing share identical consequences, then the maxim entails that there is no difference between these concepts. Pragmatism up to this point is an account of the _meaning_ of our ideas.
 
-In this thought I'm drawing on Rorty's rather more radical account of pragmatism, though not quite giving it full-throated acceptance. Rorty -- who is most inspired by Dewey, partly by James, and not at all by Peirce -- takes Darwin as his starting point, and sees human thought not as corresponding to external reality but merely as tools. Rorty's pragmatism is in part a radical interpretation of James' definition of truth as usefulness. As part of this, Rorty, like Dewey, wants to do away with old 'Platonic' dualisms inherited from older philosophy such as appearance-reality, matter-mind, made-found, objective-subjective, and sensible-intellectual. Part of the point here is that these beliefs are no longer useful for present purposes. I like Rorty's political stuff a lot, and I think his great strength was precisely that he really did abandon a search for first principles and instead focussed on the question of _what works_.
+James popularised Pragmatism, drawing on an interpretation of Peirce's maxim as a theory of _truth_. The mainstream (though not uncontested) theory of truth in philosophy is the _correspondence theory of truth_, where my belief is true to the extent it corresponds to reality. James does not dispute the correspondence theory of truth directly, but argues that we know whether a belief 'agrees' with reality because it enables us to do one of two things:
 
+1. To be guided straight to it [reality]
+2. To be able to handle it [reality] better (whether intellectually or practically) than if it [the belief] disagreed with reality
+
+So here the representational understanding of a belief or of truth is only _one way_ in which a belief can 'agree with' (or correspond) to reality.
+
+Rorty's neopragmatism draws on James and Dewey but explicitly rejects any notion of correspondence to reality. Beliefs, instead, are simply useful. For me, this reaches the point where one has to ask what makes a belief useful. It seems to me that in some domains _correspondence_ or _representation_ are criteria for usefulness (e.g. in physics, engineering, medicine). That being said, other criteria can also exist, which nonetheless makes this an incredibly fruitful definition of knowledge. It is particularly useful in pushing back against the relativist idea that we lack foundations for our ethical or political beliefs because there is nothing to correspond to (e.g. God's will or Human Nature with capitals): there are many forms of justification beyond a search for first principles.
 
 ## Primary Readings:
 
@@ -51,9 +56,9 @@ In this thought I'm drawing on Rorty's rather more radical account of pragmatism
 - James, W. (1908) The Pragmatist Account of Truth and its Misunderstanders, _The Philosophical Review_ 17 (1). DOI: <https://doi.org/10.2307/2177695>
 - Menand, L. (2002) _The Metaphysical Club: A Story of Ideas in America_
 - Misak, C. (2015) _The American Prgamatists_
-- Misak, C. (2018) _Cambridge Pragmatism: From Pierce and James to Ramsey and Wittgenstein_
-- Misak, C. (2020) _Frank Ramsay: A Sheer Excess of Powers_
-- Pierce, C.S. (1905) What Pragmatism Is, _The Monist_ 15 (2). URL: <http://www.jstor.org/stable/27899577>
+- Misak, C. (2018) _Cambridge Pragmatism: From Peirce and James to Ramsey and Wittgenstein_
+- Misak, C. (2020) _Frank Ramsey: A Sheer Excess of Powers_
+- Peirce, C.S. (1905) What Pragmatism Is, _The Monist_ 15 (2). URL: <http://www.jstor.org/stable/27899577>
 - Rorty, R. (1979) _Philosophy and the Mirror of Nature_
 - Rorty, R. (1989) _Contingency, Irony, and Solidarity_
 - Rorty, R. (2014) _What Can We Hope For? Essays on Politics_
