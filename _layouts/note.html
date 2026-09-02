@@ -22,7 +22,13 @@ layout: default
     </div> -->
     <div class="info-div">
         <!-- <p><strong>Tag:</strong> <a href="/tags/{{ page.tag }}">{{ page.tag }}</a></p> -->
-        <p><a href="/notes/">Back to notes</a></p>
+        {% assign dir = page.dir %}
+        {% if page.url == page.dir %}
+            {% assign parts = dir | split: '/' | pop %}
+            {% assign dir = parts | join: '/' | append: '/' %}
+        {% endif %}
+        {% assign dir_page = site.pages | where: "url", dir | first %}
+        <p><a href="{{ dir }}">Back to {{ dir_page.title }}</a></p>
     </div>
 </div>
 
