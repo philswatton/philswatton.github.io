@@ -38,6 +38,7 @@ Some fun or interesting reads, some well-known, some less so.
 - [On Progress and Historical Change](https://www.exurbe.com/on-progress-and-historical-change/) - Ada Palmer (2017) [particularly the parts on Francis Bacon and on the fish tank metaphor for making change]
 - [PEP 20 - The Zen of Python](https://peps.python.org/pep-0020/) - Tim Peters (2004)
 - [R : Past and Future History](https://cran.r-project.org/doc/html/interface98-paper/paper.html) - Ross Ihaka (1998) [[PDF Version](https://www.stat.auckland.ac.nz/~ihaka/downloads/Interface98.pdf)]
+- [The Biggest Problem in Statistics](https://timcdlucas.github.io/the-biggest-problem-in-statistics/) - Tim CD Lucas (2026)
 - [The Ones Who Walk Away From Omelas](https://shsdavisapes.pbworks.com/f/Omelas.pdf) - Ursula Le Guin (1973)
 - [The Protagonist Problem](https://www.uncannymagazine.com/article/the-protagonist-problem/) - Ada Palmer and Jo Walton (2021)
 - [The Tyranny of Time](https://www.noemamag.com/the-tyranny-of-time/) - Joe Zadeh (2021)
