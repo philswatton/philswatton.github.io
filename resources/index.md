@@ -41,7 +41,8 @@ Some fun or interesting reads, some well-known, some less so.
 - [The Biggest Problem in Statistics](https://timcdlucas.github.io/the-biggest-problem-in-statistics/) - Tim CD Lucas (2026)
 - [The Ones Who Walk Away From Omelas](https://shsdavisapes.pbworks.com/f/Omelas.pdf) - Ursula Le Guin (1973)
 - [The Protagonist Problem](https://www.uncannymagazine.com/article/the-protagonist-problem/) - Ada Palmer and Jo Walton (2021)
-- [The Singularity in Our Past Light-Cone](https://bactra.org/weblog/699.html)
+- [The Singularity in Our Past Light-Cone](https://bactra.org/weblog/699.html) - Cosma Shalizi (2010
+)
 - [The Tyranny of Time](https://www.noemamag.com/the-tyranny-of-time/) - Joe Zadeh (2021)
 - [The Witness](https://web.mit.edu/allanmc/www/borges.thewitness.pdf) - Jorge Luis Borges (1967)
 - [What the Tortoise Said to Achilles](/assets/pdfs/What the Tortoise Said to Achilles.pdf) - Lewis Carroll (1895)
