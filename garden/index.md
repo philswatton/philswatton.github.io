@@ -8,15 +8,9 @@ title: Garden
 > So long as I remain alive and well I shall continue to feel strongly about prose style, to love the surface of the earth, and to take a pleasure in solid objects and scraps of useless information. It is no use trying to suppress that side of myself.
 > <span class="quote-author">George Orwell, _[Why I Write](https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/why-i-write/)_</span>
 
-<!-- {% assign garden_pages = site.pages | where_exp: "page", "page.url contains '/garden/'"
+{% assign garden_pages = site.pages | where_exp: "page", "page.url contains '/garden/'"
    | where_exp: "page", "page.dir == '/garden/' or page.name == 'index.md'"
-   | where_exp: "page", "page.title != 'Garden'" %} -->
-{% assign garden = site.pages
-   | where_exp: "p", "p.url contains '/garden/'"
-   | where_exp: "p", "p.title != 'Garden'" %}
-{% assign top_level = garden | where_exp: "p", "p.dir == '/garden/'" %}
-{% assign sub_indexes = garden | where_exp: "p", "p.name == 'index.md'" %}
-{% assign garden_pages = top_level | concat: sub_indexes %}
+   | where_exp: "page", "page.title != 'Garden'" %}
 {% for gp in garden_pages %}
 - <p class="note-link"><a href="{{page.url}}">{{gp.title}}</a> (Last Updated: {{gp.updated | date_to_string}})</p>
 {% endfor %}
