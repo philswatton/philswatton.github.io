@@ -8,7 +8,7 @@ Between the release of GPT-6 Astra with high performance on the ARC-AGI 3 benchm
 
 I (hopefully) have more writings forthcoming--probably on substack--covering some of these big-picture topics. But today I want to write up in brief my current heuristics for what kind of effects AI will have. By 'AI' here I specifically mean our current most sophisticated systems: LLMs with agentic harnesses which equip them with various 'skills' and tools.
 
-I'm sure at least some of what follows will turn out to be wrong. The space is very fast moving, and it's hard to anticipate what will happen next. Time is the only way we'll find out. Some of this can be taken as a concern about the effects of AI, but some of it can be taken as suggesting promising directions for its application or for rebuilding or institutions and societies to take better advantage of this technology. I leave these questions, for the most part, to the side.
+I'm sure at least some of what follows will turn out to be wrong. The space is very fast moving, and it's hard to anticipate what will happen next. Time is the only way we'll find out.
 
 **Heuristic 1: LLM agents are well-suited to problems bottlenecked by intellectual capacity with fast or automatic verification of solutions.**
 
@@ -30,7 +30,7 @@ Because LLMs are good at generating solutions, such as code, writing documents, 
 
 However, there are many settings where this hasn't been the main bottleneck to problem solving. Consider scientific peer review, or sending letters to your MP. These settings are defined by scarce resource for verification, whether by human reviewers or in terms of an MP's time. AI has lowered the costs of submitting to these processes, without addressing the core bottleneck.
 
-Some might argue that AI is a solution to this kind of effect. But there are some reasons to reject this thinking. First, it might only serve to encourage a kind of [AI arms race](https://www.programmablemutter.com/p/the-downside-of-robot-solutionism) between lowering submission costs and trying to process incoming data. Second, because they are unreliable, it isn't clear that LLM verificaiton is really appropriate where quality of response is important. But, thirdly, in some cases this ignores important positive externalities from the process. This leads to the third heuristic.
+Some might argue that AI is a solution to this kind of effect. But there are some reasons to reject this thinking. First, it might only serve to encourage a kind of [AI arms race](https://www.programmablemutter.com/p/the-downside-of-robot-solutionism) between lowering submission costs and trying to process incoming data. Second, because they are unreliable, it isn't clear that LLM verification is really appropriate where quality of response is important. But, thirdly, in some cases this ignores important positive externalities from the process. This leads to the third heuristic.
 
 **Heuristic 3: LLM agents are fundamentally inappropriate for problems partially or wholly motivated by positive externalities in the process of solving them rather than solely by solutions.**
 
