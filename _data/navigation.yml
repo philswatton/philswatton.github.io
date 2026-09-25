@@ -1,12 +1,12 @@
 - name: Home
   link: /
-- name: Blog
-  link: /blog.html
 - name: Research
   link: /research.html
 - name: Writing
   link: /writing.html
-- name: Notes
-  link: /notes/
+- name: Blog
+  link: /blog.html
+- name: Garden
+  link: /garden/
 - name: Resources
   link: /resources/
