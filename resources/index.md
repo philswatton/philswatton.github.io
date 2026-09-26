@@ -47,6 +47,26 @@ Some fun or interesting reads, some well-known, some less so.
 - [The Witness](https://web.mit.edu/allanmc/www/borges.thewitness.pdf) - Jorge Luis Borges (1967)
 - [What the Tortoise Said to Achilles](/assets/pdfs/What the Tortoise Said to Achilles.pdf) - Lewis Carroll (1895)
 
+## Learning Resources
+
+I've benefitted a lot from online resources that others have made for learning, whether for my own interest or for to help me acquire skills useful in my working life. All of the following either collect recommendations or otherwise teach something useful. I haven't used all of these, but all of them seem useful.
+
+### Computer Science & Programming
+
+- [freeCodeCamp](https://www.freecodecamp.org/): great starting resource, especially for learning the basics of frontend web development
+- [CS50](https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science): free online version of Harvard's introductory computer science course. I can't recommend this enough: I think I only fully completed the C parts, but it really made the difference for me in learning how to code and in having some idea of what's going on.
+- [Teach Yourself Computer Science](https://teachyourselfcs.com/): curated list of textbooks and video lecture series on core computer science topics. Keeps the list minimal and targeted.
+- [OSSU Computer Science Curriculum](https://github.com/ossu/computer-science): much more expansive list of courses for learning computer science.
+- [Curated Programming Resources](https://github.com/Michael0x2a/curated-programming-resources/blob/master/resources.md): A very large list of courses and project tutorials organised by programming language.
+- [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/): covering the command line, development environments, version control, etc.
+- [Build Your Own Lisp](https://www.buildyourownlisp.com/): as title, in C.
+
+### R
+
+- [The R Language Definition](https://cran.r-project.org/doc/manuals/r-devel/R-lang.html): I don't actually check this much, but some intersting stuff here nonetheless.
+- [R for Data Science](https://r4ds.hadley.nz/): a good first resource on R. Very tidyverse focussed, however.
+- [Advanced R](https://adv-r.hadley.nz/): for understanding R as a programming language and not just as a tool for doing stats with weird error messages.
+
 ## Links
 
 Websites and webpages I return to again and again either because they are incredibly useful or because I enjoy them.
