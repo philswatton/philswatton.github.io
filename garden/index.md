@@ -12,5 +12,5 @@ title: Garden
    | where_exp: "page", "page.dir == '/garden/' or page.name == 'index.md'"
    | where_exp: "page", "page.title != 'Garden'" %}
 {% for gp in garden_pages %}
-- <p class="note-link"><a href="{{page.url}}">{{gp.title}}</a> (Last Updated: {{gp.updated | date_to_string}})</p>
+- <p class="note-link"><a href="{{gp.url}}">{{gp.title}}</a> (Last Updated: {{gp.updated | date_to_string}})</p>
 {% endfor %}
