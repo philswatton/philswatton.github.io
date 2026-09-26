@@ -4,6 +4,14 @@ This repo contains the code for my personal website, which can be found at [phil
 
 This website is built using [Jekyll](https://jekyllrb.com/). You'll need to install this first along with its pre-requisites to host the website on your own machine. You can find the installation instructions [at this link](https://jekyllrb.com/docs/installation/).
 
+If on a new machine, run the following:
+
+```bash
+bundle install
+```
+
+and commit the `Gemfile.lock`.
+
 Once installed, you can host a local version of the website by running
 
 ```bash
