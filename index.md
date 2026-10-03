@@ -6,12 +6,13 @@ title: Home
   <img src="/assets/images/me_nobg.png" class="profile">
 </figure>
 
-<p>Hello, I'm Phil. Welcome to my website!</p>
+Hello, I'm Phil. Welcome to my website!
 
-<p>I'm a Data Scientist at the Alan Turing Institute. In my job, I work on applied research projects on or adjacent to deep learning. Prior to this, I obtained a PhD Government from the University of Essex where I worked on public opinion, elections, and political methodology.</p>
+I'm a Senior Data Scientist at the Alan Turing Institute. In my job, I work on applied research projects on or adjacent to deep learning. Prior to this, I obtained a PhD Government from the University of Essex where I worked on public opinion, elections, and political methodology.
 
-<p>I'm passionate about politics, statistics, data science,  programming, and reading. I use this site to collect in a single space my research, writing, and other projects.</p>
+Sorted alphabetically, I'm passionate about board games, books, computer games, computer programming, data science, history, philosophy, politics, statistics, and Warhammer 40,000. I'm currently trying to add going to the gym and walks (back) to that list.
 
+I use this site to collect in a single space my research, writing, and other projects.
 
 <div class="box">
   <p class="box-title">CV</p>
@@ -47,9 +48,9 @@ title: Home
     <p>If you'd like to get in touch, you can:</p>
     <ul>
       <li>Bloop (?) me at <a href="https://bsky.app/profile/philswatton.bsky.social">@philswatton.bsky.social</a></li>
-      <li>Read my substack posts at <a href="https://dysfunctionalprogramming.substack.com/">Dysfunctional Programming</a></li>
+      <li>Find me on substack at <a href="https://philswatton.substack.com/">@philswatton</a>, or subscribe to my publication <a href="https://dysfunctionalprogramming.substack.com/">Dysfunctional Programming</a></li>
       <li>Email me at <a href="mailto:pswatton@turing.ac.uk">pswatton@turing.ac.uk</a> (preferably work-related stuff only please)</li>
-      <li>Find me on LinkedIn as <a href="https://www.linkedin.com/in/philswatton/">Phil Swatton</a></li>
+      <li>Message me on LinkedIn at <a href="https://www.linkedin.com/in/philswatton/">Phil Swatton</a></li>
       <li>Browse my publications on <a href="https://scholar.google.co.uk/citations?user=mbxIgHAAAAAJ&hl=en&oi=ao">my Google Scholar profile</a></li>
       <li>Browse my code on GitHub at <a href="https://github.com/philswatton">https://github.com/philswatton</a></li>
     </ul>

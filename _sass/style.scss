@@ -7,12 +7,18 @@
 /* Headings */
 h1 {
     font-size: 2em;
-    font-weight: bold;
+    font-weight: normal;
+    font-family: $sans;
     margin: 0.5em 0 0.1em 0;
 }
 h2 {
     font-size: 1.5em;
-    font-weight: bold;
+    font-weight: normal;
+    font-family: $sans;
+}
+h3, h4, h5, h6 {
+    font-family: $sans;
+    font-weight: normal;
 }
 
 /* Code */
@@ -48,6 +54,7 @@ blockquote {
 nav {
     margin: 0 0 1em 0;
     font-size: 20px;
+    font-family: $sans;
     a {
         margin: 0 4px 0 4px;
     }
@@ -58,7 +65,7 @@ nav {
     // Responsive nav
     @media screen and (min-width: 920px) {
         font-size: 24px;
-        font-weight: bold;
+        font-weight: normal;
         a {
             margin: 0px;
         }
@@ -70,37 +77,4 @@ nav {
     }
 }
 
-/* Blog Styling */
-.centre {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
 
-.blog-img {
-    width: 100%;
-}
-
-.blog-img-80 {
-    width: 80%;
-}
-
-.blog-img-50 {
-    width: 50%;
-}
-
-.post-info{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.quote-author {
-    display: inline-block;
-    width: 100%;
-    text-align: right;
-}
-
-.note-link {
-    margin: 0px;
-}

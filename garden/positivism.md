@@ -1,5 +1,5 @@
 ---
-layout: note
+layout: garden_entry
 title: Positivism
 created: 2026-08-30
 updated: 2026-08-30

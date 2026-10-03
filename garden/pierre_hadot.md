@@ -1,5 +1,5 @@
 ---
-layout: note
+layout: garden_entry
 title: Pierre Hadot
 created: 2026-06-25
 updated: 2026-06-25

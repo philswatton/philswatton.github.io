@@ -7,9 +7,12 @@ title: Blog
 
 [Organised by tags](/tags)
 
-Like anyone else, I'm just trying to make sense of the planet I've found myself on and the universe I've found myself in. This blog collects various write-ups and thoughts from my reading and research, along with other miscellanea. Most of these are from my spare time and so represent no expertise other than curiosity, others are however drawn from my working life and are better informed. Most of them were written for my own purposes, a couple of them to amuse my wife.
+> A man sets himself the task of portraying the world. Through the years he peoples a space with images of provinces, kingdoms, mountains, bays, ships, islands, fishes, rooms, instruments, stars, horses, and people. Shortly before his death, he discovers that that patient labyrinth of lines traces the image of his face.
+> <span class="quote-author">Jorge Luis Borges</span>
 
-Since the topics reflect my own interests at different points in time, they can be rather eclectic. You'll probably be well-served to follow the link above to get the blog organised by tags as this will better enable you to find those most relevant to you, or to visit the page for a specific tag
+Like anyone else, I'm just trying to make sense of the planet I've found myself on and the universe I've found myself in. This blog collects various write-ups and thoughts from my life, reading, and research, along with other miscellanea. Most of these are from my spare time and so represent no expertise other than curiosity, others are however drawn from my working life and are better informed. Most of them were written for my own purposes, a couple of them to amuse my wife.
+
+Since the topics reflect my own interests at different points in time, they can be rather eclectic. You'll probably be well-served to follow the link at the top of this page to see the blog organised by tags as this will better enable you to find those most relevant to you, or to visit the page for a specific tag.
 
 {% assign current_year = "" %}
 {% for post in site.posts %}

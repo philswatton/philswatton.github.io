@@ -7,11 +7,11 @@ title: writing
 
 ## Dysfunctional Programming
 
-[Dysfunctional Programming](https://dysfunctionalprogramming.substack.com/) is my substack. I am still in the process of defining what I'll do with this, having written two posts for it then immediately neglected it. It will probably act primarily as a place for longer-form content not appropriate for the blog on this website.
+[Dysfunctional Programming](https://dysfunctionalprogramming.substack.com/) is my substack. I am still in the process of defining what this is for, but it seems to be converging towards being a place for long-read essays I'd like to reach a slightly wider audience than this website.
 
-## Other Writing
+## Published Writing
 
-Other writings published outside of my substack and blog.
+Various pieces of writing I've produced or contributed to beyond my research, writing on this website, or substack.
 
 {% for paper in site.data.writing reversed %}
 {% include research_card.html %}

@@ -60,14 +60,58 @@ figure {
     margin: 0.1em 0 1em 0;
 }
 
+
+/* Blog and Garden Styling */
+.centre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.blog-img {
+    width: 100%;
+}
+
+.blog-img-80 {
+    width: 80%;
+}
+
+.blog-img-50 {
+    width: 50%;
+}
+
+.post-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.info-div {
+    padding: 1em 0 1em 0;
+    p {
+        margin: 0 0 0 0;
+    }
+}
+
+.quote-author {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+
+.note-link {
+    margin: 0px;
+}
+
+
 /* Blog Post Cards */
 .post-card {
     margin: 1em 0;
     p {
         margin: 0 0 0 0;
     }
-    .post-title {
-        font-weight: 900;
+    .post-card-title {
+        // font-weight: 900;
+        // font-family: $sans;
     }
 }
 
@@ -82,5 +126,6 @@ figure {
     //     font-weight: 900;
     // }
 }
+
 
 

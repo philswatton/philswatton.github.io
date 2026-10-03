@@ -1,5 +1,5 @@
 ---
-layout: note
+layout: garden_entry
 title: Pragmatism
 created: 2026-06-24
 updated: 2026-09-02
