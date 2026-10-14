@@ -1,2 +1,5 @@
 title: Phil Swatton
 markdown: kramdown
+collections:
+  wiki:
+    output: true

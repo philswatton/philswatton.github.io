@@ -8,7 +8,7 @@ title: research
 I'm lucky enough to do research for living, currently as a data scientist and previously as a PhD student in political science. I still try to publish in political science when my spare time allows. This page lists my published research and working papers, with work conducted across the fields of political science, data science, and artificial intelligence. "Published" here means a mix of peer-reviewed journal articles, technical reports, and research reports. This page is usually the most up to date list of my research, but you can also visit my [google scholar profile](https://scholar.google.co.uk/citations?user=mbxIgHAAAAAJ&hl=en&oi=ao).
 
 
-## Publications
+## Publications and Technical Reports
 
 {% for paper in site.data.research.published reversed %}
 {% include research_card.html %}

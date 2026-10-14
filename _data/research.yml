@@ -42,6 +42,12 @@ published:
   authors: Swatton, P. and Bishop, J.
   year: 2025
   pdf: https://www.turing.ac.uk/sites/default/files/2026-03/arc_detecting_ai_text_review.pdf
+- title: Tampering with Generative AI Models&#58; Summary
+  authors: Laganier, C., Swatton, P. and Bishop, J.
+  year: 2026
+  pdf: https://www.turing.ac.uk/sites/default/files/2026-10/arc_tampering_summary.pdf
+
+
 preprint:
 - title: Applying Psychometrics to Large Language Model Simulated Populations&#58; Recreating the HEXACO Personality Inventory Experiment with Generative Agents
   authors: Mercer, S., Martin, D.P. and Swatton, P.
@@ -52,6 +58,13 @@ preprint:
   authors: Swatton, P.
   year: 2025
   doi: https://doi.org/10.31235/osf.io/m9ft3_v1
+- title: Collected Notes on Aldrich-McKelvey Scaling
+  authors: Swatton, P.J.
+  doi: https://doi.org/10.48550/arXiv.2301.08819
+  pdf: https://arxiv.org/pdf/2301.08819.pdf
+  year: 2023
+
+
 working:
 - title: Age Isn't Just a Number&#58; A Comparative Age-Period-Cohort Analysis of Political Beliefs in Europe
   authors: Swatton, P.J.
@@ -72,9 +85,3 @@ working:
 #   authors: Carroll, R. and Swatton, P.J.
 # - title: Participation and Inequality in the U.S. States
 #   authors: Kostelka, F., Crippa, L. and Swatton, P.J.
-notes:
-- title: Collected Notes on Aldrich-McKelvey Scaling
-  authors: Swatton, P.J.
-  link: https://arxiv.org/abs/2301.08819
-  pdf: https://arxiv.org/pdf/2301.08819.pdf
-  year: 2023

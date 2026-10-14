@@ -1,8 +1,10 @@
 ---
-layout: garden_entry
+layout: wiki_page
 title: Pierre Hadot
 created: 2026-06-25
 updated: 2026-06-25
+category: philosophy
+status: ideation
 ---
 
 A hedgehog in Isaiah Berlin's famous dichotomy, the core, recurring idea of Hadot's oeuvre is that there are two ways in which philosophy as an activity[^activity] might be understood:

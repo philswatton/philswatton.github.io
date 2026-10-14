@@ -1,8 +1,10 @@
 ---
-layout: garden_entry
+layout: wiki_page
 title: Pragmatism
 created: 2026-06-24
 updated: 2026-09-02
+category: philosophy
+status: ideation
 ---
 
 > Consider what effects, which might conceivably have practical bearings, we conceive the object of our conception to have. Then, our conception of those effects is the whole of our conception of the object.

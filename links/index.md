@@ -3,9 +3,9 @@ layout: default
 title: resources
 ---
 
-# Resources
+# Links
 
-This page largely collects miscellaneous content that doesn't otherwise belong on any of the other pages on this website. Some is my creation, some links to the creations of others which I've found fun, interesting, and/or useful.
+This page largely collects miscellaneous content that doesn't otherwise belong on any of the other pages on this website. Some links point to my own creations, some point to the creations of others which I've found fun, interesting, or useful (or some combination thereof).
 
 ## Code
 
@@ -29,9 +29,18 @@ The following is two pieces of WIP that I may or may not get around to finishing
     </div>
 </div>
 
+## Cool Personal Websites
+
+Sites which have acted in some way as an inspiration for my own site. Emphasis on sites which act as [tools for thinking](https://michaelnotebook.com/wn/website_enhance.html) for their authors and act to collect together a lifetime of thinking, reading, and writing.
+
+- [Cosma Shalizi](https://bactra.org/)
+- [Gwern Branwen](https://gwern.net/index)
+- [Lil'Log](https://lilianweng.github.io/)
+- [Pierro Scaruffi](https://www.scaruffi.com/)
+
 ## Good Reads
 
-Some fun or interesting reads, some well-known, some less so.
+Reads I've enjoyed and which I would particularly like to be able to find again.
 
 - [Advice for new software devs who've read all those other advice essays](https://buttondown.com/hillelwayne/archive/advice-for-new-software-devs-whove-read-all-those/) - Hillel Wayne (2023)
 - [Is It O.K. To Be A Luddite?](https://archive.nytimes.com/www.nytimes.com/books/97/05/18/reviews/pynchon-luddite.html) - Thomas Pynchon (1984)
@@ -61,17 +70,23 @@ I've benefitted a lot from online resources that others have made for learning, 
 - [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/): covering the command line, development environments, version control, etc.
 - [Build Your Own Lisp](https://www.buildyourownlisp.com/): as title, in C.
 
+### Maths
+
+- [So You Want to Study Mathematics…](https://www.susanrigetti.com/math): An undergraduate maths curriculum put together by Susan Rigetti
+
+### Philosophy
+
+- [So You Want to Study Philosophy…](https://www.susanrigetti.com/philosophy): An undergraduate philosophy curriculum put together by Susan Rigetti
+
+### Physics
+
+- [So You Want to Learn Physics…](https://www.susanrigetti.com/physics), _Second Edition_: An undergraduate physics curriculum put together by Susan Rigetti
+
 ### R
 
 - [The R Language Definition](https://cran.r-project.org/doc/manuals/r-devel/R-lang.html): I don't actually check this much, but some intersting stuff here nonetheless.
 - [R for Data Science](https://r4ds.hadley.nz/): a good first resource on R. Very tidyverse focussed, however.
 - [Advanced R](https://adv-r.hadley.nz/): for understanding R as a programming language and not just as a tool for doing stats with weird error messages.
-
-## Links
-
-Websites and webpages I return to again and again either because they are incredibly useful or because I enjoy them.
-
-- [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/)
 
 ## Media
 
@@ -79,14 +94,9 @@ A journalist interviewed me once about deepfakes and I was quoted twice in the s
 
 - ['This Isn't Funny Anymore': AI Deepfakes Are Stealing Millions Every Year — and These Entrepreneurs Are Racing to Stop Them](https://www.entrepreneur.com/science-technology/ai-deepfakes-are-stealing-millions-every-year-whos/494361), Entrepreneur Magazine
 
-## Notes
+## Repositories
 
-Notes on topics that don't really belong as full research papers. Hopefully useful to someone, somewhere.
+Websites that collect together some kind of material. Some of these I visit often, some are just cool.
 
-{% for paper in site.data.research.notes %}
-{% include research_card.html %}
-{% endfor %}
-
-<!-- ## Useful Political Science Datasets
-
-I've collated a list of datasets I've come across over time (and therefore mostly relevant to my interests) [here](datasets). Also available is the much more comprehensive PolData page on GitHub from Erik Gahner [here](https://github.com/erikgahner/PolData). -->
+- [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/)
+- [The Vault of the Atomic Space Age](https://thevaultoftheatomicspaceage.tumblr.com/)

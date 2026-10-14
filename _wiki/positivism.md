@@ -1,8 +1,10 @@
 ---
-layout: garden_entry
+layout: wiki_page
 title: Positivism
 created: 2026-08-30
 updated: 2026-08-30
+category: philosophy
+status: ideation
 ---
 
 Lezsek Kołakowski defines Positivism as having four rules:
