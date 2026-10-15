@@ -7,21 +7,18 @@ layout: default
     <p><em>{{ page.subtitle}}</em></p>
 </div>
 
-<div class="post-info">
-    <div class="info-div">
-        <p><strong>Date Created:</strong> <em>{{ page.created | date_to_string }}</em></p>
-        <p><strong>Last Updated:</strong> <em>{{ page.updated | date_to_string }}</em></p>
-    </div>
-    <div class="info-div">
-        <!-- <p><strong>Tag:</strong> <a href="/tags/{{ page.tag }}">{{ page.tag }}</a></p> -->
-        {% assign dir = page.dir %}
-        {% if page.url == page.dir %}
-            {% assign parts = dir | split: '/' | pop %}
-            {% assign dir = parts | join: '/' | append: '/' %}
-        {% endif %}
-        {% assign dir_page = site.pages | where: "url", dir | first %}
-        <p><a href="/wiki">Back to Personal Wiki</a></p>
-    </div>
+{% for cat in site.data.wiki_categories %}
+  {% if page.category == cat.slug %}
+    {% assign cat_name = cat.name %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+<div class="wiki-metadata">
+    <p>{{ page.created | date_to_string }}{% if page.created != page.updated %}–{{page.updated | date_to_string}}{% endif %}</p>
+    <p>Status: {{ page.status | capitalize }}</p>
+    <p>Category: {{ cat_name }}</p>
+    <p><a href="/wiki">Back to Wiki</a></p>
 </div>
 
 {{ content }}

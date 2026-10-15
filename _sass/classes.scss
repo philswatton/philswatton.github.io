@@ -61,7 +61,15 @@ figure {
 }
 
 
-/* Blog and Garden Styling */
+/* Quote Styling */
+.quote-author {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+
+
+/* Blog Styling */
 .centre {
     display: flex;
     flex-direction: row;
@@ -85,6 +93,7 @@ figure {
     flex-direction: row;
     justify-content: space-between;
 }
+
 .info-div {
     padding: 1em 0 1em 0;
     p {
@@ -92,14 +101,22 @@ figure {
     }
 }
 
-.quote-author {
-    display: inline-block;
-    width: 100%;
-    text-align: right;
-}
-
 .note-link {
     margin: 0px;
+}
+
+/* Personal Wiki */
+.wiki-metadata {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+
+    // Dots between row items
+    > * + *::before {
+        content: "•";
+        margin-right: 20px; // match the gap so the dot sits centred between items
+    }
 }
 
 
@@ -109,10 +126,10 @@ figure {
     p {
         margin: 0 0 0 0;
     }
-    .post-card-title {
-        // font-weight: 900;
-        // font-family: $sans;
-    }
+    // .post-card-title {
+    //     font-weight: 900;
+    //     font-family: $sans;
+    // }
 }
 
 

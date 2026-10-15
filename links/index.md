@@ -85,7 +85,7 @@ I've benefitted a lot from online resources that others have made for learning, 
 ### R
 
 - [The R Language Definition](https://cran.r-project.org/doc/manuals/r-devel/R-lang.html): I don't actually check this much, but some intersting stuff here nonetheless.
-- [R for Data Science](https://r4ds.hadley.nz/): a good first resource on R. Very tidyverse focussed, however.
+- [R for Data Science](https://r4ds.hadley.nz/): a good first resource on R. Very tidyverse focused, however.
 - [Advanced R](https://adv-r.hadley.nz/): for understanding R as a programming language and not just as a tool for doing stats with weird error messages.
 
 ## Media
