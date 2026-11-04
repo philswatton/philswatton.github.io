@@ -99,4 +99,6 @@ A journalist interviewed me once about deepfakes and I was quoted twice in the s
 Websites that collect together some kind of material. Some of these I visit often, some are just cool.
 
 - [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/)
+- [The Ideas Letter](https://www.theideasletter.org/)
+- [The Journal of the History of Ideas Blog](https://www.jhiblog.org/)
 - [The Vault of the Atomic Space Age](https://thevaultoftheatomicspaceage.tumblr.com/)
